@@ -1,6 +1,6 @@
 {
     "proxyUrl": {
-        "url": "proxy/?url=",
+        "url": "geoportal/proxy/?url=",
         "useCORS": []
     },
     "geoNodeApi": {
