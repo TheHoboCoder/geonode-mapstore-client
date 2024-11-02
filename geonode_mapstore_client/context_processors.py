@@ -18,6 +18,7 @@ from geonode.utils import get_supported_datasets_file_types
 def resource_urls(request):
     """Global values to pass to templates"""
     defaults = dict(GEOAPPS=["GeoStory", "GeoDashboard", "MapViewer"])
+    SUBFOLDER = getattr(settings, "GEONODE_SUBFOLDER", "")
     defaults["GEONODE_SETTINGS"] = {
         "MAP_BASELAYERS": getattr(settings, "MAPSTORE_BASELAYERS", []),
         "MAP_BASELAYERS_SOURCES": getattr(settings, "MAPSTORE_BASELAYERS_SOURCES", {}),
@@ -49,14 +50,14 @@ def resource_urls(request):
         "TRANSLATIONS_PATH": getattr(
             settings,
             "MAPSTORE_TRANSLATIONS_PATH",
-            ["/static/mapstore/ms-translations", "/static/mapstore/gn-translations"],
+            [f"{SUBFOLDER}/static/mapstore/ms-translations", f"{SUBFOLDER}/static/mapstore/gn-translations"],
         ),
         "PROJECTION_DEFS": getattr(settings, "MAPSTORE_PROJECTION_DEFS", []),
         "PLUGINS_CONFIG_PATCH_RULES": getattr(
             settings, "MAPSTORE_PLUGINS_CONFIG_PATCH_RULES", []
         ),
         "EXTENSIONS_FOLDER_PATH": getattr(
-            settings, "MAPSTORE_EXTENSIONS_FOLDER_PATH", "/static/mapstore/extensions/"
+            settings, "MAPSTORE_EXTENSIONS_FOLDER_PATH", f"{SUBFOLDER}/static/mapstore/extensions/"
         ),
         "CUSTOM_FILTERS": getattr(settings, "MAPSTORE_CUSTOM_FILTERS", None),
         "TIME_ENABLED": getattr(settings, "UPLOADER", dict())

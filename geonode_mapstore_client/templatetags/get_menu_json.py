@@ -5,6 +5,7 @@ from geonode.base.models import Configuration, Menu, MenuItem
 
 register = template.Library()
 
+SUBFOLDER = getattr(settings, "GEONODE_SUBFOLDER", "")
 
 def _get_request_user(context):
     request = context.get("request")
@@ -35,32 +36,32 @@ def get_base_left_topbar_menu():
     return [
         {
             "type": "link",
-            "href": "/catalogue/#/all",
+            "href": f"{SUBFOLDER}/catalogue/#/all",
             "label": "All resources",
         },
         {
             "type": "link",
-            "href": "/catalogue/#/datasets",
+            "href": f"{SUBFOLDER}/catalogue/#/datasets",
             "label": "Datasets",
         },
         {
             "type": "link", 
-            "href": "/catalogue/#/maps", 
+            "href": f"{SUBFOLDER}/catalogue/#/maps", 
             "label": "Maps"
         },
         {
             "type": "link",
-            "href": "/catalogue/#/documents",
+            "href": f"{SUBFOLDER}/catalogue/#/documents",
             "label": "Documents",
         },
         {
             "type": "link",
-            "href": "/catalogue/#/geostories",
+            "href": f"{SUBFOLDER}/catalogue/#/geostories",
             "label": "GeoStories",
         },
         {
             "type": "link",
-            "href": "/catalogue/#/dashboards",
+            "href": f"{SUBFOLDER}/catalogue/#/dashboards",
             "label": "Dashboards",
         }
     ]
@@ -77,8 +78,8 @@ def get_base_right_topbar_menu(context):
         "label": "About",
         "type": "dropdown",
         "items": [
-            {"type": "link", "href": "/people/", "label": "People"},
-            {"type": "link", "href": "/groups/", "label": "Groups"},
+            {"type": "link", "href": f"{SUBFOLDER}/people/", "label": "People"},
+            {"type": "link", "href": f"{SUBFOLDER}/groups/", "label": "Groups"},
         ],
     }
 
@@ -90,17 +91,17 @@ def get_base_right_topbar_menu(context):
                 {"type": "divider"},
                 {
                     "type": "link",
-                    "href": "/invitations/geonode-send-invite/",
+                    "href": f"{SUBFOLDER}/invitations/geonode-send-invite/",
                     "label": "Invite users",
                 },
                 {
                     "type": "link",
-                    "href": "/admin/people/profile/add/",
+                    "href": f"{SUBFOLDER}/admin/people/profile/add/",
                     "label": "Add user",
                 }
                 if user.is_superuser
                 else None,
-                {"type": "link", "href": "/groups/create/", "label": "Create group"}
+                {"type": "link", "href": f"{SUBFOLDER}/groups/create/", "label": "Create group"}
                 if user.is_superuser
                 else None,
             ]
@@ -116,10 +117,10 @@ def get_user_menu(context):
 
     if not user or (user and not user.is_authenticated):
         return [
-            {"label": "Register", "type": "link", "href": "/account/signup/?next=/"}
+            {"label": "Register", "type": "link", "href": f"{SUBFOLDER}/account/signup/?next=/"}
             if settings.ACCOUNT_OPEN_SIGNUP and not Configuration.load().read_only
             else None,
-            {"label": "Sign in", "type": "link", "href": "/account/login/?next=/"},
+            {"label": "Sign in", "type": "link", "href": f"{SUBFOLDER}/account/login/?next=/"},
         ]
 
     devider = {"type": "divider"}
@@ -131,7 +132,7 @@ def get_user_menu(context):
         "label": "Profile",
     }
 
-    logout = {"type": "link", "href": "/account/logout/?next=/", "label": "Log out"}
+    logout = {"type": "link", "href": f"{SUBFOLDER}/account/logout/?next=/", "label": "Log out"}
 
     if is_mobile:
         return [
@@ -153,28 +154,28 @@ def get_user_menu(context):
             profile_link,
             {
                 "type": "link",
-                "href": "/social/recent-activity",
+                "href": f"{SUBFOLDER}/social/recent-activity",
                 "label": "Recent activity",
             },
             {
                 "type": "link",
-                "href": "/catalogue/#/search/?f=favorite",
+                "href":  f"{SUBFOLDER}/catalogue/#/search/?f=favorite",
                 "label": "Favorites",
             },
-            {"type": "link", "href": "/messages/inbox/", "label": "Inbox"},
+            {"type": "link", "href":  f"{SUBFOLDER}/messages/inbox/", "label": "Inbox"},
             devider,
         ],
     }
-    general = [{"type": "link", "href": "/help/", "label": "Help"}, devider, logout]
+    general = [{"type": "link", "href": f"{SUBFOLDER}/help/", "label": "Help"}, devider, logout]
     monitoring = []
     if settings.MONITORING_ENABLED:
         monitoring = [
             devider,
-            {"type": "link", "href": "/monitoring/", "label": "Monitoring & Analytics"},
+            {"type": "link", "href": f"{SUBFOLDER}/monitoring/", "label": "Monitoring & Analytics"},
         ]
     admin_only = (
         [
-            {"type": "link", "href": "/admin/", "label": "Admin"},
+            {"type": "link", "href": f"{SUBFOLDER}/admin/", "label": "Admin"},
             {
                 "type": "link",
                 "href": settings.GEOSERVER_WEB_UI_LOCATION,
