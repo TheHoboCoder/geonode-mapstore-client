@@ -146,7 +146,7 @@
         window.__GEONODE_CONFIG__ = {
             languageCode: '{{ LANGUAGE_CODE }}',
             languages: languages,
-            translationsPath: translationsPath,
+            translationsPath: ["/geoportal/static/mapstore/ms-translations", "/geoportal/static/mapstore/gn-translations"],
             resourceId: '{{ resource.pk|default:"" }}',
             resourceType: '{{ resource.resource_type|default:"" }}',
             resourceSubtype: '{{ resource.subtype|default:"" }}',
@@ -176,7 +176,7 @@
                         method: 'bearer'
                     }
                 ],
-                extensionsFolder: extensionsFolder,
+                extensionsFolder: "/geoportal/static/mapstore/extensions/",
                 printUrl: geoServerPublicLocation + 'pdf/info.json',
                 bingApiKey: '{% bing_api_key %}',
                 mapboxAccessToken: '{{ MAPBOX_ACCESS_TOKEN }}',
