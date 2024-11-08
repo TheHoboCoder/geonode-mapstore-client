@@ -1,0 +1,4160 @@
+{
+ "locale": "ru-RU",
+ "messages": {
+  "Language": "Язык",
+  "msgId0": "{name} сделал {numPhotos, plural, =0 {фотографий нет} =1 {одна фотография} few {# фотографий}} в {thoseDate, date, long}.",
+  "htmlTest": "{имя} {фамилия}",
+  "about_title": "О",
+  "aboutTooltip": "О",
+  "aboutLbl": "О",
+  "about_p0-0": "MapStore — это фреймворк для создания картографических веб-приложений с использованием стандартных картографических библиотек, таких как",
+  "about_p0-1": "и",
+  "about_p1": "Для MapStore cуществуют различные примеры приложений",
+  "about_ul0_li0": "MapViewer — простой просмотрщик предварительно настроенных карт (опционально сохраненных в базе данных с помощью GeoStore)",
+  "about_ul0_li1": "MapPublisher был разработан для создания, сохранения и распространения простым и интуитивно понятным способом карт и мэшапов, созданных с использованием контента из известных источников, таких как Google Maps и OpenStreetMap, или из служб, предоставляемых организациями, использующими открытые протоколы, такие как OGC WMS, WFS, WMTS или TMS и т. д. Для получения дополнительной информации посетите",
+  "about_h20": "Лицензия",
+  "about_p3": "MapStore — это бесплатное программное обеспечение с открытым исходным кодом, основанное на OpenLayers, Leaflet и ReactJS и лицензированное по упрощенной лицензии BSD.",
+  "about_p5-0": "Для получения более подробной информации проверьте",
+  "about_a0": "этот",
+  "about_p5-1": "страница.",
+  "about_h21": "",
+  "about_p6": "MapStore создан:",
+  "enable": "Включить",
+  "layers": "Слои",
+  "warning": "Предупреждение",
+  "errorTitleDefault": "Ошибка",
+  "errorDefault": "Произошла ошибка.",
+  "pageInfoShowMore": "Результаты {count} из {total}",
+  "showMore": "Показать больше...",
+  "collapse": "Свернуть",
+  "expand": "Расширить",
+  "Links": "Ссылки",
+  "Forbidden": "Запрещенный",
+  "height": "Высота",
+  "layerNameChangeError": {
+   "title": "Ошибка изменения имени",
+   "message": "Слой не удалось перезагрузить с измененным именем"
+  },
+  "version": {
+   "title": "Версия MapStore",
+   "label": "Версия",
+   "message": "Сообщение",
+   "commit": "Совершить",
+   "date": "Дата",
+   "githubUrl": "Открыть дерево github в новой вкладке"
+  },
+  "errorPage": {
+   "title": "Упс, что-то пошло не так...",
+   "subtitle": "Нажмите на значок ниже, чтобы перезагрузить MapStore.",
+   "description": "Если вы хотите сообщить об этой ошибке, вы можете отправить электронное письмо в наш список рассылки.",
+   "descriptionAdmin": "Пожалуйста, свяжитесь с администратором."
+  },
+  "autorefresh": {
+   "of": "из",
+   "updating": "Обновление...",
+   "layers": "слои"
+  },
+  "localeErrors": {
+   "404": "Файл перевода не найден"
+  },
+  "details": {
+   "title": "О данном контенте",
+   "tooltip": "О данном контенте"
+  },
+  "showEmptyMessageGFI": "Показывать пустое сообщение о результатах на панели GetFeatureInfo",
+  "remove": "Удалить",
+  "removeThumbnail": "Удалить миниатюру",
+  "layerProperties": {
+   "windowTitle": "Свойства слоя",
+   "title": "Заголовок",
+   "name": "Имя",
+   "group": "Группа",
+   "general": "Общий",
+   "description": "Описание",
+   "display": "Отображать",
+   "style": "Стиль",
+   "transparent": "Прозрачный",
+   "singleTile": "Одинарная плитка",
+   "cached": "Использовать параметры кэширования",
+   "styleCustom": "Использовать стиль с именем \"{value}\"",
+   "styleListLoadError": "Произошла ошибка при загрузке списка стилей",
+   "stylesRefreshList": "Обновить список стилей",
+   "delete": "Удалить",
+   "deleteLayer": "Удалить слой",
+   "deleteLayerMessage": "Вы действительно хотите удалить этот слой?",
+   "deleteLayerGroup": "Удалить группу",
+   "deleteLayerGroupMessage": "Вы действительно хотите удалить эту группу и все ее слои?",
+   "confirmDelete": "Вы уверены?",
+   "featureTypeError": "Невозможно загрузить атрибуты слоя",
+   "featureTypeErrorInvalidJSON": "Невозможно загрузить атрибуты слоя. Неккоректный ответ сервера",
+   "elevation": "Высота",
+   "groupProperties": "Групповые свойства",
+   "featureInfo": "Информация о функции",
+   "featureInfoFormatLbl": "Определить формат ответа",
+   "guideText": "В URL изображения вы можете использовать заполнители, такие как $\\{properties.YOUR_ATTRIBUTE\\}, чтобы сделать URL параметрическим, в зависимости от атрибутов объекта. Он поддерживает как URL, так и \"Data URI\", закодированные в base64",
+   "imageNotFound": "Для корректного отображения этого изображения может потребоваться запрос информации о пространственном объекте.",
+   "legenderror": "Легенда недоступна",
+   "editCustomFormat": "Изменить пользовательский формат",
+   "exampleOfResponse": "Пример",
+   "changedSettings": "Измененные настройки",
+   "changedSettingsAlert": "Вы закрываете панель настроек, не сохранив изменения.",
+   "textFormatTitle": "ТЕКСТ",
+   "textFormatDescription": "Показывает информацию о пространственных объектах в виде обычного текста",
+   "htmlFormatTitle": "HTML",
+   "htmlFormatDescription": "Показывает информацию о пространственных объектах в формате HTML",
+   "propertiesFormatTitle": "ХАРАКТЕРИСТИКИ",
+   "propertiesFormatDescription": "Показывает информацию о пространственных объектах в виде списка свойств",
+   "templateFormatTitle": "ШАБЛОН",
+   "templateFormatDescription": "Настройте формат отображения информации о пространственных объектах",
+   "hideFormatTitle": "ОТКЛЮЧИТЬ ИДЕНТИФИКАЦИЮ",
+   "hideFormatDescription": "Отключить отображение информации о пространственных объектах для этого слоя",
+   "styleWarning": "Редактор стилей слоев для типа геометрии «{geometryType}» не поддерживается.",
+   "templateFormatInfoAlert1": "Нажмите кнопку «Изменить», чтобы добавить новый шаблон.",
+   "templateFormatInfoAlert2": "Используйте ${ attribute } для обертывания свойств, которые необходимо отобразить.",
+   "templateFormatInfoAlertExample": "Идентификатор пространственного объекта — <span style='white-space:nowrap'>${ properties.id }</span> или <span style='white-space:nowrap'>${ properties['data-value'] }</span>",
+   "templateError": "Произошла ошибка при применении шаблона к информации, возвращенной сервером. Проверьте шаблон.",
+   "templatePreview": "Предварительный просмотр шаблона",
+   "heightOffset": "Смещение по высоте (м)",
+   "wmsLayerTileSize": "Размер плитки (WMS)",
+   "serverType": "Тип сервера",
+   "formatError": "Не удалось получить формат и формат информационного листа из настроенной службы. Вероятно, вы используете службу No Vendor, и это не поддерживается (например, GeoNetwork)",
+   "serverTypeOption": {
+    "noVendor": "Нет поставщика",
+    "geoserver": "Геосервер"
+   },
+   "availableTileGrids": "Доступные тайлы",
+   "crsId": "Идентификатор",
+   "projection": "Проекция",
+   "tileSize": "Размер плитки",
+   "tileGridInUse": "Сетка плитки '{id}' соответствует текущей проекции карты и размеру плитки, выбранному для этого слоя.",
+   "useStandardTileGridStrategy": "Использовать стандартную сетку плитки",
+   "useCustomTileGridStrategy": "Использовать удаленные пользовательские сетки плиток",
+   "updateTileGrids": "Обновите доступные сетки плиток",
+   "noTileGridMatchesConfiguration": "Нет сетки плитки, которая соответствует текущей проекции карты и выбранному размеру плитки. Таблица выше выделяет доступные сетки плитки, совместимые с текущей проекцией карты. Вы можете нажать кнопку обновления, чтобы обновить список доступных сеток плитки",
+   "noConfiguredGridSets": "Невозможно получить пользовательские сетки плитки. Этот слой не имеет набора сеток, совместимого с доступными проекциями. Пожалуйста, проверьте конфигурацию сервера и повторите попытку",
+   "notPossibleToConnectToWMTSService": "Не удалось получить сетки плиток с сервера. Запрос, отправленный на {requestUrl}, выдает ошибку",
+   "notSupportedSelectedFormatCache": "Выбранный формат не поддерживается кэшем.",
+   "customParamsCacheWarning": "Этот слой имеет включенный локализованный стиль. Проверьте серверную часть конфигурации и убедитесь, что она поддерживает пользовательский параметр ENV",
+   "supportedFormats": "Поддерживаемые форматы",
+   "checkAvailableTileGridsInfo": "Проверьте информацию о доступных сетках плиток",
+   "tileGridInfoChecksTitle": "Информация о сетках плиток",
+   "tileGridInfoChecks": "Следующий контрольный список показывает некоторые возможные проблемы совместимости между текущим набором сеток и удаленной информацией. Все еще возможно, что сетка плитки не попадает в кэш, даже если все перечисленные проверки прошли успешно",
+   "visibilityLimits": {
+    "title": "Ограничения видимости",
+    "serverValuesUpdateUndefined": "Сервер не предоставил пределов видимости масштаба для этого слоя",
+    "serverValuesUpdate": "Сервер предоставил минимальные и максимальные пределы видимости масштаба для этого слоя.",
+    "serverValuesUpdateMinScale": "Сервер предоставил только минимальный предел видимости масштаба для этого слоя",
+    "serverValuesUpdateMaxScale": "Сервер предоставил только максимальный предел видимости масштаба для этого слоя",
+    "rangeError": "Минимальное значение больше максимального значения. Укажите диапазон, в котором максимальное значение больше минимального значения",
+    "serverValuesError": "Невозможно запросить минимальные и максимальные пределы видимости масштаба на сервере. Вероятно, из-за ошибки в сетевом подключении или отсутствия узла, отвечающего за данный функционал",
+    "updateWMSCapabilities": "Запросить минимальные и максимальные пределы видимости масштаба на сервере",
+    "maxValue": "Максимальное значение (не включая)",
+    "maxValuePlaceholder": "Выберите максимальное значение",
+    "valueNoResultsText": "Ни один вариант не соответствует введенному значению.",
+    "createOption": "Добавить новое значение {label}",
+    "minValue": "Мин. значение (включительно)",
+    "minValuePlaceholder": "Выберите минимальное значение",
+    "type": "Тип ограничений",
+    "scale": "Масштаб",
+    "resolution": "Разрешение"
+   },
+   "3dTiles": {
+    "format": "Формат",
+    "3dModel": "3D-модель",
+    "pointCloud": "Облако точек",
+    "pointCloudShading": {
+     "title": "Варианты визуализации",
+     "attenuationInfo": "Выполнить точечное затухание на основе расстояния от текущей точки обзора",
+     "attenuation": "Включить затухание",
+     "maximumAttenuation": "Максимальное затухание",
+     "eyeDomeLightingInfo": "Это позволяет использовать купольное освещение для улучшения визуализации облака точек. Это не отражает реальное солнечное освещение",
+     "eyeDomeLighting": "Включить освещение",
+     "eyeDomeLightingStrength": "Сила света",
+     "eyeDomeLightingRadius": "Радиус освещения"
+    }
+   },
+   "modelLayer": {
+    "modelCenterLat": "Широта центра (DD)",
+    "modelCenterLng": "Долгота центра (DD)",
+    "height": "Высота (м)",
+    "heading": "Заголовок (DD)",
+    "warnings": {
+     "projectedCrsNotSupported": "Модель размещена в центре текущего вида, потому что: модель имеет проекцию CRS {modelProjection}, но она не поддерживается.",
+     "projectedCrsNotProvided": "Модель размещена в центре текущего вида, потому что: у модели нет определенной проекции CRS."
+    }
+   },
+   "tooltip": {
+    "label": "Подсказка",
+    "title": "Заголовок",
+    "description": "Описание",
+    "both": "Название и описание",
+    "none": "Нет подсказки",
+    "labelPlacement": "Размещение",
+    "right": "Справа",
+    "left": "Слева",
+    "bottom": "Внизу",
+    "top": "Сверху",
+    "editLayerName": "Изменить имя слоя",
+    "confirmLayerName": "Подтвердите изменение имени слоя"
+   },
+   "legendOptions": {
+    "title": "Легенда",
+    "legendWidth": "Ширина",
+    "legendHeight": "Высота",
+    "legendPreview": "Предварительный просмотр"
+   },
+   "enableInteractiveLegendInfo": {
+    "label": "Включить интерактивную легенду",
+    "info": "Если эта опция включена, фильтр по легенде может быть применен путем нажатия на элементы легенды этого слоя из TOC. Примечание: этот параметр требует определенных настроек на GeoServer",
+    "fetchError": "Не удалось получить информацию о легенде из сервиса."
+   },
+   "enableLocalizedLayerStyles": {
+    "label": "Включить локализованный стиль",
+    "tooltip": "Примечание: этот параметр требует определенных настроек на GeoServer."
+   },
+   "useCacheOptionInfo": {
+    "label": "Использовать удаленные пользовательские сетки плиток",
+    "info": "Для использования пользовательских сеток плиток обязательно включите WMTS."
+   },
+   "format": {
+    "title": "Формат",
+    "tile": "Плитка",
+    "information": "Информационный лист",
+    "refresh": "Получить поддерживаемые форматы",
+    "loading": "Загрузка...",
+    "noOption": "Нет выбора",
+    "error": {
+     "title": "Ошибка",
+     "message": "Не удалось получить формат"
+    }
+   },
+   "forceProxy": "Принудительный прокси",
+   "fields": {
+    "refresh": "Перезагрузить поля из источника данных",
+    "title": "Поля",
+    "tooltip": "Поля",
+    "name": "Имя",
+    "alias": "Псевдоним",
+    "type": "Тип",
+    "clearCustomization": "Очистить настройки",
+    "clearCustomizationConfirm": "Вы уверены, что хотите удалить все настройки?",
+    "error": "Не удалось автоматически загрузить поля"
+   },
+   "disableFeaturesEditing": "Отключить редактирование таблицы атрибутов"
+  },
+  "localizedInput": {
+   "localize": "Локализуйте этот текст...",
+   "title": "Локализовать текст",
+   "default": "По умолчанию"
+  },
+  "longitude": "Д",
+  "latitude": "Ш",
+  "notification": {
+   "update": "Обновить",
+   "warning": "Предупреждение",
+   "success": "Успешно",
+   "error": "Ошибка",
+   "backgroundLayerNotSupported": "Ранее выбранный фон не поддерживается для этого типа карты. Поэтому используется первый доступный.",
+   "noBackgroundLayerSupported": "Для этого типа карты не поддерживаются фоновые слои.",
+   "updateOldMap": "Это старая карта, поэтому не все функции могут быть включены. Нажмите кнопку обновления, чтобы обновить карту, или просто отклоните это уведомление, если вы не хотите ее обновлять.",
+   "warningSaveUpdatedMap": "Некоторые слои не были обновлены корректно.",
+   "saveUpdatedMap": "Все слои успешно обновлены.",
+   "incompatibleBackgroundAndProjection": "Выбранная вами проекция несовместима с фоном. Переключитесь на совместимый или пустой фон, затем выберите эту проекцию.",
+   "incompatibleDataAndProjection": "Текущий слой(и) и проекция карты не полностью совместимы. Части или все данные могут не отображаться на карте.",
+   "errorLoadingGF": "Ошибка загрузки GF Geom"
+  },
+  "dock": {
+   "row": "{rowsSelected} строка выбрана",
+   "rows": "{rowsSelected} строк выбрано"
+  },
+  "globeswitcher": {
+   "tooltipDeactivate": "Выйти из 3D-режима",
+   "tooltipActivate": "Войдите в режим 3D"
+  },
+  "cookie": {
+   "info": "Этот сайт использует файлы cookie для улучшения вашего опыта. Мы предполагаем, что вы согласны с этим, но вы можете отказаться, если хотите.",
+   "moreDetailsButton": "Подробнее",
+   "leave": "Выйти",
+   "accept": "Согласиться"
+  },
+  "background": "Фон",
+  "language": "Язык",
+  "mousePositionCoordinates": "Координаты курсора",
+  "mouseCoordinates": "Координаты:",
+  "mousePositionCRS": "CRS:",
+  "mousePositionElevation": "Высота:",
+  "mousePositionNoElevation": "Н/Д",
+  "elevationLoading": "Загрузка...",
+  "elevationLoadingError": "Ошибка",
+  "elevationNotAvailable": "Н/Д",
+  "mapScale": "Масштаб:",
+  "showMousePositionCoordinates": "Показать/Скрыть координаты",
+  "showCrsSelector": "Выбрать проекцию",
+  "crsSelectorFilterPlaceholder": "Фильтр проекции",
+  "crsSelectorSelectedCRS": "Выбрано:",
+  "menu": "Меню",
+  "options": "Параметры",
+  "settings": "Настройки",
+  "settingsTooltip": "Настройки",
+  "help": "Помощь",
+  "docs": "Документы",
+  "docsTooltip": "Документы",
+  "gohome": "Вернуться на домашнюю страницу",
+  "back": "Вернуться к импортеру",
+  "printbutton": "Печать",
+  "printToolTip": "Печать",
+  "annotationsbutton": "Аннотации",
+  "noresultfound": "Результат не найден",
+  "save": "Сохранять",
+  "saveAs": "Сохранить как...",
+  "opacity": "Непрозрачность",
+  "elevation": "Высота",
+  "close": "Закрывать",
+  "cancel": "Отмена",
+  "no": "Нет",
+  "yes": "Да",
+  "confirm": "Подтвердить",
+  "confirmTitle": "Вы подтверждаете?",
+  "pageInfo": "{total, plural, =0 {Нет элементов} =1 {{total} элемент из {total}} other {Элементы {start}-{end} из {total}}}",
+  "loading": "Загрузка...",
+  "group": "Группа",
+  "groups": "Группы",
+  "permission": "Разрешение",
+  "permissions": "Разрешения",
+  "global": {
+   "colors": {
+    "red": "{число, множественное число, =0 {Красный} =1 {Красный} другой {Красные}}",
+    "blue": "{число, множественное число, =0 {Синий} =1 {Синий} другой {Синие}}",
+    "green": "{число, множественное число, =0 {Зеленый} =1 {Зеленый} другой {Зеленые}}",
+    "gray": "{число, множественное число, =0 {Серый} =1 {Серый} другой {Серые}}",
+    "jet": "{число, множественное число, =0 {Реактивный самолет} =1 {Реактивный самолет} другой {Реактивный самолет}}",
+    "brown": "{число, множественное число, =0 {Коричневый} =1 {Коричневый} другой {Коричневые}}",
+    "purple": "{число, множественное число, =0 {Фиолетовый} =1 {Фиолетовый} другой {Фиолетовый}}",
+    "random": "{число, множественное число, =0 {Случайно} =1 {Случайно} другой {Случайно}}",
+    "orrd":"OrRd",
+    "pubu":"PuBu",
+    "bupu":"BuPu",
+    "oranges":"Oranges",
+    "bugn":"BuGn",
+    "ylorbr":"YlOrBr",
+    "ylgn":"YlGn",
+    "reds":"Reds",
+    "rdpu":"RdPu",
+    "greens":"Greens",
+    "ylgnbu":"YlGnBu",
+    "purples":"Purples",
+    "gnbu":"GnBu",
+    "greys":"Greys",
+    "ylorrd":"YlOrRd",
+    "purd":"PuRd",
+    "blues":"Blues",
+    "pubugn":"PuBuGn",
+    "viridis":"Viridis",
+    "spectral":"Spectral",
+    "rdylgn":"RdYlGn",
+    "rdbu":"RdBu",
+    "piyg":"PiYg",
+    "prgn":"PrGn",
+    "rdylbu":"RdYlBu",
+    "brbg":"BrBg",
+    "rdgy":"RdGy",
+    "puor":"PuOr",
+    "set2":"Set 2",
+    "accent":"Accent",
+    "set1":"Set 1",
+    "set3":"Set 3",
+    "dark2":"Dark 2",
+    "paired":"Paired",
+    "pastel2":"Pastel 2",
+    "pastel1":"Pastel 1",
+    "custom": "Пользовательский"
+   }
+  },
+  "home": {
+   "open": "Открыть",
+   "shortDescription": "Современное веб-картографирование с OpenLayers, Leaflet и ReactJS.<br/> <small>Посетите страницу <a href=\"https://docs.mapstore.geosolutionsgroup.com/\">документации</a></small>",
+   "forkMeOnGitHub": "Форкните нас на GitHub",
+   "description": "MapStore был разработан для создания, сохранения и распространения простым и интуитивно понятным способом карт и мэшапов, созданных с использованием контента из известных источников, таких как OpenStreetMap, Google Maps, или из сервисов, предоставляемых организациями, использующими открытые протоколы, такие как OGC WMS, WFS, WMTS или TMS и т. д.<br/>Посетите <a href=\"https://mapstore.readthedocs.io/en/latest/\">домашнюю страницу</a> для получения более подробной информации.",
+   "Applications": "Приложения",
+   "Examples": "Примеры",
+   "LinkedinGroup": "Группа Mapstore Linkedin",
+   "scrollTop": "Прокрутите страницу вверх",
+   "footerDescription": "<strong>GeoSolutions</strong> <a href=\"mailto:sales@geosolutionsgroup.com\">sales@geosolutionsgroup.com</a>",
+   "footerCustomHTML": "<div><p>Вставьте пользовательский HTML-код в переводы для отображения пользовательского нижнего колонтитула</p></div>"
+  },
+  "cookiesPolicyNotification": {
+   "title": "Этот сайт использует файлы cookie",
+   "message": "Продолжая использовать наш сайт, вы принимаете условия использования нами файлов cookie.",
+   "confirm": "Я согласен"
+  },
+  "manager": {
+   "managerMenu": "Меню менеджера",
+   "openInANewTab": "Открыть карту",
+   "deleteMap": "Удалить карту",
+   "deleteMapMessage": "Вы действительно хотите удалить эту карту?",
+   "editMapMetadata": "Изменить свойства карты",
+   "mapTypes_combo": "Выберите средство просмотра карты:",
+   "theme_combo": "Выберите тему:",
+   "maps_title": "Карты",
+   "locales_combo": "Язык:",
+   "featuredMaps": "Избранное"
+  },
+  "newMap": "Новая карта",
+  "newMapEmpty": "Пустая карта",
+  "newMapContext": "Существующий контекст",
+  "maps": {
+   "title": "Карты",
+   "addToFeaturedMaps": "Добавить в избранные карты",
+   "removeFromFeaturedMaps": "Удалить из избранных карт",
+   "feedback": {
+    "noDetailsAvailable": "Подробная информация о карте недоступна.",
+    "successSavedMap": "Карта создана правильно.",
+    "errorDeletingMap": "Ошибка при удалении этой карты",
+    "errorDeletingThumbnailOfMap": "Ошибка при удалении миниатюры этой карты",
+    "errorDeletingDetailsOfMap": "Ошибка при удалении данных для этой карты",
+    "allResDeleted": "Все ресурсы, связанные с этой картой, были успешно удалены.",
+    "errorFetchingDetailsOfMap": "Ошибка при получении данных для этой карты",
+    "details": {
+     "deletedSuccesfully": "Детали были удалены правильно.",
+     "savedSuccesfully": "Данные сохранены правильно.",
+     "updatedSuccesfully": "Данные обновлены правильно."
+    },
+    "thumbnail": {
+     "deletedSuccesfully": "Миниатюра была удалена правильно.",
+     "savedSuccesfully": "Миниатюра сохранена правильно.",
+     "updatedSuccesfully": "Миниатюра была обновлена ​​правильно."
+    },
+    "errorWhenSaving": "Произошла ошибка во время процесса сохранения",
+    "errorWhenUpdating": "Произошла ошибка во время процесса обновления",
+    "errorWhenDeleting": "Произошла ошибка во время процесса удаления",
+    "errorSizeExceeded": "Пожалуйста, уменьшите размер или качество изображений.",
+    "errorLoadingContexts": "Произошла ошибка при загрузке контекстов"
+   },
+   "search": "поиск..."
+  },
+  "resources": {
+   "successSaved": "Этот ресурс был сохранен правильно",
+   "savingError": "Произошла ошибка при сохранении ресурса",
+   "deleteConfirmTitle": "Вы уверены",
+   "deleteConfirmMessage": "Вы уверены, что хотите удалить этот ресурс?",
+   "deleteConfirmButtonText": "Удалить",
+   "deleteCancelButtonText": "Закрывать",
+   "resource": {
+    "deleteResource": "Удалить",
+    "editResource": "Изменить свойства",
+    "editResourceData": "Редактировать данные ресурса",
+    "addToFeatured": "Добавить в избранное",
+    "removeFromFeatured": "Удалить из избранного",
+    "showDetails": "Показать подробности"
+   },
+   "contents": {
+    "title": "Содержание"
+   },
+   "dashboards": {
+    "newDashboard": "Новая панель инструментов",
+    "title": "Панели мониторинга ({count})",
+    "titleNoCount": "Панели управления",
+    "create": "Создать панель инструментов",
+    "noDashboardAvailable": "Панель управления недоступна",
+    "createANewOne": "Создать новый",
+    "deleteError": "Произошла ошибка при удалении панели управления.",
+    "errorLoadingDashboards": "Произошла ошибка при загрузке панелей мониторинга."
+   },
+   "maps": {
+    "title": "Карты ({count})",
+    "noMapAvailable": "Карта недоступна",
+    "createNewOne": "Создать новый",
+    "unsavedMapConfirmTitle": "Несохраненные изменения",
+    "unsavedMapConfirmMessage": "Вы уверены, что хотите оставить несохраненные изменения?",
+    "unsavedMapConfirmButtonText": "Оставлять",
+    "unsavedMapCancelButtonText": "Закрывать"
+   },
+   "geostories": {
+    "newGeostory": "Новая ГеоСтори",
+    "title": "GeoStories ({count})",
+    "titleNoCount": "Геоистории",
+    "create": "Создать GeoStory",
+    "noGeostoryAvailable": "GeoStory недоступен",
+    "createANewOne": "Создать новый",
+    "deleteError": "Произошла ошибка при удалении GeoStory",
+    "errorLoadingGeostories": "Произошла ошибка при загрузке GeoStories"
+   },
+   "contexts": {
+    "title": "Контексты ({count})",
+    "titleNoCount": "Контексты",
+    "noContextAvailable": "Контекст недоступен"
+   }
+  },
+  "map": {
+   "errorLoadingFont": "Шрифтовое семейство {family} загружено неправильно. Некоторые элементы (например, символы в маркерах) могут иметь проблемы с отображением.",
+   "loading": "Загрузка...",
+   "loadingSpinner": "Загрузка карты",
+   "loadingerror": "Ошибка при загрузке карты",
+   "name": "Имя",
+   "description": "Описание",
+   "namePlaceholder": "Название карты",
+   "descriptionPlaceholder": "Описание карты",
+   "saveTitle": "Сохранить карту",
+   "saveText": "Сохранить текущую карту?",
+   "thumbnail": "Миниатюра",
+   "mapDelete": "Удалить карту",
+   "message": "Перетащите или щелкните, чтобы импортировать изображение",
+   "suggestion": "(лучше 300 px X 180 px, макс 500 кб)",
+   "errorFormat": "Поддерживаемые форматы: png/jpg",
+   "errorSize": "Максимально допустимый размер: 500 кб",
+   "errorCustomSize": "Максимально допустимый размер: {maxFileSize}",
+   "error": "Предоставленное изображение недействительно",
+   "savedMapTitle": "Сохраненная карта",
+   "savedMapMessage": "Карта сохранена корректно.",
+   "renderingErrorTitle": "Ошибка рендеринга",
+   "renderingErrorMessage": "<p>Отрисовка карты остановлена, и это может быть вызвано разными причинами: </p><ul><li>Примененный стиль содержит некоторые правила или переменные, не поддерживаемые функциями</li><li>Слой неправильно настроен</li></ul><p>Вы можете применить изменения к стилю слоя, а затем нажать кнопку «Перезагрузить карту». <br/> См. сообщение ниже для получения дополнительной информации:</p>",
+   "reloadMap": "Перезагрузить карту",
+   "settings": {
+    "title": "Настройки карты",
+    "skyAtmosphere": "Показать атмосферу неба",
+    "groundAtmosphere": "Показать приземную атмосферу",
+    "fog": "Показать туман",
+    "depthTest": "Включить проверку глубины относительно рельефа"
+   },
+   "thumbnailError": {
+    "error403": "Вам не разрешено обновлять миниатюру",
+    "error404": "Произошла ошибка при создании миниатюры",
+    "error409": "Миниатюра с таким именем уже существует",
+    "errorDefault": "Ошибка сети"
+   },
+   "mapError": {
+    "errorTitle": "Невозможно сохранить текущую карту",
+    "error403": "Вам не разрешено обновлять карту",
+    "error404": "Произошла ошибка при создании карты на сервере",
+    "error409": "Ресурс с таким именем уже существует",
+    "error500": "Внутренняя ошибка сервера. Проверьте, превышает ли размер файла конфигурации карты фиксированный предел",
+    "errorDefault": "Ошибка сети"
+   },
+   "permissions": {
+    "noRules": "Никаких правил.",
+    "addRule": "Добавить правило...",
+    "selectGroup": "Выберите группу...",
+    "canView": "можно просмотреть",
+    "canWrite": "можно редактировать",
+    "noResult": "Результаты не найдены",
+    "title": "Разрешения для групп"
+   },
+   "details": {
+    "back": "Назад",
+    "save": "Сохранять",
+    "show": "Показать подробную информацию",
+    "add": "Добавить новые данные",
+    "edit": "Изменить детали",
+    "rowTitle": "Подробный лист",
+    "title": "Подробный лист - {имя}",
+    "undo": "Отменить удаление",
+    "showPreview": "Показать предварительный просмотр",
+    "hidePreview": "Скрыть предварительный просмотр",
+    "delete": "Удалить лист данных",
+    "titleUnsavedChanges": "Вы уверены, что хотите закрыть без сохранения изменений?",
+    "sureToClose": "Вы уверены, что хотите закрыть без сохранения изменений?",
+    "fieldsChanged": "Некоторые атрибуты были изменены",
+    "showAtStartup": "Показывать при запуске",
+    "showAsModal": "Показать как модальное"
+   },
+   "errors": {
+    "loading": {
+     "notFound": "Карта не найдена",
+     "notAccessible": "Карта недоступна",
+     "unknownError": "<p><small>Причиной может быть одна из следующих причин:</small> <ul><li>у вас нет разрешения на доступ к карте</li> <li>вы пытаетесь получить доступ к карте, которой не существует</li> <li>карта была удалена</li> <li>проекция карты не настроена</li></ul> <p>",
+     "projectionError": "Проекция {projection} карты не настроена",
+     "title": "Карта не может быть просмотрена"
+    }
+   }
+  },
+  "addgroup": {
+   "addbtn": "Добавлять",
+   "groupName": "Название группы"
+  },
+  "toc": {
+   "toggleLayerVisibility": "Переключить видимость слоя",
+   "toggleGroupVisibility": "Переключить видимость группы",
+   "displayLegendAndTools": "Отображение легенды",
+   "zoomToLayerExtent": "Увеличить до масштаба слоя",
+   "addAnnotations": "Добавить аннотации",
+   "editAnnotations": "Редактировать аннотации",
+   "addLayer": "Добавить слой",
+   "addLayerToGroup": "Добавить слой в выбранную группу",
+   "addGroup": "Добавить группу",
+   "addSubGroup": "Добавить подгруппу в выбранную группу",
+   "toolZoomToLayerTooltip": "Увеличить до выбранного размера слоя",
+   "toolZoomToLayersTooltip": "Увеличить до выбранных слоев",
+   "toolLayerSettingsTooltip": "Настройки выбранного слоя",
+   "toolGroupSettingsTooltip": "Настройки выбранной группы",
+   "toolTrashLayerTooltip": "Удалить выбранный слой",
+   "toolTrashLayersTooltip": "Удалить выбранные слои",
+   "toolTrashGroupTooltip": "Удалить выбранную группу",
+   "toolFeaturesGridTooltip": "Открыть таблицу атрибутов",
+   "layerFilterTooltip": "Фильтрующий слой",
+   "toolDownloadTooltip": "Экспорт данных слоя",
+   "noFilteredResults": "Нет результатов",
+   "emptyLayerTree": "Дерево слоев пусто. Пожалуйста, добавьте новый слой из каталога",
+   "filterPlaceholder": "Фильтрующие слои",
+   "clearFilter": "Очистить фильтр",
+   "toolReloadLayerTooltip": "Принудительная перезагрузка выбранного слоя",
+   "toolReloadLayersTooltip": "Принудительная перезагрузка выбранных слоев",
+   "statusIconOpen": "Закрыть группу",
+   "statusIconClose": "Открытая группа",
+   "grabLayerIcon": "Захват и сортировка слоя",
+   "grabGroupIcon": "Захват и сортировка группы",
+   "toggleLayerVisibilityWarning": "Переключить видимость слоя. Предупреждение: слой не загрузился правильно",
+   "createWidget": "Создать виджет для выбранного слоя",
+   "editLayerProperties": "Изменить свойства слоя",
+   "browseData": "Открыть таблицу атрибутов",
+   "removeLayer": "Удалить слой",
+   "loadingerror": "Слой загружен неправильно или недоступен.",
+   "sourceCRSNotCompatible": "Определение проекции исходных данных слоя {sourceCRS} недоступно в приложении для перепроецирования данных на текущей карте.",
+   "measure": "Мера",
+   "layers": "Слои",
+   "drawerButton": "Слои",
+   "refreshTitle": "Обновить слои",
+   "refreshConfirm": "Обновлять",
+   "refreshMessage": "Перезагрузите конфигурацию слоев WMS с сервера(ов)",
+   "refreshError": "Ошибка обновления слоев:",
+   "epsgNotSupported": "CRS {epsg} не поддерживается для масштабирования до слоя",
+   "compareTool": "Сравнить инструмент",
+   "configureTool": "Настроить",
+   "spyconfiguration": "Конфигурация подзорной трубы",
+   "swipeconfiguration": "Конфигурация свайпа",
+   "swipe": "Проведите пальцем",
+   "spyGlass": "Подзорная труба",
+   "direction": "Направление смахивания",
+   "radius": "Радиус",
+   "filterIconEnabled": "Отключить фильтр слоев",
+   "filterIconDisabled": "Включить фильтр слоев",
+   "notVisibleZoomIn": "Слой не виден, так как он находится за пределами разрешения. Увеличьте масштаб, чтобы увидеть слой",
+   "notVisibleZoomOut": "Слой не виден, так как он находится за пределами разрешения. Уменьшите масштаб, чтобы увидеть слой",
+   "notVisibleSwitchTo3D": "Переключитесь в режим 3D-карты, чтобы увидеть этот слой.",
+   "notVisibleSwitchTo2D": "Переключитесь в режим 2D-карты, чтобы увидеть этот слой.",
+   "toolGroupShowAllChildren": "Показать все дочерние узлы",
+   "toolGroupHideAllChildren": "Скрыть все дочерние узлы",
+   "activateToolGroupMutuallyExclusive": "Активировать взаимоисключающую видимость дочерних узлов",
+   "deactivateToolGroupMutuallyExclusive": "Отключить взаимоисключающую видимость дочерних узлов",
+   "toolGroupCollapseAllChildren": "Свернуть все дочерние узлы",
+   "toolGroupExpandAllChildren": "Развернуть все дочерние узлы",
+   "closeOnMapInitialization": "Держите закрытым при инициализации карты",
+   "openOnMapInitialization": "Открыть при инициализации карты",
+   "defaultTheme": "Тема по умолчанию",
+   "legendTheme": "Легендарная тема",
+   "showFullTitle": "Показать полное название",
+   "hideFullTitle": "Заголовок в одну строку",
+   "showOpacitySlider": "Показать ползунок непрозрачности",
+   "hideOpacitySlider": "Скрыть ползунок непрозрачности",
+   "showOpacityTooltip": "Показать подсказку непрозрачности",
+   "hideOpacityTooltip": "Скрыть подсказку непрозрачности",
+   "refreshOptions": {
+    "bbox": "Обновление BBOX",
+    "search": "Обновить параметры поиска",
+    "title": "Обновить заголовок",
+    "dimensions": "Обновить размеры"
+   },
+   "layerInfoTooltip": "Обновить название и описание слоя",
+   "layerMetadata": {
+    "identifier": "Идентификатор",
+    "title": "Заголовок",
+    "abstract": "Абстрактный",
+    "purpose": "Цель",
+    "source": "Источник",
+    "createdDate": "Дата создания",
+    "lastRevisionDate": "Дата последней редакции",
+    "pointsOfContact": "Точки контакта",
+    "individualName": "Имя отдельного человека",
+    "organisationName": "Название организации",
+    "contactInfo": "Контактная информация",
+    "phone": "Номер телефона",
+    "deliveryPoints": "Пункты доставки",
+    "city": "Город",
+    "postalCode": "Почтовый индекс",
+    "country": "Страна",
+    "URL": "URL",
+    "metadataUrl": "URL-адрес метаданных",
+    "role": "Роль",
+    "hoursOfService": "Часы работы",
+    "electronicMailAddress": "Адрес электронной почты",
+    "subject": "Предмет",
+    "type": "Тип",
+    "creator": "Создатель",
+    "defaultPropName": "Свойство=\"{propName}\"",
+    "toolLayerMetadataTooltip": "Показать метаданные выбранного слоя",
+    "layerMetadataPanelTitle": "Метаданные слоя",
+    "notification": {
+     "warnigGetMetadataRecordById": "Ошибка в поиске метаданных"
+    },
+    "itemTitles": {
+     "pointsOfContact": "Контакт",
+     "default": "Элемент"
+    },
+    "emptyMetadata": "Метаданные отсутствуют."
+   },
+   "thematic": {
+    "classification_field": "Область классификации:",
+    "classification_method": "Метод классификации:",
+    "classification_aggregate": "Агрегатная функция:",
+    "classification_colors": "Цветовая гамма:",
+    "classification_intervals": "Интервалы:",
+    "preview": "Предварительный просмотр",
+    "remove_thematic": "Вернуться к простому стилю",
+    "values": {
+     "equalInterval": "Равные интервалы",
+     "quantile": "Квантиль",
+     "jenks": "Естественные перерывы",
+     "sum": "Сумма",
+     "avg": "Средний",
+     "count": "Считать",
+     "min": "Мин.",
+     "max": "Макс"
+    },
+    "configuration": "Конфигурация",
+    "apply": "Применить классификацию",
+    "restore": "Сбросить настройки",
+    "goToCfg": "Настроить...",
+    "go_to_thema": "Используйте эту конфигурацию",
+    "cfgError": "Ошибка в конфигурации JSON",
+    "classify": "Классифицировать",
+    "remove": "Удалить классификацию",
+    "data_panel": "Данные",
+    "classification_stroke": "Гладить",
+    "classification_error": "Ошибка вызова службы классификации: {message}",
+    "fields_error": "Ошибка загрузки списка полей: {message}",
+    "interval_limit": "Интервалы должны быть числом от {min} до {max}",
+    "invalid_object": "Неверный ответ службы",
+    "invalid_geometry": "Недопустимый тип геометрии, не является точкой, линией или многоугольником.",
+    "invalid_attribute": "Недопустимый тип атрибута в выборе. Выберите допустимый атрибут из списка для метода классификации",
+    "invalid_classes": "Макс должен быть больше мин в каждом классе"
+   },
+   "error": {
+    "defaultGroupOnTop": "Группа {groupTitle} установлена ​​как целевая группа по умолчанию, поэтому она должна оставаться наверху."
+   }
+  },
+  "print": {
+   "paneltitle": "Печать",
+   "layout": "Макет",
+   "sheetsize": "Размер листа:",
+   "legendoptions": "Варианты легенды",
+   "submit": "Печать",
+   "title": "Заголовок",
+   "titleplaceholder": "Введите название...",
+   "description": "Описание",
+   "descriptionplaceholder": "Введите описание...",
+   "resolution": "Разрешение:",
+   "defaultBackground": "Использовать фон по умолчанию",
+   "printtooltip": "Печать",
+   "alternatives": {
+    "legend": "Включить легенду",
+    "2pages": "Легенда на отдельной странице",
+    "landscape": "Пейзаж",
+    "portrait": "Портрет"
+   },
+   "legend": {
+    "font": "Конфигурация меток:",
+    "forceLabels": "Силовые метки",
+    "antiAliasing": "Сглаживание шрифтов",
+    "forceIconsSize": "Изменить размер иконок",
+    "iconsWidth": "Ширина иконок:",
+    "iconsHeight": "Высота иконок:",
+    "dpi": "Точек на дюйм:"
+   },
+   "rotation": "Вращение",
+   "layoutWarning": "Недопустимая раскладка",
+   "scale": "Шкала",
+   "includeScale": "Включить в печать",
+   "disabledpreview": "Предварительный просмотр недоступен при данных параметрах печати.",
+   "outputFormat": "Формат",
+   "previewFormatUnsupported": "Неподдерживаемый формат для предварительного просмотра",
+   "projection": "Система координат",
+   "projectionmismatch": "Несоответствие систем координат между печатной и экранной картой",
+   "graticule": "добавить сетку с метками",
+   "additionalLayers": "Включить наложения"
+  },
+  "backgroundSwitcher": {
+   "tooltip": "Выбрать фон"
+  },
+  "info": {
+   "tooltip": "Запрос объектов на карте"
+  },
+  "expandtoolbar": {
+   "tooltip": "Развернуть / Свернуть"
+  },
+  "getFeatureInfoTitle": "Информация о функции",
+  "identifyTitle": "Информация о функции",
+  "identifyNoQueryableLayers": "Нет активного запрашиваемого слоя",
+  "identifyRevGeocodeHeader": "Координаты",
+  "identifyZoomToFeature": "Увеличить до функции",
+  "identifyStopHighlightingFeatures": "Не выделяйте особенности",
+  "identifyHighlightFeatures": "Выделите особенности",
+  "identifyShowCoordinateEditor": "Показать редактор координат",
+  "identifyHideCoordinateEditor": "Скрыть редактор координат",
+  "identifyCoordinateApplyChanges": "Применить изменения",
+  "identifyChangeCoordinateFormat": "Изменить формат координат",
+  "identifyRevGeocodeModalTitle": "Адрес",
+  "identifyRevGeocodeSubmitText": "Дополнительная информация",
+  "identifyRevGeocodeCloseText": "Закрывать",
+  "identifyRevGeocodeError": "Невозможно геокодировать",
+  "identifyEdit": "Редактировать",
+  "identifyLayerSelectNoResult": "Слои не найдены",
+  "getFeatureInfoError": {
+   "title": "Упс! Что-то не так.",
+   "text": "Во время этого запроса <b>GetFeatureInfo</b> произошла ошибка"
+  },
+  "noFeatureInfo": "По этому вопросу нет информации.",
+  "noInfoForLayers": "Для следующих слоев функции отсутствуют:",
+  "history": {
+   "barLabel": "История карты",
+   "undoBtnTooltip": "Возвращаться",
+   "redoBtnTooltip": "Идти вперед"
+  },
+  "infoFormatLbl": "Формат информационного листа",
+  "infoTriggerLabel": "Событие-триггер для отображения информационного листа",
+  "click": "При нажатии на функцию",
+  "hover": "Наведите курсор на функцию",
+  "measureSupport": {
+   "continueLine": "Нажмите, чтобы продолжить рисовать линию",
+   "continuePolygon": "Нажмите, чтобы продолжить рисование многоугольника.",
+   "startDrawing": "Нажмите, чтобы начать рисовать"
+  },
+  "measureComponent": {
+   "Measure": "Мера",
+   "MeasureLength": "Измерить расстояние",
+   "MeasureArea": "Измерить площадь",
+   "MeasureBearing": "Измерить подшипник",
+   "MeasureTrueBearing": "Измерьте истинный пеленг",
+   "tooltip": "Измерение длины, площади и азимута",
+   "title": "Мера",
+   "lengthButtonText": "Линия",
+   "areaButtonText": "Область",
+   "resetButtonText": "Перезагрузить",
+   "lengthLabel": "Длина",
+   "areaLabel": "Область",
+   "bearingLabel": "Несущий",
+   "trueBearingLabel": "Истинный подшипник",
+   "formula": "Формула расчета расстояния",
+   "showLabel": "Показать этикетку измерения",
+   "saveMeasure": "Сохранить измерения в аннотацию",
+   "addAsAnnotation": "Добавить как аннотацию",
+   "newMeasure": "Новая аннотация",
+   "selectTool": "Выберите инструмент измерения",
+   "exportToGeoJSON": "Экспорт в GeoJSON",
+   "resetTooltip": "Четкие меры",
+   "addAsLayer": "Добавить как слой",
+   "lengthMeasure": "Измерение геодезического расстояния в трехмерном пространстве, которое рассчитывается на эллипсоиде, но отображается там, где вы щелкаете.",
+   "polylineDistance3DMeasure": "Измерение расстояния в трехмерном пространстве",
+   "area3DMeasure": "Измерение площади в трехмерном пространстве",
+   "pointCoordinatesMeasure": "Координаты точки измерения",
+   "heightFromTerrainMeasure": "Измерьте высоту над уровнем моря",
+   "angle3DMeasure": "Измерение угла в трехмерном пространстве",
+   "slopeMeasure": "Измерьте уклон",
+   "tooltipPolylineDistance3DStart": "Нажмите, чтобы начать измерение",
+   "tooltipPolylineDistance3DEnd": "Один щелчок, чтобы добавить сегмент\nили двойной щелчок, чтобы закончить",
+   "tooltipArea3DStart": "Нажмите, чтобы начать измерение",
+   "tooltipArea3DMissingVertex": "Для области необходимо не менее 3 вершин, \nодин щелчок, чтобы добавить вершину",
+   "tooltipArea3DEnd": "Один щелчок, чтобы добавить вершину\nили двойной щелчок, чтобы закончить",
+   "tooltipPointCoordinatesStart": "Нажмите, чтобы добавить измерение высоты точки",
+   "tooltipHeightFromTerrainStart": "Нажмите, чтобы добавить значение расстояния от поверхности местности.",
+   "tooltipAngle3DStart": "Один щелчок мыши позволяет нарисовать 3 точки, представляющие вершины угла.",
+   "tooltipSlopeStart": "Один щелчок, чтобы нарисовать 3 точки, представляющие треугольную поверхность.\nЗначение наклона вычисляется на основе нарисованной треугольной поверхности",
+   "altitude": "Высота",
+   "latitude": "Широта",
+   "longitude": "Долгота"
+  },
+  "search": {
+   "layerMustBeVisible": "Целевой слой неактивен",
+   "decimal": "Десятичная дробь",
+   "aeronautical": "Авиационный",
+   "changeSearchInputField": "Изменить инструмент поиска",
+   "addressSearch": "Поиск по названию местоположения",
+   "searchOnAllServices": "Поиск по всем услугам ниже",
+   "coordinatesSearch": "Поиск по координатам",
+   "currentMapCRS": "Текущая карта CRS",
+   "searchservicesbutton": "Настройка поисковых служб",
+   "configpaneltitle": "Создать/редактировать поисковую службу",
+   "serviceslistlabel": "Доступные услуги",
+   "overriedservice": "Переопределить службы по умолчанию",
+   "addbtn": "Добавлять",
+   "nextbtn": "Следующий",
+   "prevbtn": "Назад",
+   "savebtn": "Сохранить/Обновить",
+   "cancelbtn": "Отмена",
+   "confirmremove": "Удалить?",
+   "cancelconfirm": "Вы уверены?",
+   "searchByBookmark": "Поиск по закладке",
+   "bookmarksettings": "Настройки закладок",
+   "zoomToBookmark": "Увеличить до выбранной закладки",
+   "bookmarkFilter": "Фильтр закладок",
+   "editBookmark": "Изменить закладку",
+   "deleteBookmark": "Удалить закладку",
+   "b_listpaneltitle": "Посмотреть закладки",
+   "b_newpaneltitle": "Добавить новую закладку",
+   "latitude": "Лат.",
+   "longitude": "Лон",
+   "yCoord": "И",
+   "xCoord": "Х",
+   "b_title": "Заголовок",
+   "b_layer_tooltip": "Переключить видимость слоя перезагрузка",
+   "b_bbox": "Ограничительная рамка",
+   "b_bbox_tooltip": "Использовать текущий вид как ограничивающую рамку",
+   "b_bbox_south": "Юг",
+   "b_bbox_south_placeholder": "Введите Юг",
+   "b_bbox_west": "Запад",
+   "b_bbox_west_placeholder": "Вход на Запад",
+   "b_bbox_east": "Восток",
+   "b_bbox_east_placeholder": "Вход на Восток",
+   "b_bbox_north": "Север",
+   "b_bbox_north_placeholder": "Введите Север.",
+   "bookmarkslistempty": "Закладка не определена",
+   "b_placeholder": "Выберите закладку...",
+   "b_clearvalue": "Очистить закладку",
+   "b_noresult": "Закладки не найдены",
+   "s_name": "Имя",
+   "s_title": "Заголовок",
+   "s_description": "Описание",
+   "s_priority": "Приоритет",
+   "s_url": "URL-адрес сервиса",
+   "s_layer": "Слой",
+   "s_attributes": "Атрибуты",
+   "s_sort": "Сортировать по",
+   "s_max_features": "Максимальное количество функций",
+   "s_max_zoom": "Максимальный уровень масштабирования",
+   "s_wfs_props_label": "Свойства службы WFS",
+   "s_wfs_opt_props_label": "Дополнительные свойства",
+   "s_result_props_label": "Свойства отображения результата",
+   "s_priority_info": "Используется для сортировки результатов поиска, сначала меньшие значения. Результаты Nominatim имеют приоритет = 5",
+   "s_placeholder": "Заполнитель для ввода поиска",
+   "s_tooltip": "Подсказка меню услуг",
+   "serviceslistempty": "Пользовательские услуги не определены",
+   "service_missing": "Служба {serviceType} не настроена",
+   "generic_error": "Произошла ошибка во время поиска. Подробности ошибки: {message}",
+   "showGFI": "Показать GFI",
+   "errors": {
+    "nonQueriableLayers": "Слой, указанный в URL-адресе, недоступен для запроса или не отображается на карте.",
+    "serverError": "Сервер вернул ошибку при выполнении запроса GetFeatureInfo. Проверьте правильность параметров."
+   },
+   "s_launch_info_panel": {
+    "label": "Запустить информационную панель",
+    "no_info": "Нет информации",
+    "all_layers": "Все слои",
+    "single_layer": "Один слой",
+    "no_info_description": "Панель идентификации не будет отображаться при поиске",
+    "all_layers_description": "Появится панель идентификации, отображающая информацию обо всех слоях, видимых на карте.",
+    "single_layer_description": "Появится панель идентификации, отображающая информацию только для этого слоя.",
+    "openFeatureInfoButtonCheckbox": "Используйте кнопку, чтобы открыть информацию о функции",
+    "forceSearchLayerVisibility": "Принудительная видимость слоя поиска"
+   },
+   "advancedSearchPanel": {
+    "title": "Фильтры расширенного поиска",
+    "context": {
+     "title": "Контекст"
+    },
+    "showTooltip": "Показать расширенные фильтры",
+    "showTooltipActive": "Показать расширенные фильтры (активные)",
+    "hideTooltip": "Скрыть расширенные фильтры",
+    "hideTooltipActive": "Скрыть расширенные фильтры (активно)"
+   }
+  },
+  "draw": {
+   "fill": "Наполнять",
+   "text": "Текст",
+   "fontTitle": "Шрифт",
+   "color": "Цвет",
+   "lineDash": "ЛинияТире",
+   "stroke": "Гладить",
+   "opacity": "Непрозрачность",
+   "width": "Ширина",
+   "textRotation": "Вращение",
+   "font": {
+    "textColor": "Цвет",
+    "family": "Семья",
+    "size": "Размер",
+    "style": "Стиль",
+    "weight": "Масса",
+    "textAlign": "Выровнять"
+   },
+   "marker": {
+    "layout": "Макет",
+    "shape": "Форма",
+    "size": "Размер",
+    "type": "Тип",
+    "icon": "Икона"
+   }
+  },
+  "drawLocal": {
+   "draw": {
+    "toolbar": {
+     "actions": {
+      "title": "Отменить рисование",
+      "text": "Отмена"
+     },
+     "undo": {
+      "title": "Удалить последнюю нарисованную точку",
+      "text": "Удалить последнюю точку"
+     },
+     "buttons": {
+      "polyline": "Нарисуйте полилинию",
+      "polygon": "Нарисуйте многоугольник",
+      "rectangle": "Нарисуйте прямоугольник.",
+      "circle": "Нарисуй круг.",
+      "marker": "Нарисуй маркер."
+     }
+    },
+    "handlers": {
+     "circle": {
+      "tooltip": {
+       "start": "Щелкните и перетащите, чтобы нарисовать круг."
+      }
+     },
+     "marker": {
+      "tooltip": {
+       "start": "Щелкните карту, чтобы разместить маркер."
+      }
+     },
+     "polygon": {
+      "tooltip": {
+       "start": "Щелкните, чтобы начать рисовать фигуру.",
+       "cont": "Нажмите, чтобы продолжить рисование фигуры.",
+       "end": "Щелкните первую точку, чтобы замкнуть эту фигуру."
+      }
+     },
+     "polyline": {
+      "error": "Ошибка: края фигуры не должны пересекаться!",
+      "tooltip": {
+       "start": "Нажмите, чтобы начать рисовать линию.",
+       "cont": "Нажмите, чтобы продолжить рисование линии.",
+       "end": "Щелкните последнюю точку, чтобы завершить линию."
+      }
+     },
+     "rectangle": {
+      "tooltip": {
+       "start": "Щелкните и перетащите, чтобы нарисовать прямоугольник."
+      }
+     },
+     "simpleshape": {
+      "tooltip": {
+       "end": "Отпустите кнопку мыши, чтобы завершить рисование."
+      }
+     }
+    }
+   },
+   "edit": {
+    "toolbar": {
+     "actions": {
+      "save": {
+       "title": "Сохраните изменения.",
+       "text": "Сохранять"
+      },
+      "cancel": {
+       "title": "Отменить редактирование, отменить все изменения.",
+       "text": "Отмена"
+      }
+     },
+     "buttons": {
+      "edit": "Редактировать слои.",
+      "editDisabled": "Нет слоев для редактирования.",
+      "remove": "Удалить слои.",
+      "removeDisabled": "Нет слоев для удаления."
+     }
+    },
+    "handlers": {
+     "edit": {
+      "tooltip": {
+       "text": "Перетащите маркеры или маркеры для редактирования объекта.",
+       "subtext": "Нажмите «Отмена», чтобы отменить изменения."
+      }
+     },
+     "remove": {
+      "tooltip": {
+       "text": "Нажмите на функцию, чтобы удалить ее."
+      }
+     }
+    }
+   }
+  },
+  "locate": {
+   "tooltip": "Показать мою позицию",
+   "tooltipDeactivate": "Перестаньте показывать мою позицию",
+   "metersUnit": "метров",
+   "feetUnit": "ноги",
+   "popup": "Вы находитесь на расстоянии {distance} {unit} от этой точки",
+   "outsideMapBoundsMsg": "Кажется, вы находитесь за пределами карты."
+  },
+  "zoombuttons": {
+   "zoomInTooltip": "Увеличить масштаб",
+   "zoomOutTooltip": "Уменьшить масштаб",
+   "zoomAllTooltip": "Увеличить до исходного вида"
+  },
+  "fullscreen": {
+   "tooltipActivate": "Переключиться на полный экран",
+   "tooltipDeactivate": "Выйти из полноэкранного режима",
+   "viewLargerMap": "Просмотреть увеличенную карту"
+  },
+  "helptexts": {
+   "scaleBox": "Это текст справки для ScaleBox",
+   "zoomToMaxExtentButton": "Это текст справки для ZoomToMaxExtentButton",
+   "zoomIn": "Это текст справки для ZoomIn",
+   "zoomOut": "Это текст справки для ZoomOut",
+   "searchBar": "Напишите адрес места, которое нужно найти. Например, '1st Avenue, New York'. Вы даже можете вставить координаты в этом формате: 43.87,10.20",
+   "metadataexplorer": "Это текст справки для MetadataExplorer",
+   "settingsPanel": "Это текст справки для SettingsPanel",
+   "gohome": "Это текст справки для Home",
+   "measureComponent": "Это текст справки для MeasureComponent",
+   "layerSwitcher": "Это текст справки для LayerSwitcher",
+   "infoButton": "Это текст справки для InfoButton",
+   "locateBtn": "Это текст справки для LocateBtn",
+   "snapshot": "Это текст справки для снимка",
+   "print": "Это текст справки для печати",
+   "shapefile": "Это текст справки для Shapefile",
+   "rasterstyler": "Определите минимальное значение, максимальное значение, количество классов и цветовую шкалу для создания новой классификации для выбранного растрового слоя.",
+   "expandToolbar": "Это текст справки для Развернуть / Свернуть",
+   "historyundo": "Используйте эту кнопку, чтобы перейти к предыдущему масштабу карты и местоположению.",
+   "historyredo": "Используйте эту кнопку для перехода к следующему масштабу карты и местоположению.",
+   "vectorstyler": "Добавить правило и создать новый стилизованный векторный слой",
+   "styler": "Добавить правило и создать новый стилизованный слой"
+  },
+  "queryform": {
+   "title": "Расширенный поиск",
+   "query": "Поиск",
+   "apply": "Применять",
+   "reset": "Сброс: сброс всех фильтров, включая любые другие внешние фильтры.",
+   "save": "Сохранять",
+   "discard": "Отменить",
+   "query_request_exception": "Ошибка запроса",
+   "config": {
+    "load_config_exception": "Ошибка загрузки конфигурации"
+   },
+   "comboField": {
+    "default_placeholder": "Выбирать...",
+    "drop_down": "Открыть выпадающее меню"
+   },
+   "form": {
+    "header": "Найти в наборе данных",
+    "dataset_header": "Набор данных"
+   },
+   "emptyfilter": "Фильтр не установлен. Поиск может быть прерван, если сервер не поддерживает пагинацию.",
+   "attributefilter": {
+    "add_condition": "Добавить условие",
+    "delete": "Удалить",
+    "deleteGroup": "Удалить группу",
+    "add_group": "Добавить группу",
+    "group_label_a": "Соответствовать",
+    "group_label_b": "из следующих условий:",
+    "combo_placeholder": "Атрибут",
+    "text_placeholder": "Введите текст для поиска",
+    "attribute_filter_header": "Фильтр атрибутов",
+    "tooltipTextField": "используйте <b>*</b> для любого количества любых символов</br>используйте . для одного символа</br>используйте <b>!</b> для экранирования двух предыдущих символов (* и .)</br>",
+    "tooltipTextFieldCSS": "используйте <b>%</b> для любого количества любых символов</br>используйте <b>_</b> для одного символа</br>используйте <b>\\</b> для экранирования двух предыдущих символов (% и _)</br>",
+    "tooltipTextField3DTiles": "используйте значение, поддерживаемое функцией <strong>regExp</strong> спецификации стиля 3D-плиток 1.0",
+    "groupField": {
+     "any": "любой",
+     "all": "все",
+     "none": "никто"
+    },
+    "numberfield": {
+     "isRequired": "Обязательное значение поля",
+     "wrong_range": "Нижняя граница должна быть ниже верхней границы"
+    },
+    "datefield": {
+     "wrong_date_range": "Дата начала должна быть раньше даты окончания.",
+     "placeholder": "Вставьте дату",
+     "tooltip": "Вставьте дату в формате {format}",
+     "quickSelectors": {
+      "today": "Сегодня",
+      "now": "Сейчас",
+      "tomorrow": "Завтра",
+      "yesterday": "Вчера",
+      "thisWeek": "На этой неделе",
+      "thisMonth": "В этом месяце",
+      "nDaysFrom": "{n} дней с {todayNow}"
+     }
+    },
+    "autocomplete": {
+     "emptyList": "Нет результатов",
+     "emptyFilter": "Фильтр не дал результатов.",
+     "open": "Открыть выпадающий список"
+    }
+   },
+   "spatialfilter": {
+    "filterType": "Тип фильтра",
+    "geometric_operation": "Геометрическая операция",
+    "combo_placeholder": "Выбирать...",
+    "spatial_filter_header": "Область интересов",
+    "remove": "Удалять",
+    "draw_start_label": "Нарисуйте интересующий вас регион на карте",
+    "dwithin_label": "метров",
+    "details": {
+     "detail_button_label": "Подробности",
+     "details_header": "Детали выбора",
+     "details_bbox_label": "Измените координаты, чтобы изменить область.",
+     "details_circle_label": "Отредактируйте числовые поля, чтобы изменить радиус и центр круга.",
+     "reset_bbox": "Перезагрузить",
+     "save_bbox": "Сохранить модификации BBOX",
+     "save_radius": "Сохраните изменения радиуса/центра.",
+     "radius": "Радиус({единица})"
+    },
+    "methods": {
+     "zone": "Зона",
+     "viewport": "Видовой порт",
+     "regions": "Регионы",
+     "box": "Прямоугольник",
+     "buffer": "Буфер",
+     "circle": "Круг",
+     "poly": "Полигон",
+     "cql": "CQL"
+    },
+    "operations": {
+     "intersects": "Пересекается",
+     "bbox": "Ограничивающая рамка",
+     "contains": "Содержится",
+     "dwithin": "Расстояние от",
+     "within": "Содержит"
+    }
+   },
+   "crossLayerFilter": {
+    "title": "Фильтр слоев",
+    "targetLayer": "Целевой слой",
+    "clear": "Очистить фильтр",
+    "operation": "Операция",
+    "placeholder": "Выбрать слой",
+    "errors": {
+     "noCrossLayerAvailable": "Фильтрация между слоями недоступна для выбранного слоя.",
+     "layersExcluded": "В качестве целевого слоя для этого фильтра слоев можно выбрать только слои, поступающие из одного источника."
+    }
+   },
+   "changedFilter": "Фильтр изменен",
+   "changedFilterAlert": "Есть несохраненные изменения. Хотите сохранить их?",
+   "resetFilter": "Удалить фильтр",
+   "confirmReset": "Подтверждать",
+   "loadingError": "Текущий фильтр вызвал проблему рендеринга слоя на карте. Проверьте конфигурацию слоя на сервере или исправьте фильтр",
+   "changedFilterWithErrorAlert": "Фильтр вызывает ошибку рендеринга слоя. Хотите сохранить его в любом случае?"
+  },
+  "annotations": {
+   "errorLoadingSymbols": "Возникла проблема с загрузкой списка символов. Пожалуйста, свяжитесь с администратором, чтобы проверить параметры конфигурации.",
+   "edit": "Редактировать",
+   "remove": "Удалить",
+   "save": "Сохранить аннотацию",
+   "saveGeometry": "Сохранить геометрию",
+   "cancel": "Отмена",
+   "back": "Вернуться к аннотации",
+   "applyStyle": "Применить стиль",
+   "addGeometry": "Добавить новую геометрию",
+   "styleGeometry": "Изменить стиль",
+   "deleteGeometry": "Удалить все геометрические элементы аннотаций",
+   "geometries": "Геометрии",
+   "removeannotation": "Хотите удалить аннотацию с заголовком: {title}?",
+   "removegeometry": "Хотите удалить функцию аннотаций?",
+   "confirm": "Подтверждать",
+   "mandatory": "Обязательное поле",
+   "emptygeometry": "Добавьте хотя бы одну допустимую геометрию",
+   "empty": "Пока нет аннотаций, нажмите [+], чтобы добавить аннотации",
+   "add": "Новый",
+   "filter": "Фильтровать аннотации...",
+   "undo": "Вы уверены, что хотите покинуть сеанс редактирования аннотации? Недействительные функции будут удалены после закрытия",
+   "titleUndoGeom": "Геометрия изменилась.",
+   "undoGeom": "Вы уверены, что хотите выйти без сохранения? (Вы потеряете все изменения)",
+   "confirmGeom": "Подтверждать",
+   "cancelModalGeom": "Отмена",
+   "deleteFeature": "Удалить эту функцию",
+   "undoDeleteFeature": "Вы уверены, что хотите удалить эту функцию?",
+   "enableEdit": "Включить редактирование",
+   "editMeasurement": "Изменить измерение",
+   "title": "Аннотации",
+   "zoomTo": "Увеличить аннотацию",
+   "zoomToGeometry": "Увеличить масштаб геометрии",
+   "removeGeometry": "Удалять",
+   "hide": "Скрыть аннотацию",
+   "show": "Показать аннотацию",
+   "tabCoordinates": "Координаты",
+   "warning": "Предупреждение!",
+   "measureWarningText": "Переход на панель редактирования измерений удалит все примененные стили.",
+   "notShowAgain": "Больше не показывать это сообщение",
+   "tabStyle": "Стиль",
+   "insertText": "Пожалуйста, вставьте текстовую аннотацию",
+   "downloadtooltip": "Скачать аннотации",
+   "downloadcurrenttooltip": "Скачать текущую аннотацию",
+   "downloadError": "Ошибка экспорта",
+   "loadtooltip": "Импорт аннотаций",
+   "loadtitle": "Импорт аннотаций",
+   "selectfiletext": "Перетащите сюда свой файл или щелкните, чтобы выбрать файл аннотации для импорта. (поддерживаемые файлы: JSON)",
+   "loadoverride": "Заменить аннотации",
+   "loaderror": "Выберите один или несколько файлов аннотаций. (поддерживаемые файлы: JSON)",
+   "defaulttitle": "Изменить заголовок по умолчанию",
+   "tooltip": "Аннотации",
+   "field": {
+    "title": "Заголовок",
+    "description": "Описание"
+   },
+   "titles": {
+    "marker": "Маркер",
+    "line": "Линия",
+    "polygon": "Полигон",
+    "text": "Текст",
+    "circle": "Круг"
+   },
+   "editor": {
+    "decimal": "Десятичная дробь",
+    "aeronautical": "Авиационный",
+    "title": {
+     "Polygon": "Редактор полигонов",
+     "LineString": "Редактор LineString",
+     "Bearing": "Редактор подшипников",
+     "Circle": "Редактор круга",
+     "Point": "Редактор маркеров",
+     "MultiPoint": "Многоточечный редактор",
+     "Text": "Текстовый редактор"
+    },
+    "center": "Центр",
+    "add": "Добавить новые координаты",
+    "addByClick": "Добавьте новые координаты, нажав кнопку «плюс» или на карте.",
+    "valid": "Геометрия верна",
+    "radius": "Радиус",
+    "text": "Текст",
+    "lat": "Широта",
+    "lon": "Долгота",
+    "notValidMarker": "Введите допустимую координату (+|- 90° широты, +|-180° долготы)",
+    "notValidPolyline": "Все координаты должны быть действительными (+|- 90° широты, +|-180° долготы)",
+    "notValidText": "Введите текстовое значение и допустимую координату (+|- 90° широты, +|-180° долготы)",
+    "notValidCircle": "Введите значение радиуса и допустимую координату (+|- 90° широты, +|-180° долготы)",
+    "newFeature": "Новый"
+   },
+   "geometryError": "Конфигурация геометрии недействительна",
+   "annotationSaveGeometryError": "Сохранение отключено из-за недопустимой геометрии. Исправьте ее, чтобы сохранить аннотацию.",
+   "resolveAllErrors": "Пожалуйста, исправьте все ошибки проверки перед редактированием других геометрий.",
+   "selectAnnotationFeature": "Выберите функцию аннотации на левой панели, чтобы редактировать координаты и стили.",
+   "properties": "Характеристики",
+   "deactivatedMapInteraction": "Взаимодействия рисования аннотаций были деактивированы, поскольку был активирован плагин '{pluginName}'. Пожалуйста, закройте плагин '{pluginName}', чтобы активировать взаимодействия рисования аннотаций"
+  },
+  "user": {
+   "login": "Авторизоваться",
+   "logout": "Выйти",
+   "info": "Информация об учетной записи",
+   "details": "Данные пользователя",
+   "noAttributesMessage": "Нет никакой информации, связанной с вашей учетной записью.",
+   "changePwd": "Изменить пароль",
+   "newPwd": "Новый пароль",
+   "retypePwd": "Введите пароль еще раз",
+   "passwordMinlenght": "Ваш пароль должен содержать не менее {data} символов.",
+   "passwordCheckFail": "Пароли не совпадают!",
+   "passwordInvalid": "Неверный пароль",
+   "username": "Имя пользователя",
+   "password": "Пароль",
+   "passwordMessage": "Пароль должен содержать не менее 6 символов.",
+   "passwordInvalidChar": "Пароль не должен содержать следующие символы: {data}",
+   "passwordChanged": "Пароль изменен",
+   "passwordError": "Ошибка при смене пароля",
+   "signIn": "Войти",
+   "signInWith": "Войти с помощью",
+   "orSignInWith": "Или войдите с помощью",
+   "loginFail": "Ошибка входа",
+   "loginFailedStatusMessages": {
+    "usernamePwdInsert": "Введите имя пользователя и пароль.",
+    "usernamePwdIncorrect": "Неверное имя пользователя или пароль"
+   },
+   "detailsName": "Имя",
+   "detailsRole": "Роль",
+   "detailsGroups": "Группы",
+   "detailsEmail": "Электронная почта",
+   "detailsCompany": "Компания",
+   "detailsNotes": "Примечания",
+   "userMenu": "Меню пользователя",
+   "generalInformation": "Общий",
+   "attributes": "Атрибуты"
+  },
+  "users": {
+   "title": "Управление счетами",
+   "users": "Пользователи",
+   "manageUsers": "Управление пользователями",
+   "searchUsers": "поиск пользователей...",
+   "newUser": "Новый пользователь",
+   "editUser": "Редактировать пользователя",
+   "deleteUser": "Удалить пользователя",
+   "statusTitle": "статус",
+   "enabled": "Включено",
+   "groupTitle": "Группы:",
+   "roleTitle": "Роль",
+   "saveUser": "Сохранять",
+   "savingUser": "Сохранение...",
+   "userSaved": "Сохранено!",
+   "createUser": "Создавать",
+   "creatingUser": "Создание...",
+   "userCreated": "Созданный!",
+   "deleting": "Удаление...",
+   "delete": "Удалить",
+   "confirmDeleteUser": "Вы уверены, что хотите удалить этого пользователя?",
+   "errorDelete": "При удалении этого пользователя произошла ошибка:",
+   "errorSaving": "Произошла ошибка при сохранении пользователя:",
+   "selectedGroups": "ИЗБРАННЫЕ ГРУППЫ",
+   "requiredFiedsMessage": "Поля, отмеченные звездочкой (*), обязательны для заполнения."
+  },
+  "usergroups": {
+   "searchGroups": "Поиск групп...",
+   "groups": "Группы",
+   "nameLimit": "Длина имени ограничена 255 символами.",
+   "descLimit": "Длина описания ограничена 255 символами.",
+   "editGroup": "Редактировать группу",
+   "deleteGroup": "Удалить группу",
+   "removeUser": "Удалить пользователя",
+   "newGroup": "Новая Группа",
+   "manageGroups": "Управление группами",
+   "description": "Описание:",
+   "noDescriptionAvailable": "(Нет описания)",
+   "groupName": "Название группы",
+   "groupDescription": "Описание",
+   "saveGroup": "Сохранять",
+   "createGroup": "Создавать",
+   "creatingGroup": "Создание...",
+   "groupMembers": "Участники:",
+   "addMember": "Добавить участника:",
+   "selectMemberPlaceholder": "Выберите участника...",
+   "noUsers": "Нет пользователей для этой группы",
+   "errorSaving": "Произошла ошибка при сохранении этой группы",
+   "errorDelete": "Произошла ошибка при удалении этой группы",
+   "confirmDeleteGroup": "Вы уверены, что хотите удалить эту группу?",
+   "generalInformation": "Общий",
+   "members": "Участники"
+  },
+  "share": {
+   "title": "Делиться",
+   "tooltip": "Делиться",
+   "titlePanel": "Поделиться картой",
+   "socialIntro": "В вашей любимой социальной сети",
+   "directLinkTitle": "По прямой ссылке",
+   "embeddedLinkTitle": "Через встроенный код",
+   "social": "Социальный",
+   "direct": "Связь",
+   "code": "Встроить",
+   "forceDrawer": "Показать оглавление",
+   "apiLinkTitle": "Использование API",
+   "QRCodeLinkTitle": "QR-код",
+   "msgCopiedUrl": "Скопировано",
+   "msgToCopyUrl": "Нажмите, чтобы скопировать",
+   "sharedTitle": "Посмотрите мою новую карту:",
+   "addCenterAndZoomParam": "Добавить центр и масштаб к ссылке общего доступа",
+   "addMarkerAndZoomParam": "Добавить метку и масштабировать ссылку для обмена",
+   "zoom": "Увеличить",
+   "marker": "Добавить маркер на загруженную карту",
+   "coordinate": "Координировать",
+   "coordTooltip": "Нажмите на карту, чтобы получить координаты",
+   "zoomToolTip": "Мин.: 1 и Макс.: 35",
+   "headingToolTip": "Мин.: 0° и Макс.: 360°",
+   "rollToolTip": "Мин.: 0° и Макс.: 360°",
+   "pitchToolTip": "Мин.: -90° и Макс.: 90°",
+   "wrongCenterAndZoomParamTitle": "Неверный центр и параметр масштабирования",
+   "wrongCenterAndZoomParamMessage": "Параметры центра и масштабирования должны быть center=lon,lat&zoom=value и (+|- 90° широты, +|-180° долготы, <=+35 масштаба)",
+   "wrongMarkerAndZoomParamTitle": "Неверный маркер и параметр масштабирования",
+   "wrongMarkerAndZoomParamMessage": "Параметры маркера и масштабирования должны быть marker=lon,lat&zoom=value и (+|- 90° широты, +|-180° долготы, <=+35 масштаба)",
+   "advancedOptions": "Расширенные возможности",
+   "addBboxParam": "Добавить параметр ограничивающей рамки к ссылке общего доступа",
+   "wrongBboxParamTitle": "Неверный параметр ограничивающего прямоугольника",
+   "wrongBboxParamMessage": "Параметры ограничивающего прямоугольника должны быть в EPSG:4326 и записаны как bbox=minx,miny,maxx,maxy",
+   "showHomeButton": "Ссылка на домашнюю страницу MapStore",
+   "showSectionId": "Включить позицию прокрутки",
+   "showConnections": "Показать связи",
+   "heading": "Заголовок",
+   "roll": "Рулон",
+   "pitch": "Подача",
+   "sizeOptions": {
+    "width": "ширина",
+    "height": "высота"
+   }
+  },
+  "permalink": {
+   "title": "Постоянная ссылка",
+   "shareLinkTitle": "Постоянная ссылка сгенерирована",
+   "accessible": "Публичный",
+   "success": "Постоянная ссылка успешно сохранена",
+   "createCategorySuccess": "Категория \"PERMALINK\" отсутствовала, поэтому она была создана",
+   "descriptionLabel": "Описание",
+   "titleLabel": "Заголовок",
+   "titlePlaceholder": "Введите название",
+   "descriptionPlaceholder": "Введите описание",
+   "generate": "Создать постоянную ссылку",
+   "create": "Создать новую постоянную ссылку",
+   "loadingSpinner": "Загрузка постоянной ссылки",
+   "subtitle": "Поделитесь ресурсом, используя сгенерированный адрес",
+   "errors": {
+    "loading": {
+     "unknownError": "Произошла ошибка при загрузке постоянной ссылки",
+     "permalinkNotAccessible": "У вас нет разрешения на доступ к этой постоянной ссылке. Пожалуйста, свяжитесь с владельцем ресурса",
+     "permalinkDoesNotExist": "Постоянная ссылка, к которой вы пытаетесь получить доступ, не существует.",
+     "title": "Ошибка загрузки персональной ссылки",
+     "pleaseLogin": "Эта постоянная ссылка не является публичной. Попробуйте войти",
+     "notFound": "Постоянная ссылка не найдена",
+     "notAccessible": "Постоянная ссылка недоступна"
+    },
+    "save": {
+     "title": "Не удалось создать постоянную ссылку",
+     "generic": "Ошибка при сохранении постоянной ссылки",
+     "categoryErrorAdmin": "Не удалось создать отсутствующую категорию \"{categoryName}\"",
+     "categoryErrorNonAdmin": "Отсутствует категория \"{categoryName}\", свяжитесь с администратором для создания категории"
+    }
+   }
+  },
+  "snapshot": {
+   "title": "Предварительный просмотр снимка",
+   "save": "Сохранять",
+   "tooltip": "Сохраните снимок карты.",
+   "googleBingError": "Слои Google и Bing недоступны для снимка из-за ограничений авторских прав.",
+   "downloadingSnapshots": "ожидание создания моментального снимка",
+   "date": "Дата",
+   "layers": "Слои",
+   "size": "Размер",
+   "notsupported": "Снимок не поддерживается",
+   "taintedMessage": "Функциональность сохранения снимка ограничена из-за некоторых правил безопасности браузера. Для лучшего результата щелкните правой кнопкой мыши по предварительному просмотру и выберите «Сохранить изображение как...» (поддерживается Firefox и Chrome)."
+  },
+  "shapefile": {
+   "title": "Добавить локальные векторные файлы",
+   "tooltip": "Добавьте на карту локальные векторные файлы.",
+   "placeholder": "Перетащите сюда свои файлы или щелкните, чтобы выбрать векторные файлы для импорта. (поддерживаемые файлы: шейп-файлы (в виде zip-архива), KML/KMZ, GPX)",
+   "defaultStyle": "Стиль по умолчанию",
+   "zoom": "Увеличить векторные файлы",
+   "error": {
+    "select": "Выберите один или несколько файлов. (поддерживаемые файлы: шейп-файлы (в виде zip-архива), KML/KMZ, GPX)",
+    "shapeFileParsingError": "Невозможно загрузить векторный файл. Файл может быть поврежден или неправильно сформирован.",
+    "genericLoadError": "Невозможно загрузить векторный файл на карту",
+    "missingPrj": "Отсутствует информация о проекции (.prj), предполагается, что система координат EPSG:4326"
+   },
+   "merge": "Объединить с существующим слоем аннотаций",
+   "replace": "Заменить существующий слой аннотаций",
+   "add": "Добавлять",
+   "cancel": "Отмена",
+   "success": "правильно импортировано",
+   "next": "Следующий",
+   "skip": "Пропускать",
+   "finish": "Заканчивать",
+   "layerOf": "Слой {количество} из {всего}:",
+   "styleCustomizationDisabled": "Для этого слоя уже определен стиль, и его невозможно настроить."
+  },
+  "mapImport": {
+   "title": "Импорт",
+   "tooltip": "Импорт файла карты или векторных данных",
+   "dropZone": {
+    "heading": "<p><h4>Перетащите сюда контекст карты или векторные файлы</h4><small>или</small></p>",
+    "selectFiles": "Выберите файлы...",
+    "infoSupported": "<p><small>Поддерживаемые файлы контекста карты: устаревший формат MapStore, WMC<br />Поддерживаемые файлы векторных слоев: шейп-файлы (должны содержаться в zip-архивах), KML/KMZ, GeoJSON, аннотации или GPX</small></p>",
+    "note": "<p><small><i><strong>примечание</strong>: текущая карта будет перезаписана в случае файлов контекста карты</i></small></p>"
+   },
+   "errors": {
+    "fileNotSupported": "Файл не поддерживается",
+    "unknownError": "во время импорта произошла неизвестная ошибка",
+    "projectionNotSupported": "Проекция файла(ов), который вы пытаетесь импортировать, не поддерживается.",
+    "fileBeyondBoundaries": "Файл {filename} не может быть импортирован, так как он не вписывается в границы карты."
+   }
+  },
+  "mapExport": {
+   "title": "Экспорт",
+   "tooltip": "Экспортировать текущую карту",
+   "exportPanel": {
+    "title": "<p><h4>Выберите формат</h4></p>",
+    "exportButtonLabel": "Экспорт"
+   },
+   "formats": {
+    "mapstore2": {
+     "label": "MapStore",
+     "description": "<p><small>Формат конфигурации карты MapStore</small></p>"
+    },
+    "wmc": {
+     "label": "ВМК",
+     "description": "<p><small>Формат контекста веб-карты OGC</small></p>",
+     "note": "<p><small><i><strong>примечание</strong>: формат WMC поддерживает <strong>только слои WMS</strong></i></small></p>"
+    }
+   },
+   "errorTitle": "Экспорт карты не удался",
+   "wmcNoLayersError": "Для экспорта в WMC необходим как минимум один слой WMS, не найдено ни одного"
+  },
+  "catalog": {
+   "start": "Дата начала",
+   "end": "Дата окончания",
+   "notAvailable": "Нет в наличии",
+   "title": "Каталог",
+   "tooltip": "Добавить слои на карту",
+   "autoload": "Поиск по выбору услуг",
+   "fetchMetadata": {
+    "label": "Загрузить метаданные файла при сохранении",
+    "tooltip": "Эта опция извлечет метаданные для поддержки масштабирования слоя. Это может замедлить операцию поиска, если изображения слишком большие или их слишком много."
+   },
+   "clearValueText": "Очистить выбор",
+   "noResultsText": "Результата нет",
+   "addToMap": "Добавить на карту",
+   "getWMSLink": "Получить WMS-ссылку",
+   "error": "Произошла ошибка при загрузке данных",
+   "pageInfo": "Результаты {начало}-{конец} из {всего}",
+   "resultInfo": "{total, plural, =0 {Нет элементов} =1 {{total} Элемент из {total}} other {{start}-{end} из {total}}}",
+   "pageInfoInfinite": "{total, plural, =undefined {} =0 {Нет результатов} =1 {{total} из {total} сопоставленных} other {Загружено {loaded} из {total} сопоставленных}}",
+   "noRecordsMatched": "Нет соответствующих записей",
+   "wmsGetCapLink": "ВМС",
+   "wfsGetCapLink": "ВФС",
+   "additionalOGCServices": {
+    "wfs": "ИЗ ВФС",
+    "wms": "ОТ WMS"
+   },
+   "share": "Делиться",
+   "copyToClipboard": "Копировать в буфер обмена",
+   "copied": "Скопировано!",
+   "textSearchPlaceholder": "текст для поиска...",
+   "search": "Поиск",
+   "delete": "Удалить",
+   "reset": "Прозрачный",
+   "options": "Параметры",
+   "srs_not_allowed": "Система координат карты не поддерживается этим сервисом.",
+   "add": "Добавлять",
+   "service": "Услуга",
+   "servicePlaceholder": "тип услуги",
+   "url": "URL",
+   "urlPlaceholder": "введите URL",
+   "type": "Тип",
+   "serviceTitle": "Заголовок",
+   "serviceTitlePlaceholder": "введите заголовок",
+   "tms": {
+    "provider": "Провайдер",
+    "urlTemplate": "Шаблон URL-адреса",
+    "urlTemplateHint": "<p>Шаблон URL для вашей пользовательской службы TMS с возможностью вставки переменных (выраженных с помощью фигурных скобок, например, <code>{var_name}</code>), которые будут заменены приложением.<br/>. Переменные <code>{x}</code>, <code>{y}</code> и <code>{z}</code> зарезервированы для значений координат сетки плитки. Вы также можете использовать переменную <code>{s}</code> для поддоменов. Любая другая переменная, указанная в URL, должна быть указана также в параметрах внутри «Пользовательской конфигурации TMS» (Расширенные настройки)</p>",
+    "customTMSConfiguration": "Пользовательская конфигурация TMS",
+    "customTMSConfigurationHint": "<p>Параметры могут содержать:<br/><ul><li><code>\"subdomains\": ['a', 'b']</code>: используется для нескольких доменов, заменяет <code>{s}</code> в шаблоне URL</li><li><code>\"maxNativeZoom\": 20</code>: максимальный зум с сервера</li></ul></p>",
+    "forceDefaultTileGrid": "Принудительно использовать сетку плитки по умолчанию",
+    "forceDefaultTileGridDescription": "Использовать глобальную проекционную сетку тайлов вместо источника и разрешений, предоставленных сервером. Это полезно для некоторых служб TMS, которые рекламируют неправильный источник или разрешения."
+   },
+   "urls": "URL-адрес(ы)",
+   "cog": {
+    "urlTemplateHint": "Можно добавить несколько URL-адресов, разделив их запятыми. Каждый URL-адрес будет рассматриваться как отдельный слой"
+   },
+   "tileprovider": {
+    "tooltip": "x,y,z — положение плитки, s — поддомен (по умолчанию)"
+   },
+   "missingReference": "Отсутствуют справочные метаданные OGC",
+   "showDescription": "Показать полное описание",
+   "hideDescription": "Скрыть полное описание",
+   "templateFormatDescriptionExample": "Описание слоя:",
+   "showTemplate": "Показать шаблон метаданных",
+   "showPreview": "Показать предварительный просмотр",
+   "advancedSettings": "Расширенные настройки",
+   "templateMetadataAvailable": "Метаданные доступны в формате Dublin Core: аннотация, boundingBox, участник, создатель, описание, формат, идентификатор, ссылки, права, источник, тема, временной, заголовок, тип, URI",
+   "invalidUrlHttpProtocol": "Указанный URL не является безопасным, так как использует HTTP. Необходимо указать URL, использующий протокол HTTPs. При использовании HTTP запросы будут обрабатываться автоматически, чтобы предотвратить проблемы безопасности браузера, проходя через прокси-сервер",
+   "invalidArrayUsageForUrl": "URL-адрес каталога не может быть правильно проанализирован.",
+   "notification": {
+    "errorTitle": "Ошибка",
+    "errorSearchingRecords": "Некоторые записи не найдены: {records} Проверьте URL-адрес запроса и его параметры.",
+    "warningAddCatalogService": "Вставьте действительный URL и заголовок",
+    "addCatalogService": "Услуга добавлена ​​правильно",
+    "duplicatedServiceTitle": "Услуга с таким названием уже существует. Пожалуйста, измените название",
+    "serviceDeletedCorrectly": "Услуга была удалена правильно.",
+    "errorServiceUrl": "Услуга недоступна. Пожалуйста, проверьте предоставленный URL"
+   },
+   "backgroundAlreadyAdded": "Добавлено в селектор фона",
+   "enableLocalizedLayerStyles": {
+    "label": "Включить локализованные стили",
+    "tooltip": "Примечание: этот параметр требует определенных настроек на GeoServer."
+   },
+   "format": {
+    "noOption": "Нет выбора",
+    "loading": "Загрузка...",
+    "refresh": "Получить поддерживаемые форматы"
+   },
+   "filter": {
+    "static": {
+     "label": "Статический фильтр",
+     "info": "Фильтр применяется всегда, даже при пустом поиске"
+    },
+    "dynamic": {
+     "label": "Динамический фильтр",
+     "info": "Фильтр используется, когда присутствует искомый текст, и применяется в «И» со статическим фильтром.",
+     "helpText": "Используйте шаблон с заполнителем $\\{searchText\\} для захвата строки поиска"
+    },
+    "error": "Неверный синтаксис XML"
+   },
+   "autoSetVisibilityLimits": {
+    "label": "Установить предел видимости",
+    "tooltip": "Автоматически применяет ограничения видимости, предложенные сервером"
+   },
+   "singleTile": {
+    "tooltip": "При добавлении на карту с включенной опцией слой отображается как единое мозаичное изображение."
+   },
+   "allowUnsecureLayers": {
+    "label": "Разрешить небезопасные слои",
+    "tooltip": "Добавление слоя на карту при включенной опции заставляет приложение применять прокси-сервер."
+   },
+   "domainAliases": {
+    "title": "Псевдонимы домена",
+    "helpTooltip": "Эта опция используется для разделения контента на несколько поддоменов.",
+    "addAliasTooltip": "Добавить псевдоним",
+    "removeAliasTooltip": "Удалить псевдоним"
+   },
+   "sortBy": {
+    "label": "Сортировать по",
+    "tooltip": "Добавьте префикс пространства имен к свойству имени. Например, ${namespace}:${name}",
+    "placeholder": "Введите имя"
+   }
+  },
+  "uploader": {
+   "filename": "Имя файла",
+   "type": "Тип",
+   "lastModified": "Последнее изменение",
+   "filesize": "Размер",
+   "beforeUpload": "Выполнение операций предварительной загрузки...",
+   "uploadingFiles": "Загрузка файлов...",
+   "dropfile": "перетащите файлы сюда для загрузки",
+   "dropfileImport": "перетащите файлы сюда, чтобы добавить их в этот процесс"
+  },
+  "importer": {
+   "title": "Импорт данных",
+   "imports": "Импорт сессий",
+   "importN": "Сессия {id}",
+   "creatingImportProcess": "Создание сеанса импорта...",
+   "dropfile": "перетащите файлы сюда, чтобы создать новый сеанс импорта",
+   "dropfileImport": "перетащите файлы сюда, чтобы добавить их в этот сеанс",
+   "process": "Сессия",
+   "number": null,
+   "workspace": {
+    "create": "Создавать",
+    "createWS": "создайте новое рабочее пространство:",
+    "target": "целевое рабочее пространство:",
+    "failure": "Ошибка создания рабочего пространства: {statusWS}",
+    "success": "Рабочее пространство {statusWS} успешно создано",
+    "select": "Выберите целевую рабочую область",
+    "new": "Новое имя рабочего пространства..."
+   },
+   "import": {
+    "actions": "Действия",
+    "tasks": "Пакеты",
+    "runImport": "Бегать",
+    "deleteImport": "Удалить сеанс",
+    "deleteTask": "Удалить",
+    "status": "Статус",
+    "archive": "Архив",
+    "deleting": "Удаление...",
+    "analyzing": "Анализ пакета...",
+    "applyingPreset": "Применение предустановок..."
+   },
+   "task": {
+    "panelTitle": "Импорт пакета {id}",
+    "general": "Общая информация",
+    "status": "Статус",
+    "updateMode": "Режим обновления",
+    "originalData": "Исходный файл",
+    "file": "Имя файла",
+    "format": "Формат",
+    "targetStore": "Магазин Target",
+    "storeType": "Тип магазина",
+    "storeName": "Название магазина",
+    "layer": "Слой",
+    "transforms": "Цепочка преобразований",
+    "update": "Обновлять",
+    "run": "Импортировать этот пакет",
+    "edit": "Изменить стиль по умолчанию",
+    "delete": "Удалить этот пакет"
+   },
+   "transform": {
+    "panelTitle": "Трансформация {id}",
+    "type": "Тип трансформации",
+    "actions": "Действия",
+    "options": "Варианты трансформации",
+    "overviewlevels": "Обзор уровней",
+    "delete": "Удалить это преобразование"
+   }
+  },
+  "rasterstyler": {
+   "tooltip": "Создание и редактирование стиля растрового слоя",
+   "paneltitle": "Растровый стайлер",
+   "layerlabel": "Слой",
+   "typelabel": "Стиль Тип",
+   "opacitylabel": "Непрозрачность",
+   "redtitle": "Красный",
+   "greentitle": "Зеленый",
+   "bluetitle": "Синий",
+   "graytitle": "Серый",
+   "pseudobandtitle": "Выбор группы",
+   "eqinttitle": "Равноинтервальная классификация",
+   "pseudotitle": "Настройки псевдоцвета",
+   "applybtn": "Применить стиль"
+  },
+  "bandselector": {
+   "band": "Группа",
+   "enhancement": "Улучшение",
+   "algorithmTitle": "Дополнительный алгоритм",
+   "value": "Ценить",
+   "min": "Мин.",
+   "max": "Макс",
+   "enha": {
+    "none": "Никто",
+    "Normalize": "Нормализовать",
+    "Histogram": "Гистограмма",
+    "GammaValue": "Гамма-коррекция"
+   },
+   "algorithm": {
+    "none": "Никто",
+    "StretchToMinimumMaximum": "Потягиваться",
+    "ClipToMinimumMaximum": "Клип",
+    "ClipToZero": "Клип к нулю"
+   }
+  },
+  "equalinterval": {
+   "min": "Мин.",
+   "max": "Макс",
+   "classes": "Классы",
+   "ramp": "Цветовая гамма",
+   "classify": "Классифицировать",
+   "maxerror": "Максимальное значение должно быть больше минимального значения.",
+   "minerror": "Минимальное значение должно быть меньше максимального значения."
+  },
+  "colormapgrid": {
+   "color": "Цвет",
+   "quantity": "Количество",
+   "label": "Этикетка",
+   "minmaxerror": "Значение должно быть между значениями предыдущей и следующей ячейки."
+  },
+  "pseudocolorsettings": {
+   "type": "Тип",
+   "extended": "Расширенный",
+   "colormap": "Цветовая карта",
+   "add": "Добавить запись",
+   "remove": "Удалить запись"
+  },
+  "rasterstyletype": {
+   "rgb": "Красный Зеленый Синий",
+   "gray": "Оттенки серого",
+   "pseudo": "ПсевдоЦвет",
+   "multi": "Многодиапазонный",
+   "single": "Однополосный"
+  },
+  "featuregrid": {
+   "columns": "Колонны",
+   "header": "Список результатов поиска",
+   "tools": "Панель инструментов",
+   "export": "Экспорт",
+   "selectall": "Выбрать все",
+   "deselectall": "Очистить выбор",
+   "backtosearch": "Вернуться к поиску",
+   "resultInfo": "{total, plural, =0 {Нет элементов} =1 {{total} Элемент из {total}} other {{start}-{end} из {total}}}",
+   "resultInfoVirtual": "{всего, множественное число, =0 {Нет элементов} =1 {{всего} Элемент} другой {{всего} Элементы}}",
+   "selectedInfo": "( {выбрано} Выбрано )",
+   "pageInfo": "{totalPages, plural, =0 {Нет страниц} =1 {Страница {totalPages} из {totalPages}} other {Страница {page} из {totalPages}}}",
+   "pagination": {
+    "page": "Страница",
+    "of": "из",
+    "to": "к",
+    "more": "более"
+   },
+   "noFeaturesAvailable": "Нет доступных функций",
+   "errorSaving": "Произошла ошибка при сохранении операции",
+   "errorProjFetch": "Ошибка при извлечении определения строки proj4 из spatialreference.org. Инструмент синхронизации не может применить пространственный фильтр.",
+   "notSupportedGeometryTitle": "Тип геометрии не поддерживается",
+   "notSupportedGeometry": "Текущий тип геометрии слоя не поддерживается редактированием, но вы все равно можете редактировать атрибуты.",
+   "yesButton": "Да",
+   "noButton": "Нет",
+   "deleteButton": "Удалить",
+   "clear": "Вы уверены, что хотите отменить все внесенные вами изменения?",
+   "featureClose": "Вы уверены, что хотите закрыть сетку функций?",
+   "delete": "Вы подтверждаете удаление {count} объектов?",
+   "missingGeometry": "Отсутствует геометрия",
+   "zoomObject": "Увеличить до функции",
+   "filter": {
+    "placeholders": {
+     "default": "Поиск...",
+     "string": "Введите текст для фильтрации...",
+     "date": "Введите дату для фильтрации...",
+     "time": "Введите время для фильтрации...",
+     "number": "Введите число или выражение..."
+    },
+    "tooltips": {
+     "editMode": "Быстрый поиск недоступен в режиме редактирования.",
+     "default": "Поиск...",
+     "string": "Введите текст для фильтрации...",
+     "time": "Введите время для фильтрации...",
+     "number": "Введите число или выражение. Примеры: 10, > 2, < 10",
+     "date": "Введите дату или выражение. Используйте {format} для даты.",
+     "geometry": {
+      "disabled": "Фильтр нажатием на карту / Alt + перетаскивание мышью для рисования фильтра-бокса. Удерживайте также ctrl, чтобы добавить больше функций к текущему фильтру",
+      "enabled": "Нажмите на карту, чтобы выбрать функцию / Alt + перетаскивание мыши, чтобы нарисовать фильтр-бокс. Удерживайте ctrl и щелкните, чтобы выбрать несколько функций",
+      "applied": "Очистить выделение"
+     }
+    }
+   },
+   "attributeFilter": {
+    "placeholders": {
+     "default": "Поиск...",
+     "string": "Введите текст для фильтрации...",
+     "time": "Введите время для фильтрации...",
+     "date": "Введите дату для фильтрации...",
+     "number": "Введите число для фильтрации...",
+     "range": "Пожалуйста, введите ..."
+    },
+    "tooltips": {
+     "editMode": "Быстрый поиск недоступен в режиме редактирования.",
+     "default": "Поиск...",
+     "string": "Введите текст для фильтрации...",
+     "time": "Введите время для фильтрации...",
+     "number": "Введите число ...",
+     "date": "Введите дату. Используйте {format} для даты.",
+     "geometry": {
+      "disabled": "Фильтр нажатием на карту / Alt + перетаскивание мышью для рисования фильтра-бокса. Удерживайте также ctrl, чтобы добавить больше функций к текущему фильтру",
+      "enabled": "Нажмите на карту, чтобы выбрать функцию / Alt + перетаскивание мыши, чтобы нарисовать фильтр-бокс. Удерживайте ctrl и щелкните, чтобы выбрать несколько функций",
+      "applied": "Очистить выделение"
+     }
+    },
+    "rangeTab": {
+     "start": "Начинать",
+     "end": "Конец"
+    }
+   },
+   "toolbar": {
+    "synchPopoverTitle": "Синхронизировать карту с фильтром",
+    "synchPopoverText": "Используйте этот инструмент для синхронизации карты с выбранным фильтром.",
+    "notShowAgain": "Больше не показывать это сообщение",
+    "editMode": "Режим редактирования",
+    "advancedFilter": "Расширенный поиск",
+    "quitEditMode": "Выйти из режима редактирования",
+    "addNewFeatures": "Добавить новую функцию",
+    "editFeature": "Редактировать функцию",
+    "drawGeom": "Функция рисования",
+    "stopDrawGeom": "Отменить создание геометрии",
+    "addGeom": "Добавить форму к существующей геометрии",
+    "deleteSelectedFeatures": "Удалить выбранные функции",
+    "saveChanges": "Сохранить изменения",
+    "saving": "Сохранение...",
+    "cancelChanges": "Отменить изменения",
+    "deleteGeometry": "Удалить геометрию",
+    "downloadGridData": "Загрузить данные сетки",
+    "hideShowColumns": "Скрыть/показать столбцы",
+    "zoomAll": "Увеличить до размера страницы",
+    "syncOnMap": "Синхронизировать карту с фильтром",
+    "enableTimeSync": "Синхронизировать с выбранным временем или временным интервалом",
+    "disableTimeSync": "Не синхронизировать с выбранным временем или интервалом",
+    "createNewChart": "Создать диаграмму для выбранного уровня",
+    "enableSnapping": "Активировать привязку",
+    "disableSnapping": "Отключить привязку",
+    "snapToLayer": "Привязать к слою",
+    "snappingSettings": {
+     "header": "Настройки",
+     "vertex": "Вершина",
+     "edge": "Край",
+     "pixelTolerance": "Допуск (пиксель)",
+     "loadingStrategy": "Стратегия загрузки"
+    },
+    "disableViewportFilter": "Не фильтровать данные по текущему окну просмотра",
+    "enableViewportFilter": "Фильтрация данных по текущему окну просмотра"
+   }
+  },
+  "layerdownload": {
+   "title": "Экспорт данных",
+   "service": "Услуга",
+   "format": "Формат файла",
+   "srs": "Пространственная система отсчета",
+   "export": "Экспорт",
+   "downloadonlycurrentpage": "Загрузить только текущую страницу",
+   "cropDataSet": "Обрезать набор данных до текущего окна просмотра",
+   "downloadFilteredDataSet": "Загрузить отфильтрованный набор данных",
+   "advancedOptions": "Расширенные возможности",
+   "compression": "Сжатие",
+   "tileWidth": "Ширина плитки",
+   "tileHeight": "Высота плитки",
+   "quality": "Качество",
+   "error": {
+    "title": "Ошибка при экспорте",
+    "invalidOutputFormat": "Выбранный формат экспорта недоступен",
+    "downloadEstimatorTitle": "СкачатьОшибка оценщика",
+    "downloadEstimatorFailed": "Запрос DownloadEstimator не удался, что означает, что экспортированный файл превышает настроенные серверные ограничения. Попробуйте изменить параметры загрузки или добавить фильтр к слою и повторите попытку."
+   },
+   "exportResultsMessages": {
+    "newExport": "Файл будет доступен здесь после завершения экспорта.",
+    "exportFailure": "Экспорт для слоя \"{layerTitle}\" не удался! Откройте диалоговое окно результатов экспорта для получения дополнительной информации.",
+    "exportSuccess": "Экспорт слоя \"{layerTitle}\" успешно завершен.",
+    "invalidHref": "Ответ сервера не содержал допустимого URL-адреса для экспортированных файлов!"
+   },
+   "wpsExecuteError": {
+    "processFailed": "Процесс загрузки не удался! Сервер вернул следующий отчет об исключении: \"{exceptionReport}\"",
+    "badResponse": "Процесс загрузки не удался! Сервер вернул неверные данные, код ошибки: \"{errorCode}\"",
+    "executeProcessXhrFailed": "Запрос ExecuteProcess не удался! Возможно, сервер неправильно настроен или стал недоступным",
+    "getExecutionStatusXhrFailed": "Запрос GetExecutionStatus не удался! Возможно, сервер неправильно настроен или стал недоступным",
+    "unexpectedError": "Произошла непредвиденная ошибка"
+   },
+   "noSupportedServiceFound": "Сервер не поддерживает загрузку WFS или WPS для этого слоя!"
+  },
+  "exportDataResults": {
+   "title": "Результаты экспорта данных",
+   "emptyStateMessage": "Список экспорта пуст"
+  },
+  "widgets": {
+   "types": {
+    "map": {
+     "title": "Карта",
+     "caption": "добавить карту"
+    },
+    "legend": {
+     "title": "Легенда",
+     "caption": "добавить легенду"
+    },
+    "chart": {
+     "title": "Диаграмма",
+     "caption": "добавить диаграмму"
+    },
+    "text": {
+     "title": "Текст",
+     "caption": "добавить текстовую область"
+    },
+    "table": {
+     "title": "Стол",
+     "caption": "добавить таблицу"
+    },
+    "counter": {
+     "title": "Прилавок",
+     "caption": "добавить счетчик"
+    }
+   },
+   "selectWidgetType": "Выберите тип виджета",
+   "selectChartType": {
+    "title": "Тип диаграммы",
+    "noResults": "Диаграмма не найдена"
+   },
+   "selectMap": {
+    "TOC": {
+     "noLayerTitle": "Нет слоев",
+     "noLayerDescription": "На карте нет слоев. Если вы хотите добавить слой из каталога, нажмите кнопку «+» на панели инструментов сверху"
+    },
+    "emptyMap": {
+     "title": "Пустая карта",
+     "description": "Начать с пустой карты",
+     "noNameDescription": "Выбор имеет пустую карту. Добавьте имя к пустой карте, чтобы продолжить настройку карты"
+    }
+   },
+   "title": "Заголовок",
+   "description": "Описание",
+   "errors": {
+    "notext": "Текст недоступен",
+    "nodata": "Нет доступных данных для выбранного слоя/фильтра",
+    "noLegend": "Нет легендарных элементов для отображения",
+    "noLegendDescription": "На подключенной карте нет слоев для отображения в легенде.",
+    "nodatainviewport": "Нет данных в текущем окне просмотра",
+    "timeoutExpired": "Служба слишком долго отвечала. Возможно, запрос слишком сложный или сервер занят",
+    "genericError": "Произошла ошибка при извлечении данных",
+    "genericErrorWithMessage": "Произошла ошибка при получении данных: \"{message}\"",
+    "layerNotAvailable": "Слой {layerName} больше не доступен"
+   },
+   "builder": {
+    "header": {
+     "title": "Виджет"
+    },
+    "wizard": {
+     "backToTypeSelection": "Вернуться к выбору типа диаграммы",
+     "backToWidgetTypeSelection": "Вернуться к выбору типа виджета",
+     "backToChartOptionConfiguration": "Вернуться к настройке параметров диаграммы",
+     "backToFeatureGrid": "Вернуться к сетке функций",
+     "backToLayerSelection": "Вернуться к выбору слоя",
+     "backToMapSelection": "Вернуться к выбору карты",
+     "backToPreview": "Вернуться к предварительному просмотру",
+     "backToChartOptions": "Вернуться к параметрам диаграммы",
+     "selectALayer": "Выберите слой",
+     "selectLayers": "Выберите один или несколько слоев",
+     "selectAMap": "Выберите одну или несколько карт",
+     "configureChartOptions": "Настроить параметры диаграммы",
+     "configureWidgetOptions": "Настроить параметры виджета",
+     "errorChart": "Одна или несколько диаграмм недействительны",
+     "backToTableOptions": "Вернуться к параметрам таблицы",
+     "configureTableOptions": "Настроить параметры таблицы",
+     "attributeEditorColumns": {
+      "name": "Имя",
+      "title": "Заголовок",
+      "tooltip": "Подсказка"
+     },
+     "resetColumnsSizes": "Сбросить все изменения размеров столбцов",
+     "updateWidget": "Обновите виджет",
+     "addTheWidget": "Добавить виджет",
+     "titlePlaceholder": "Вставьте заголовок...",
+     "textPlaceholder": "Вставьте текст...",
+     "useThisMap": "Используйте эту карту",
+     "useTheseMap": "Используйте эти карты",
+     "configureMapOptions": "Настроить параметры карты",
+     "enableIdentifyTool": "Включить инструмент идентификации",
+     "disableIdentifyTool": "Отключить инструмент идентификации",
+     "preview": "Предварительный просмотр",
+     "addLayer": "Добавить слой на карту",
+     "useTheSelectedLayer": "Использовать выбранный слой",
+     "connectToAMap": "Подключиться к другому виджету",
+     "connectToTheMap": "Подключиться к карте",
+     "selectMapToConnect": "Выберите виджет для подключения",
+     "clearConnection": "Очистить соединение",
+     "disableConnectToMap": "Операция недоступна",
+     "classAttributes": {
+      "classColor": "Класс Цвет",
+      "classLabel": "Метка класса",
+      "classValue": "Значение класса",
+      "color": "Цвет",
+      "confirmModalMessage": "Закрыть и удалить неклассифицированные значения?",
+      "classificationAttribute": "Атрибут классификации",
+      "customLabels": "Индивидуальные этикетки",
+      "barChartCustomLabelsExample": "<div><p><code>${legendValue}</code> можно использовать в качестве заполнителя для атрибута Y.</p><p></p><h5>Пример</h5><dl><dt><b>Атрибут Y:</b></dt><dd>НАСЕЛЕНИЕ</dd><dt><b>Метка класса:</b></dt><dd><code>${legendValue}</code> Калифорния</dd><dt><b>Результат:</b></dt><dd>НАСЕЛЕНИЕ Калифорния</dd></dl></div>",
+      "pieChartCustomLabelsExample": "<div><p><code>${groupByValue}</code> можно использовать в качестве заполнителя для Group By Attribute.</p><p>Элементы легенды с одинаковым текстовым содержимым будут сгруппированы в диаграмме.</p><h5>Пример</h5><dl><dt><b>Атрибут:</b></dt><dd>НАСЕЛЕНИЕ</dd><dt><b>Метка класса:</b></dt><dd><code>${groupByValue}</code> Калифорния</dd><dt><b>Результат:</b></dt><dd>НАСЕЛЕНИЕ Калифорния</dd></dl></div>",
+      "pieRangeDefaultChartCustomLabelsExample": "<div><p><code>${groupByValue}</code> можно использовать в качестве заполнителя для Group By Attribute.</p><p>Элементы легенды с одинаковым текстовым содержимым будут сгруппированы в диаграмме.</p><h5>Пример</h5><dl><dt><b>Атрибут:</b></dt><dd>НАСЕЛЕНИЕ</dd><dt><b>Метка класса:</b></dt><dd><code>${groupByValue}</code> Калифорния</dd><dt><b>Результат:</b></dt><dd>НАСЕЛЕНИЕ Калифорния</dd></dl></div>",
+      "pieRangeClassChartCustomLabelsExample": "<div><p><code>${groupByValue}</code> можно использовать в качестве заполнителя для атрибута Group By.</p><p><code>${legendValue}</code> можно использовать в качестве заполнителя для атрибута Y.</p><p><code>${minValue}</code> можно использовать в качестве заполнителя для класса Min Value.</p><p><code>${maxValue}</code> можно использовать в качестве заполнителя для класса Max Value.</p><p>Элементы легенды с одинаковым текстовым содержимым будут сгруппированы в диаграмме.</p><h5>Пример</h5><dl><dt><b>Группировка по атрибуту:</b></dt><dd>НАСЕЛЕНИЕ</dd><dt><b>Атрибут Y:</b></dt><dd>LAND_KM</dd><dt><b>Минимальное значение:</b></dt><dd>0</dd><dt><b>Макс Значение:</b></dt><dd>10000</dd><dt><b>Метка класса:</b></dt><dd><code>${groupByValue}</code> Калифорния<code>${legendValue}</code>: <code>${minValue}</code> - <code>${maxValue}</code></dd><dt><b>Результат:</b></dt><dd>НАСЕЛЕНИЕ Калифорния LAND_KM: 0 - 10000</dd></dl></div>",
+      "barRangeDefaultChartCustomLabelsExample": "<div><p><code>${legendValue}</code> можно использовать в качестве заполнителя для атрибута Y.</p><p></p><h5>Пример</h5><dl><dt><b>Атрибут Y:</b></dt><dd>НАСЕЛЕНИЕ</dd><dt><b>Метка класса:</b></dt><dd><code>${legendValue}</code> Калифорния</dd><dt><b>Результат:</b></dt><dd>НАСЕЛЕНИЕ Калифорния</dd></dl></div>",
+      "barRangeClassChartCustomLabelsExample": "<div><p><code>${minValue}</code> можно использовать в качестве заполнителя для класса Min Value.</p><p><code>${maxValue}</code> можно использовать в качестве заполнителя для класса Max Value.</p><p><code>${legendValue}</code> можно использовать в качестве заполнителя для атрибута Y.</p><p>Элементы легенды с одинаковым текстовым содержимым будут сгруппированы в диаграмме.</p><h5>Пример</h5><dl><dt><b>Атрибут:</b></dt><dd>НАСЕЛЕНИЕ</dd><dt><b>Метка класса:</b></dt><dd><code>${groupByValue}</code> Калифорния</dd><dt><b>Результат:</b></dt><dd>НАСЕЛЕНИЕ Калифорния</dd></dl></div>",
+      "defaultClassLabel": "Метка класса по умолчанию",
+      "defaultColorRamp": "Цветовая гамма по умолчанию",
+      "defaultColor": "Цвет по умолчанию",
+      "defaultCustomLabel": "Метка по умолчанию",
+      "editCustomColors": "Изменить пользовательские цвета",
+      "maxValue": "Максимальное значение",
+      "minValue": "Мин. значение",
+      "title": "Пользовательские настройки цветов",
+      "removeCustomColors": "Удалить пользовательские классы"
+     }
+    },
+    "errors": {
+     "noAttributesTitle": "Нет атрибутов для отображения",
+     "noAttributesDescription": "У выбранного слоя нет атрибутов для отображения. Выберите другой тип виджета или слой",
+     "noWidgetsAvailableTitle": "Невозможно создать виджет для выбранного слоя",
+     "noWidgetsAvailableDescription": "<p><strong>Попробуйте выбрать другой тип слоя или виджета</strong></p><p>Сервер не предоставляет необходимые службы для выбранного слоя и типа виджета</p><p>Возможные причины: <ul><li>Выбранный слой является растровым</li><li>Служба WFS недоступна</li><li>Процесс WPS <code>gs:aggregate</code> недоступен</li></ul></p>",
+     "attributesNotMatchingDescription": "<p><strong>Попробуйте выбрать другой слой</strong></p><p>Атрибуты выбранного слоя(ев) не соответствуют родительскому зависимому виджету</p>",
+     "checkAtLeastOneAttribute": "Вы должны выбрать хотя бы один столбец",
+     "noMapAvailableForLegend": "Карта недоступна",
+     "noMapAvailableForLegendDescription": "Для создания легенды вам понадобится как минимум один виджет карты."
+    },
+    "setupFilter": "Настройте фильтр для данных виджета",
+    "addNewLayers": "Добавить новый(ие) слой(и)",
+    "deleteChart": "Удалить текущую диаграмму",
+    "editTraceTitle": "Изменить название трассировки",
+    "addNewTrace": "Добавить новый след",
+    "deleteTrace": "Удалить текущий след",
+    "selectLayer": "Выбрать слой",
+    "filterLayer": "Фильтр текущего слоя",
+    "editChartTitle": "Изменить название диаграммы",
+    "addNewCharts": "Добавить новую диаграмму(ы)",
+    "editAxisTitle": "Изменить название оси",
+    "addNewAxis": "Добавить новую ось",
+    "removeAxis": "Удалить текущую ось"
+   },
+   "widget": {
+    "menu": {
+     "showChartData": "Показать данные диаграммы",
+     "edit": "Редактировать",
+     "delete": "Удалить",
+     "collapse": "Крах",
+     "confirmDelete": "Вы уверены?",
+     "downloadData": "Загрузить данные",
+     "exportImage": "Экспортировать изображение",
+     "maximize": "Увеличить",
+     "minimize": "Свернуть",
+     "pin": "Приколоть",
+     "unpin": "Открепить",
+     "hide": "Скрывать",
+     "hideDescription": "Скрыть этот виджет для других пользователей",
+     "unhide": "Показать",
+     "unhideDescription": "Показать виджет другим пользователям"
+    }
+   },
+   "mapSwitcher": {
+    "noResults": "Карта не найдена",
+    "placeholder": "Введите название карты",
+    "selectLabel": "Выберите карту",
+    "infoOnHide": "Разверните виджет, чтобы увидеть переключатель карт",
+    "subTitle": "<p>Для множественного выбора<br>в Windows используйте CTRL + щелчок<br>, а в Mac используйте Control + щелчок</p>"
+   },
+   "chartSwitcher": {
+    "noResults": "Слой не найден",
+    "placeholder": "Введите название диаграммы",
+    "selectLabel": "Диаграмма",
+    "infoOnHide": "Разверните виджет, чтобы увидеть переключатель диаграмм",
+    "subTitle": "<p>Для множественного выбора<br>в Windows используйте CTRL + щелчок<br>, а в Mac используйте Control + щелчок</p>"
+   },
+   "chartType": {
+    "bar": {
+     "title": "Столбчатая диаграмма",
+     "description": "Создайте столбчатую диаграмму и добавьте ее на карту.",
+     "caption": "бар"
+    },
+    "pie": {
+     "title": "Круговая диаграмма",
+     "description": "Создайте круговую диаграмму и добавьте ее на карту.",
+     "caption": "пирог"
+    },
+    "line": {
+     "title": "Линейный график",
+     "description": "Создайте линейную диаграмму для добавления на карту",
+     "caption": "линия"
+    },
+    "gauge": {
+     "title": "Диаграмма калибровок",
+     "description": "Создайте диаграмму датчиков для добавления на карту",
+     "caption": "измерять"
+    }
+   },
+   "chartOptionsTitle": "Настроить данные",
+   "widgetOptionsTitle": "Настроить информацию о виджете",
+   "placeHolder": {
+    "default": "Выберите атрибут"
+   },
+   "operations": {
+    "COUNT": "СЧИТАТЬ",
+    "SUM": "СУММА",
+    "AVG": "СРЕДНИЙ",
+    "STDDEV": "СТДДЕВ",
+    "MIN": "МИН",
+    "MAX": "МАКС",
+    "NONE": "Операция не выполняется"
+   },
+   "groupByAttributes": {
+    "line": "Атрибут X",
+    "pie": "Группировать по",
+    "bar": "Атрибут X",
+    "gauge": "Группировать по",
+    "counter": "Группировать по",
+    "default": "Группировать по"
+   },
+   "aggregationAttribute": {
+    "line": "Атрибут Y",
+    "pie": "Использовать",
+    "bar": "Атрибут Y",
+    "gauge": "Использовать",
+    "counter": "Использовать",
+    "default": "Использовать"
+   },
+   "aggregateFunction": {
+    "line": "Операция",
+    "pie": "Операция",
+    "bar": "Операция",
+    "gauge": "Операция",
+    "counter": "Операция",
+    "default": "Операция"
+   },
+   "colorRamp": {
+    "line": "Цвет",
+    "pie": "Цветовая гамма",
+    "bar": "Цвет",
+    "gauge": "Цвет",
+    "counter": "Цвет",
+    "default": "Цвет"
+   },
+   "uom": {
+    "line": "Единица измерения",
+    "pie": "Единица измерения",
+    "bar": "Единица измерения",
+    "gauge": "Единица измерения",
+    "counter": "Единица измерения",
+    "default": "Единица измерения"
+   },
+   "mapSync": "Фильтровать по области просмотра",
+   "displayLegend": {
+    "default": "Легенда отображения",
+    "line": "Легенда отображения",
+    "pie": "Легенда отображения",
+    "bar": "Легенда отображения",
+    "gauge": "Показать этикетки"
+   },
+   "advanced": {
+    "font": "Шрифт",
+    "displayCartesian": "Скрыть сетку",
+    "xAxis": "Ось X",
+    "xAxisAngle": "Ротация этикеток",
+    "hideLabels": "Скрыть метки",
+    "includeLegendPercent": "Включить проценты в легенду",
+    "format": "Формат",
+    "prefix": "Префикс",
+    "suffix": "Суффикс",
+    "examples": "Примеры",
+    "formatExamples": "<div><ul><li><code>.0%</code>: округленный процент, «12%»</li><li><code>.2s</code>: префикс SI с двумя значащими цифрами, «42M»</li><li><code>,.2r</code>: сгруппированные тысячи с двумя значащими цифрами «4200»</li></ul><em>Дополнительная информация о синтаксисе форматирования <a target=\"_blank\" href=\"https://d3-wiki.readthedocs.io/zh_CN/master/Formatting/\">здесь</a>.</em></div>",
+    "formula": "Формула",
+    "formulaExamples": "<div>Преобразуйте значение с помощью формулы. Используйте переменную <code>value</code> в выражении:<h5>Примеры</h5><ul><li><code>value + 2</code></li><li><code>value / 100</code></li></ul><em>Более подробная информация о синтаксисе <a target=\"_blank\" href=\"https://github.com/m93a/filtrex#expressions\">здесь</a>.</em></div>",
+    "xAxisType": "Тип",
+    "forceTicks": "Никогда не пропускайте этикетки",
+    "maxXAxisLabels": "Метки в любом случае не могут быть больше {max}",
+    "yAxis": "Ось Y",
+    "yAxisType": "Тип",
+    "yAxisLabel": "Легенда Этикетка",
+    "title": "Расширенные параметры",
+    "legend": "Легенда",
+    "barChartType": "Тип столбчатой ​​диаграммы",
+    "groupedBarChart": "Сгруппировано",
+    "stackedBarChart": "Сложенный",
+    "valueFormatting": "Форматирование значений трассировки",
+    "traceAxes": "Трассировка осей",
+    "traceData": "Трассировка данных",
+    "traceLegendOptions": "Параметры легенды трассировки",
+    "traces": "Следы",
+    "axes": "Топоры",
+    "traceStyle": "Стиль трассировки",
+    "mode": "Режим",
+    "lineColor": "Цвет линии",
+    "lineWidth": "Ширина линии",
+    "markerColor": "Цвет маркера",
+    "markerSize": "Размер маркера",
+    "layout": "Макет",
+    "left": "Левый",
+    "right": "Верно",
+    "free": "Бесплатно",
+    "top": "Вершина",
+    "bottom": "Нижний",
+    "side": "Сторона",
+    "anchor": "Якорь",
+    "sortBy": "Сортировать по",
+    "reverseRampColor": "Цвет обратной рампы",
+    "axisTypes": {
+     "auto": "Авто",
+     "linear": "Линейный",
+     "category": "Категория",
+     "log": "Бревно",
+     "date": "Дата"
+    }
+   },
+   "tray": {
+    "title": "Виджеты",
+    "expandTray": "Развернуть панель виджетов",
+    "collapseTray": "Свернуть панель виджетов",
+    "expandAll": "Развернуть все виджеты",
+    "collapseAll": "Свернуть все виджеты",
+    "notifications": {
+     "collapsed": {
+      "message": "Временная шкала и виджеты не могут находиться одновременно. Используйте на панели виджетов для переключения между временной шкалой и виджетами",
+      "timelineTitle": "Временная шкала была свернута",
+      "widgetsTitle": "Виджеты были свернуты"
+     }
+    }
+   }
+  },
+  "dashboard": {
+   "loadingSpinner": "Загрузка панели инструментов",
+   "importDialog": {
+    "selectFiles": "Выберите файл",
+    "heading": "Перетащите ранее экспортированный файл панели мониторинга .json",
+    "note": "Данные в импортированном файле заменят данные на текущей панели мониторинга."
+   },
+   "exportDialog": {
+    "heading": "Экспортировать панель управления как файл .json"
+   },
+   "errors": {
+    "loading": {
+     "title": "Ошибка загрузки панели мониторинга",
+     "dashboardNotAccessible": "У вас нет разрешения на доступ к этой панели. Пожалуйста, свяжитесь с владельцем ресурса",
+     "pleaseLogin": "Эта панель не является публичной. Попробуйте войти",
+     "dashboardDoesNotExist": "Панель управления, к которой вы пытаетесь получить доступ, не существует.",
+     "unknownError": "Произошла ошибка загрузки панели. Обратитесь к администратору",
+     "notFound": "Панель управления не найдена",
+     "notAccessible": "Панель управления недоступна"
+    },
+    "resourceAlreadyExists": "Ресурс с таким именем уже существует",
+    "forbidden": "Произошла непредвиденная ошибка (403 Forbidden). Обратитесь к администратору",
+    "forbidden405": "Произошла непредвиденная ошибка (405 Forbidden). Обратитесь к администратору"
+   },
+   "editor": {
+    "save": "Сохранить панель инструментов",
+    "addACardToTheDashboard": "Добавить виджет на панель управления",
+    "showConnections": "Показать связи",
+    "hideConnections": "СкрытьПодключения"
+   },
+   "emptyTitle": "Панель приборов пуста.",
+   "delete": "Удалить панель инструментов"
+  },
+  "dashboardEmbedded": {
+   "loadingSpinner": "Загрузка панели инструментов",
+   "errors": {
+    "loading": {
+     "title": "Ошибка загрузки панели мониторинга",
+     "dashboardNotAccessible": "У вас нет разрешения на доступ к этой панели",
+     "pleaseLogin": "Эта панель инструментов не является публичной",
+     "dashboardDoesNotExist": "Панель управления, к которой вы пытаетесь получить доступ, не существует.",
+     "unknownError": "Произошла ошибка при загрузке панели мониторинга.",
+     "notFound": "Панель управления не найдена",
+     "notAccessible": "Панель управления недоступна"
+    }
+   },
+   "emptyTitle": "Панель приборов пуста."
+  },
+  "context": {
+   "loadingSpinner": "Загрузка контекста",
+   "errors": {
+    "loading": {
+     "title": "Ошибка загрузки контекста",
+     "pleaseLogin": "Некоторые ресурсы могут быть не публичными. Попробуйте войти",
+     "unknownError": "<p><small>Причиной может быть одна из следующих причин:</small> <ul><li>у вас нет разрешения на доступ к контексту и/или карте</li> <li>вы пытаетесь получить доступ к контексту и/или карте, которые не существуют</li> <li>контекст и/или карта были удалены</li> <li>проекция карты не настроена</li></ul> <p>",
+     "notFound": "Ресурс не найден",
+     "notAccessible": "Ресурс недоступен"
+    },
+    "context": {
+     "pleaseLogin": "Этот контекст не является публичным. Попробуйте войти",
+     "unknownError": "Произошла ошибка загрузки контекста. Обратитесь к администратору",
+     "notFound": "Контекст, к которому вы пытаетесь получить доступ, не существует.",
+     "notAccessible": "У вас нет разрешения на доступ к этому контексту. Пожалуйста, свяжитесь с администратором, чтобы получить доступ"
+    },
+    "template": {
+     "title": "Ошибка загрузки шаблона",
+     "notAccessible": "У вас нет разрешения на доступ к этому шаблону. Пожалуйста, свяжитесь с владельцем ресурса",
+     "pleaseLogin": "Этот шаблон не является публичным. Попробуйте войти",
+     "unknownError": "Произошла ошибка загрузки шаблона. Обратитесь к администратору",
+     "notFound": "Шаблон, к которому вы пытаетесь получить доступ, не существует."
+    },
+    "map": {
+     "pleaseLogin": "Эта карта или карта не является публичной. Попробуйте войти",
+     "unknownError": "Произошла ошибка при загрузке карты. Обратитесь к администратору",
+     "notFound": "Карта, к которой вы пытаетесь получить доступ, не существует.",
+     "notAccessible": "У вас нет разрешения на доступ к этой карте. Пожалуйста, свяжитесь с администратором, чтобы получить доступ"
+    },
+    "plugins": {
+     "upload": "Ошибка при загрузке плагина",
+     "uninstall": "Ошибка при удалении плагина"
+    },
+    "resourceAlreadyExists": "Ресурс с таким именем уже существует"
+   }
+  },
+  "wizard": {
+   "next": "Следующий",
+   "prev": "Предыдущий",
+   "finish": "Заканчивать"
+  },
+  "vectorstyler": {
+   "tooltip": "Создание и редактирование векторного стиля слоя",
+   "paneltitle": "Векторный стайлер",
+   "layerlabel": "Слой",
+   "rulelabel": "Правила",
+   "namelabel": "Имя правила",
+   "symboltitle": "Символ",
+   "labeltitle": "Этикетка",
+   "conditiontitle": "Условия",
+   "applybtn": "Применить стиль",
+   "addrulebtn": "Добавить правило",
+   "removerulebtn": "Удалить правило"
+  },
+  "scaledenominator": {
+   "minlabel": "Знаменатель минимальной шкалы",
+   "maxlabel": "Макс. шкала знаменателя",
+   "maxerror": "Максимальное значение должно быть больше минимального значения.",
+   "minerror": "Минимальное значение должно быть меньше максимального значения.",
+   "none": "Никто"
+  },
+  "markNameSelector": {
+   "circle": "Круг",
+   "square": "Квадрат",
+   "triangle": "Треугольник",
+   "star": "Звезда",
+   "cross": "Крест",
+   "x": "Х"
+  },
+  "styler": {
+   "tooltip": "Создание и редактирование стиля слоя",
+   "paneltitle": "Стайлер",
+   "layerlabel": "Слой"
+  },
+  "styleeditor": {
+   "styleListfilterPlaceholder": "Фильтровать стили по имени, названию или аннотации",
+   "templateFilterPlaceholder": "Фильтровать шаблоны стилей по названию",
+   "createStyleFromTemplate": "Выберите шаблон для создания нового стиля",
+   "titleRequired": "<div>Название обязательно!</div><div>Название и аннотация должны быть буквенно-цифровыми</div>",
+   "titleSettings": "Заголовок",
+   "titleSettingsplaceholder": "Введите заголовок (буквенно-цифровой)",
+   "abstractSettings": "Абстрактный",
+   "abstractSettingsplaceholder": "Введите аннотацию (буквенно-цифровую)",
+   "createStyleModalTitle": "Создать новый стиль",
+   "filterMatchNotFound": "Ни один стиль не соответствует введенному текстовому фильтру",
+   "backToList": "Вернуться к списку стилей",
+   "createNewStyle": "Создать новый стиль",
+   "editSelectedStyle": "Изменить выбранный стиль",
+   "saveCurrentStyle": "Сохранить текущий стиль",
+   "addSelectedTemplate": "Добавить выбранный шаблон в список стилей",
+   "deleteSelectedStyle": "Удалить выбранный стиль",
+   "closeWithoutSaveAlertTitle": "Стиль изменился.",
+   "closeWithoutSaveAlert": "Вы выходите из редактора стилей, не сохранив изменения.",
+   "deleteStyleAlertTitle": "Удалить стиль",
+   "deleteStyleAlert": "Выбранный стиль будет удален навсегда.",
+   "delete": "Удалить",
+   "defaultStyle": "Стиль по умолчанию",
+   "availableStyle": "Доступный стиль",
+   "styleNotFound": "Стиль не найден",
+   "noPermission": "Пользователь не может редактировать стили",
+   "deletedStyleSuccessTitle": "Удалить стиль",
+   "deletedStyleSuccessMessage": "Стиль был успешно удален",
+   "deletedStyleErrorTitle": "Ошибка удаления стиля",
+   "deletedStyleErrorMessage": "Не удалось удалить текущий стиль",
+   "savedStyleTitle": "Стиль сохранен",
+   "savedStyleMessage": "Стиль успешно сохранен",
+   "errorTitle": "Ошибка StyleEditor",
+   "parsingCapabilitiesError": "<h4>Возможные причины:</h4> не удалось проанализировать возможности и получить стили.",
+   "globalError": "<h4>Возможные причины:</h4> не удалось подключиться к сервису",
+   "missingAvailableStylesMessage": "<ul><h4>Возможные причины:</h4> <li>Выбранный слой является группой слоев</li><li>Слой неправильно настроен на стороне сервера</li></ul>",
+   "createTmpErrorTitle": "Новый временный стиль",
+   "createTmpStyleErrorMessage": "Временный стиль не может быть создан. Это может быть связано с неподдерживаемым форматом стиля в службе стилей",
+   "updateTmpErrorTitle": "Временное обновление стиля",
+   "updateTmpStyleErrorMessage": "Временный стиль не может быть обновлен. Это может быть связано с неподдерживаемым форматом стиля или проблемой подключения.",
+   "createStyleErrorTitle": "Новый стиль",
+   "createStyleErrorMessage": "Стиль не может быть сохранен в службе стилей. Это может быть связано с неподдерживаемым форматом стиля или проблемой подключения.",
+   "updateStyleErrorTitle": "Изменить стиль",
+   "updateStyleErrorMessage": "Не удалось обновить стиль на службе стилей. Это может быть связано с неподдерживаемым форматом стиля или проблемой подключения.",
+   "validationErrorTitle": "Ошибка проверки",
+   "genericValidationError": "Стиль недействителен и не может быть применен.",
+   "setDefaultStyle": "Установить выбранный стиль как стиль по умолчанию для текущего слоя",
+   "setDefaultStyleSuccessTitle": "Успех при установке стиля по умолчанию",
+   "setDefaultStyleSuccessMessage": "Стиль по умолчанию успешно применен",
+   "setDefaultStyleErrorTitle": "Ошибка при установке стиля по умолчанию",
+   "setDefaultStyleErrorMessage": "Невозможно применить выбранный стиль по умолчанию.",
+   "enterLegendLabelPlaceholder": "Введите легенду",
+   "addMarkSymbolizer": "Добавить символизатор знака",
+   "addMarkRule": "Добавить правило отметки",
+   "shape": "Форма",
+   "fill": "Цвет заливки",
+   "clampToGround": "Зажим на землю",
+   "clampOutlineToGround": "Зажим на землю",
+   "msBringToFront": "Вынести на передний план",
+   "heightReferenceFromGround": "Высота от земли",
+   "height": "Высота",
+   "constantValue": "Постоянное значение",
+   "attributeValue": "Значение атрибута",
+   "strokeColor": "Цвет обводки",
+   "strokeWidth": "Ширина штриха",
+   "radius": "Радиус",
+   "rotation": "Вращение",
+   "classificationtype": "Зажим для заземления",
+   "3dTile": "3D-плитка",
+   "terrain": "Местность",
+   "both": "Оба",
+   "relative": "Родственник",
+   "clamp": "Зажим",
+   "addIconSymbolizer": "Добавить значок символизатора",
+   "addIconRule": "Добавить правило значка",
+   "image": "Изображение",
+   "format": "Формат",
+   "opacity": "Непрозрачность",
+   "size": "Размер",
+   "addLineSymbolizer": "Добавить символизатор линии",
+   "addLineRule": "Добавить правило линии",
+   "lineStyle": "Стиль линии",
+   "lineCap": "Линия колпачка",
+   "lineJoin": "Соединение линий",
+   "addFillSymbolizer": "Добавить символизатор заполнения",
+   "addFillRule": "Добавить правило заполнения",
+   "outlineColor": "Цвет контура",
+   "outlineWidth": "Ширина контура",
+   "addTextSymbolizer": "Добавить текстовый символизатор",
+   "addTextRule": "Добавить текстовое правило",
+   "label": "Этикетка",
+   "fontFamily": "Семейство шрифтов",
+   "fontColor": "Цвет шрифта",
+   "fontSize": "Размер шрифта",
+   "fontStyle": "Стиль шрифта",
+   "fontWeight": "Шрифт",
+   "haloColor": "Цвет ореола",
+   "haloWidth": "Ширина ореола",
+   "offsetX": "Смещение x",
+   "offsetY": "Смещение Y",
+   "addRasterSymbolizer": "Добавить растровый символизатор",
+   "addRasterRule": "Добавить растровое правило",
+   "colorRamp": "Цветовая гамма",
+   "reverse": "Обратный порядок",
+   "attribute": "Атрибут",
+   "method": "Метод",
+   "intervals": "Интервалы",
+   "continuous": "Непрерывные цвета",
+   "lineCapButt": "Задница",
+   "lineCapRound": "Круглый",
+   "lineCapSquare": "Квадрат",
+   "lineJoinBevel": "Скос",
+   "lineJoinRound": "Круглый",
+   "lineJoinMiter": "Митра",
+   "fontStyleNormal": "Нормальный",
+   "fontStyleItalic": "Курсив",
+   "fontWeightNormal": "Нормальный",
+   "fontWeightBold": "Смелый",
+   "boolTrue": "Активный",
+   "boolFalse": "Неактивный",
+   "colorMapType": {
+    "label": "Тип цветовой карты",
+    "ramp": "Рампа",
+    "intervals": "Интервалы",
+    "values": "Ценности"
+   },
+   "addRuleBefore": "Добавить новую запись перед",
+   "addRuleAfter": "Добавить новую запись после",
+   "remove": "Удалять",
+   "circle": "Круг",
+   "square": "Квадрат",
+   "triangle": "Треугольник",
+   "star": "Звезда",
+   "cross": "Крест",
+   "x": "Х",
+   "verticalLine": "Вертикальная линия",
+   "horizontalLine": "Горизонтальная линия",
+   "slash": "Слэш",
+   "backslash": "Обратная косая черта",
+   "dot": "точка",
+   "plus": "Плюс",
+   "times": "Времена",
+   "openArrow": "Открытая стрелка",
+   "closedArrow": "Закрытая стрелка",
+   "band": "Группа",
+   "none": "Никто",
+   "normalize": "Нормализовать",
+   "histogram": "Гистограмма",
+   "contrastEnhancement": "Усиление контрастности",
+   "placeholderInput": "Введите значение",
+   "placeholderEnterImageUrl": "Введите URL-адрес изображения",
+   "selectPlaceholder": "Выберите значение",
+   "noResultsSelectInput": "Нет результатов",
+   "channelAuto": "Авто",
+   "openFilterBuilder": "Открытый конструктор фильтров",
+   "removeRule": "Удалить правило",
+   "openScaleDenominator": "Фильтр знаменателя открытой шкалы",
+   "selectScale": "Выберите масштаб",
+   "noResultScales": "Ни один масштаб не соответствует вашему фильтру",
+   "maxScaleDenominator": "Максимальный масштаб",
+   "minScaleDenominator": "Минимальный масштаб",
+   "simpleStyle": "Простой стиль",
+   "classificationStyle": "Стиль классификации",
+   "patternMarkStyle": "Стиль узора",
+   "patternIconStyle": "Стиль значка узора",
+   "singleBand": "Однополосный",
+   "rgbaBands": "RGB-полосы",
+   "pseudoColor": "Псевдоцвет",
+   "undoStyle": "Отменить стиль",
+   "redoStyle": "Переделать стиль",
+   "equalInterval": "Равный интервал",
+   "uniqueInterval": "Уникальный интервал",
+   "quantile": "Квантиль",
+   "jenks": "Естественные перерывы (Дженкс)",
+   "standardDeviation": "Стандартное отклонение",
+   "switchToTextareaEditor": "Редактор кода",
+   "switchToVisualEditor": "Визуальный редактор",
+   "alertForceTranslate": "Вы потеряете все изменения, внесенные в текстовом режиме, переключившись в визуальный редактор. Вы уверены, что хотите переключиться в режим визуального редактора стилей?",
+   "stayInTextareaEditor": "Нет, продолжить с помощью текстового редактора",
+   "useLatestValidStyle": "Да, переключиться на визуальный редактор",
+   "alertCustomParamsNotValid": "Вы потеряете все изменения, внесенные в текстовом режиме, закрыв редактор пользовательских параметров. Вы уверены, что хотите закрыть редактор?",
+   "closeCustomParamsEditor": "Да, закрыть редактор",
+   "validationError": "Ошибка проверки",
+   "incorrectPropertyInputError": "Вероятно, это связано с отсутствием или недопустимым значением во входных данных свойств редактора стилей.",
+   "emptyRuleEditorTitle": "Добавить новые правила",
+   "emptyRuleEditor": "Для этого стиля нет правил. Добавьте новое правило, нажав на нужный тип символизатора на панели инструментов",
+   "classificationError": "Сервис недоступен. В настоящее время невозможно создать классификацию",
+   "classificationRasterError": "Сервис недоступен. В настоящее время невозможно создать растровую классификацию",
+   "classificationRasterUniqueIntervalError": "Невозможно выполнить классификацию уникальных значений по растру типа float, поддерживаются только целые числа. Попробуйте другую классификацию вместо этого",
+   "classificationUniqueIntervalError": "Превышены максимальные пределы интервалов! Вы пытаетесь создать уникальную классификацию интервалов с атрибутом, который содержит более {intervalsForUnique} различных классов. Уникальная классификация интервалов должна применяться к атрибутам с ограниченным набором интервалов, чтобы обеспечить лучшую читаемость стиля. Вы можете попробовать другой метод для выбранного атрибута",
+   "redChannel": "Красный канал",
+   "greenChannel": "Зеленый коридор",
+   "blueChannel": "Синий канал",
+   "alphaChannel": "Альфа-канал",
+   "grayChannel": "Канал",
+   "ruleClassification": "Классификация",
+   "ruleRaster": "Растр",
+   "customInterval": "Пользовательский интервал",
+   "styleEmpty": "В этом стиле нет правил.",
+   "incompleteClassification": "Классификация неполная, так как записи отсутствуют. Убедитесь, что все свойства указаны правильно",
+   "imageSrcEmpty": "Отсутствует URL-адрес источника изображения в стиле значка",
+   "imageSrcLoadError": "Предоставленный источник изображения не может быть загружен. Попробуйте использовать другой URL или убедитесь, что источник доступен MapStore",
+   "imageSrcInvalidBase64": "Это недопустимое изображение base64. Некоторые визуализаторы стилей не поддерживают этот тип источника, вместо этого вы можете использовать внешний источник URL",
+   "imageSrcNotSupportedBase64Image": "Некоторые средства визуализации стилей не поддерживают изображения base64, даже если текущий источник является допустимым.",
+   "imageFormatEmpty": "Формат изображения не может быть идентифицирован. Выберите формат изображения из доступных в раскрывающемся списке «Формат»",
+   "warningTextOrderTitle": "Предупреждение",
+   "warningTextOrder": "Порядок правила, содержащего текстовый стиль, не может соответствовать порядку рендеринга на карте. Это поведение связано с некоторыми движками рендеринга, которые рисуют метку поверх других правил",
+   "invalidProperty": "Недопустимый тип свойства {key}",
+   "notSupportedVariable": "Переменная {key} не поддерживается набором плиток.",
+   "addModelRule": "Добавить правило 3D-модели",
+   "model": "3D-модель",
+   "placeholderEnterModelUrl": "Введите URL-адрес файла .glb",
+   "invalidModelUrl": "Предоставленный URL-адрес недействителен",
+   "scale": "Шкала",
+   "heading": "Вращение оси Z",
+   "pitch": "Вращение по оси X",
+   "roll": "Вращение оси Y",
+   "color": "Цвет",
+   "pointHeight": "Высота точки",
+   "leaderLineColor": "Цвет линии выноски",
+   "leaderLineWidth": "Ширина линии выноски",
+   "geometryTransformation": "Преобразование геометрии",
+   "center": "Центр",
+   "startPoint": "Начальная точка",
+   "endPoint": "Конечная точка",
+   "line": "Линия",
+   "geodesicLine": "Геодезическая линия",
+   "geodesic": "Геодезический",
+   "outlineStyle": "Стиль контура",
+   "strokeStyle": "Стиль штриха",
+   "anchor": "Точка привязки",
+   "addCircleRule": "Добавить правило круга",
+   "left": "Левый",
+   "right": "Верно",
+   "topLeft": "Вверху слева",
+   "top": "Вершина",
+   "topRight": "Вверху справа",
+   "bottomLeft": "Внизу слева",
+   "bottom": "Нижний",
+   "bottomRight": "Внизу справа",
+   "glyph": "Глиф",
+   "marker": "Маркер",
+   "filterByName": "Фильтровать по имени...",
+   "fillOpacity": "Непрозрачность заливки",
+   "outlineColorOpacity": "Непрозрачность контура",
+   "strokeColorOpacity": "Непрозрачность обводки",
+   "selectProperty": "Выбрать недвижимость",
+   "leaderLineColorOpacity": "Непрозрачность линии выноски",
+   "colorOpacity": "Непрозрачность",
+   "offset": "Компенсировать",
+   "propertyValue": "Стоимость недвижимости",
+   "colorPropertyInfoMessage": "Значение свойства цвета должно быть шестнадцатеричной строкой. Пример: \"#ffffff\"",
+   "pointCloudSizeInfo": "Радиус облака точек применяется только при отключенных параметрах затухания. Параметр затухания имеет приоритет над этим свойством.",
+   "msTranslateX": "Перевести х",
+   "msTranslateY": "Перевести y",
+   "geometryHeight": "Высота геометрии",
+   "msExtrusionRelativeToGeometry": "Выдавливание относительно геометрии",
+   "msExtrudedHeight": "Высота выдавливания",
+   "msExtrusionColor": "Цвет экструзии",
+   "msExtrusionType": "Тип экструзии",
+   "wall": "Стена",
+   "enableBanding": "Стиль группы",
+   "selectChannel": "Выберите группу",
+   "minLabel": "Мин.",
+   "maxLabel": "Макс",
+   "minSourceValue": "Минимальное значение исходных данных",
+   "maxSourceValue": "Максимальное значение исходных данных",
+   "customParams": "Пользовательские параметры",
+   "wrongFormatMsg": "Введенная конфигурация имеет неправильный формат!!"
+  },
+  "playback": {
+   "settings": {
+    "tooltip": "Настройки",
+    "tab": {
+     "playback": "Воспроизведение",
+     "layers": "Слои"
+    },
+    "layer": {
+     "enabled": "Отобразить или скрыть слой на временной шкале",
+     "disabled": "Направляющий слой не может быть скрыт"
+    },
+    "frameDuration": "Длительность кадра",
+    "range": {
+     "title": "Диапазон анимации",
+     "zoomTooltip": "Увеличить до текущего диапазона анимации",
+     "animationStart": "Начало анимации",
+     "animationEnd": "Конец анимации",
+     "zoomToCurrentPlayackRange": "Увеличить текущий диапазон воспроизведения",
+     "setToCurrentViewRange": "Установить текущий диапазон просмотра",
+     "fitToSelectedLayerRange": "Подогнать под диапазон выбранного слоя"
+    },
+    "step": {
+     "tooltip": "Если опция «Привязать к направляющему слою» отключена, вы можете настроить шаг анимации.",
+     "label": "Шаг анимации",
+     "year": "{число, множественное число, =0 {год} =1 {год} другие {годы}}",
+     "week": "{число, множественное число, =0 {Неделя} =1 {Неделя} другие {Недели}}",
+     "day": "{число, множественное число, =0 {День} =1 {День} другие {Дни}}",
+     "hour": "{число, множественное число, =0 {Час} =1 {Час} другие {Часы}}",
+     "minute": "{число, множественное число, =0 {минута} =1 {минута} другие {минуты}}",
+     "second": "{число, множественное число, =0 {Секунда} =1 {Секунда} другие {Секунды}}"
+    },
+    "mode": {
+     "title": "Режим",
+     "following": "Следуйте анимации",
+     "followingDescription": "Когда анимация активна, следуйте за курсором"
+    }
+   },
+   "backwardStep": "Шаг назад",
+   "forwardStep": "Шаг вперед",
+   "play": "Играть",
+   "pause": "Пауза",
+   "paused": "Воспроизведение (пауза)",
+   "stop": "Останавливаться"
+  },
+  "timeline": {
+   "settings": {
+    "title": "Настройки временной шкалы",
+    "snapType": "Точка привязки временного интервала",
+    "snapTypeTooltip": "Если привязка к направляющему слою активна и временные данные растянуты, курсор будет привязываться к соответствующим краям временного интервала (начало/конец).",
+    "snapToGuideLayer": "Привязать к направляющему слою",
+    "snapToGuideLayerTooltip": "Заставляет курсор времени привязываться к данным выбранного слоя. Отключите эту опцию, чтобы разблокировать курсоры времени и включить настройку шага анимации",
+    "snapToEnd": "Конец",
+    "snapToStart": "Начинать"
+   },
+   "hide": "Скрыть хронологию",
+   "show": "Показать временную шкалу",
+   "mapSyncOn": "Показать все время, без фильтрации по области просмотра",
+   "mapSyncOff": "Показывать только время, доступное в текущем окне просмотра",
+   "currentTime": "Перейти к текущему времени",
+   "rangeStart": "Перейти к текущему временному диапазону",
+   "rangeEnd": "Перейти к текущему временному диапазону",
+   "hideLayerName": "Скрыть имена слоев",
+   "showLayerName": "Показать имена слоев",
+   "enableRange": "Включить временной диапазон",
+   "disableRange": "Отключить временной диапазон",
+   "enablePlayBack": "Включить элементы управления воспроизведением",
+   "disablePlayBack": "Отключить элементы управления воспроизведением",
+   "expand": "Развернуть ползунок времени",
+   "collapse": "Свернуть ползунок времени",
+   "reset": {
+    "range": "Установите диапазон, чтобы включить все данные",
+    "singleNow": "Установить время на текущее",
+    "singleNearest": "Установить время на ближайшее значение к настоящему моменту"
+   },
+   "collapsed": {
+    "title": "Временная шкала была свернута",
+    "tooltip": "Нажмите здесь, чтобы развернуть его снова"
+   },
+   "errors": {
+    "multidim_error_title": "Внутренняя служба не отвечает",
+    "multidim_error_message": "Требуемые услуги для многомерной поддержки не отвечают. Пожалуйста, попробуйте еще раз позже или свяжитесь с администратором."
+   }
+  },
+  "rulesmanager": {
+   "apply": "Применять",
+   "remove": "Удалить геометрию",
+   "resetconstraints": "Сбрасывает ограничения",
+   "constraintsmsg": "При изменении гранта, рабочего пространства или слоя данные будут удалены. Вы уверены, что хотите это сделать?",
+   "defstyle": "Стиль по умолчанию",
+   "avstyle": "Доступные стили",
+   "clearbtn": "Очистить все",
+   "selectbtn": "Выбрать все",
+   "placeholders": {
+    "role": "Введите для поиска Роли",
+    "user": "Введите для поиска Пользователи",
+    "service": "Введите для поиска Услуги",
+    "request": "Введите для поиска Запросы",
+    "workspace": "Введите для поиска Рабочие пространства",
+    "layer": "Введите для поиска слои",
+    "access": "Введите для поиска Доступ",
+    "ip": null,
+    "priority": "Выбрать приоритет",
+    "filter": "Фильтровать стили...",
+    "filterAny": "ЛЮБОЙ"
+   },
+   "menutitle": "Управление правилами доступа",
+   "tooltip": {
+    "addT": "Добавить правило",
+    "editT": "Изменить выбранное правило",
+    "addBeT": "Добавить новое правило перед выбранным",
+    "addAfT": "Добавить новое правило после выбранного",
+    "deleteT": "Удалить выбранные правила",
+    "cacheT": "Очистить кэш",
+    "save": "Сохранить текущее правило",
+    "close": "Выйти из создания правила",
+    "showAllRules": "Показать все подходящие правила",
+    "filterRuleList": "Фильтровать список, используя выбранное значение"
+   },
+   "navItems": {
+    "main": "Общее правило",
+    "style": "Стиль",
+    "filter": "Фильтры",
+    "attribute": "Правило атрибутов"
+   },
+   "rule": "Правило",
+   "cachetitle": "Очистить кэш",
+   "cachemsg": "Вы уверены, что хотите очистить кэш правил?",
+   "deltitle": "Удалить правило",
+   "delmsg": "Вы действительно хотите удалить это правило?",
+   "invalidForm": "Форма недействительна, проверьте значения полей",
+   "ip": "ИС",
+   "title": "Правила доступа",
+   "role": "Роль",
+   "user": "Пользователь",
+   "priority": "Приоритет",
+   "service": "Услуга",
+   "request": "Запрос",
+   "workspace": "Рабочее пространство",
+   "layer": "Слой",
+   "filters": "Фильтры",
+   "rules": "Правила",
+   "access": "Доступ",
+   "newModal": "Новое правило",
+   "editModal": "Изменить правило",
+   "newButton": "Создавать",
+   "editButton": "Сохранять",
+   "close": "Закрывать",
+   "previous": "предыдущий",
+   "next": "следующий",
+   "cacheCleaned": "Кэш успешно очищен",
+   "errorTitle": "Геозона",
+   "errorCQL": "Геометрия недействительна!",
+   "errorCleaningCache": "Ошибка очистки кэша правил.",
+   "errorLoadingRoles": "Ошибка загрузки ролей.",
+   "errorLoadingUsers": "Ошибка загрузки пользователей.",
+   "errorLoadingWorkspaces": "Ошибка загрузки рабочих пространств.",
+   "errorLoadingLayers": "Ошибка загрузки слоев.",
+   "errorLoadingRules": "Ошибка загрузки правил.",
+   "errorMovingRules": "Ошибка перемещения правил.",
+   "errorDeletingRules": "Ошибка удаления правил.",
+   "errorAddingRule": "Ошибка добавления правила.",
+   "errorUpdatingRule": "Ошибка сохранения правила.",
+   "errorDuplicateRule": "Дублированное правило.",
+   "errorLoading": "Ошибка загрузки",
+   "deleteModal": "Удалить правила",
+   "selectedRulesDelete": "Удалить выбранные правила?",
+   "deleteButton": "Удалить",
+   "cancelButton": "Отмена",
+   "cqlRead": "Правила чтения фильтра CQL",
+   "cqlWrite": "Правила записи фильтра CQL",
+   "missingconfig": "Менеджер правил пропускает конфигурацию. Доступ запрещен!",
+   "selectworkspace": "Вам необходимо выбрать рабочее пространство, чтобы включить расширенные параметры."
+  },
+  "geostory": {
+   "storyResources": "Ресурсы истории",
+   "geostoreMap": "MapStore Карты",
+   "loadingSpinner": "Загрузка истории",
+   "addTitleSection": "Добавить раздел заголовка",
+   "addBannerSection": "Добавить раздел баннера",
+   "addParagraphSection": "Добавить раздел абзаца",
+   "addImmersiveSection": "Добавить раздел погружения",
+   "addMediaSection": "Добавить раздел «Медиа»",
+   "addWebPageSection": "Добавить раздел веб-страницы",
+   "addImmersiveContent": "Добавить захватывающий контент",
+   "addGeocarouselSection": "Добавить раздел «Геокарусель»",
+   "addGeocarouselContent": "Добавить контент Geocarousel",
+   "addTextContent": "Добавить текстовое содержимое",
+   "addMediaContent": "Добавить медиа-контент",
+   "addWebPageContent": "Добавить содержимое веб-страницы",
+   "zoomToContent": "Увеличить содержание",
+   "delete": "Удалить геоисторию",
+   "emptyTitle": "Эта история пуста.",
+   "emptyDescription": "Начните создавать потрясающую геоисторию, добавляя новый контент",
+   "closeFullscreenMap": "Закрыть полноэкранную карту",
+   "showFullscreenMap": "Показать полноэкранную карту",
+   "carouselAddTitle": "Добавить новую миниатюру карты",
+   "carouselEditTitle": "Изменить миниатюру карты",
+   "carouselAddMapInfo": "Добавить фоновую карту",
+   "carouselAddItemInfo": "Добавить новый маркер для выбранного элемента карусели",
+   "carouselPlaceMarkerInfo": "Нажмите на карту, чтобы добавить новый маркер.",
+   "contentToolbar": {
+    "contentSize": "Изменить размер",
+    "contentHeightAuto": "Сделайте этот раздел подходящим по высоте контента",
+    "contentHeightView": "Сделать этот раздел соответствующим виду по вертикали",
+    "smallSizeLabel": "Маленький",
+    "mediumSizeLabel": "Середина",
+    "largeSizeLabel": "Большой",
+    "fullSizeLabel": "Полный",
+    "contentAlign": "Выровнять содержимое",
+    "leftAlignLabel": "Левый",
+    "centerAlignLabel": "Центр",
+    "rightAlignLabel": "Верно",
+    "contentTheme": "Изменить тему поля",
+    "brightThemeLabel": "Яркий",
+    "brightTextThemeLabel": "Яркий текст",
+    "darkThemeLabel": "Темный",
+    "darkTextThemeLabel": "Темный текст",
+    "defaultThemeLabel": "По умолчанию",
+    "customizeThemeLabel": "Настроить",
+    "customizeThemeRemoveLabel": "Удалить настройку",
+    "cover": "Сделайте так, чтобы фон покрывал все пространство контейнера.",
+    "fit": "Сделать весь фон видимым внутри контейнера",
+    "editMedia": "Изменить источник медиа",
+    "remove": "Удалять",
+    "add": "Добавлять",
+    "edit": "Редактировать",
+    "marker": "Добавить маркер на карту",
+    "removeConfirmTitle": "Вы уверены?",
+    "removeConfirmContent": "Хотите удалить этот контент из истории?",
+    "editMap": "Изменить конфигурацию карты",
+    "resetMap": "Сброс карты до исходной конфигурации",
+    "resetMapConfirm": "Сбросить конфигурацию карты",
+    "resetConfirmContent": "Восстановить исходную конфигурацию карты?",
+    "saveChanges": "Сохранить изменения",
+    "closeMapEditing": "Закрывать",
+    "confirmCloseMapEditing": "Закрыть редактирование карты",
+    "pendingChangesDiscardConfirm": "Отменить текущие изменения карты?",
+    "editURL": "Изменить URL веб-страницы",
+    "advancedMapEditor": "Открыть расширенный редактор карт",
+    "enableAudio": "Включить звук",
+    "disableAudio": "Отключить видео",
+    "enableAutoplay": "Включить автовоспроизведение",
+    "disableAutoplay": "Отключить автовоспроизведение",
+    "enableLoop": "Включить цикл",
+    "disableLoop": "Отключить цикл",
+    "hideCaption": "Скрыть подпись",
+    "showCaption": "Использовать описание как подпись"
+   },
+   "navigation": {
+    "edit": "Редактировать историю"
+   },
+   "builder": {
+    "defaults": {
+     "htmlTitlePlaceholder": "Вставьте заголовок",
+     "htmlPlaceholder": "Вставьте текст здесь...",
+     "titleTitle": "Раздел заголовка",
+     "titleBanner": "Раздел баннера",
+     "titleParagraph": "Параграф Раздел",
+     "titleImmersive": "Раздел погружения",
+     "titleImmersiveContent": "Захватывающий контент",
+     "titleGeocarousel": "Раздел Геокарусели",
+     "titleGeocarouselContent": "Контент геокарусели",
+     "titleMedia": "Раздел СМИ",
+     "titleImage": "Изображение",
+     "titleText": "Текст",
+     "titleWebPage": "Веб-страница",
+     "titleWebPageSection": "Раздел веб-страницы",
+     "titleUnknown": "НЕИЗВЕСТНЫЙ"
+    },
+    "delete": "Удалить выбранный раздел",
+    "preview": "Показать предварительный просмотр",
+    "edit": "Редактировать историю",
+    "noContents": "Нет доступного контента",
+    "collapseAll": "Свернуть все",
+    "expandAll": "Развернуть все",
+    "fullscreen": "Показать предварительный просмотр в полноэкранном режиме",
+    "settings": {
+     "tooltip": "Настройки",
+     "back": "Вернуться к строителю",
+     "backConfirmTitle": "Настройки изменены",
+     "backConfirmBody": "Вы уверены, что хотите закрыть панель настроек, не сохраняя изменения?",
+     "backConfirmNo": "Нет",
+     "backConfirmYes": "Да",
+     "save": "Сохранить настройки",
+     "storyTheme": "Тема рассказа",
+     "storyHeader": "Заголовок истории",
+     "title": "Заголовок",
+     "titlePlaceholder": "Введите название",
+     "logo": "Логотип",
+     "logoPlaceholder": "Перетащите изображение вашего логотипа сюда или щелкните, чтобы выбрать файл изображения (поддерживаемые форматы: png и jpeg)",
+     "autoplay": "Автовоспроизведение",
+     "enableAutoplay": "Включить автовоспроизведение",
+     "autoplayInterval": "Интервал автовоспроизведения (секунды)",
+     "autoplayIntervalPlaceholder": "Включить интервал автовоспроизведения",
+     "navbar": "Панель навигации",
+     "showNavbar": "Показать навигационную панель",
+     "theme": "Тема по умолчанию",
+     "fontFamily": "Семейство шрифтов",
+     "webFontLoadError": "Не удалось загрузить некоторые шрифты из локальной конфигурации.",
+     "fontSize": "Размер шрифта",
+     "overlay": "Наложение",
+     "templateTooltip": "Этот параметр позволяет включить функцию идентификации на карте, определив общий формат для всех слоев. Можно настроить другой формат для каждого отдельного слоя с помощью расширенного редактора карт (значок карандаша). Для получения дополнительной информации см. <a href='https://mapstore.readthedocs.io/en/latest/user-guide/layer-settings/#templates' target='_blank'> руководство пользователя </a>. Если слой определил свой собственный формат идентификации, он будет использоваться вместо общего, установленного на уровне карты."
+    }
+   },
+   "importDialog": {
+    "selectFiles": "Выберите файл",
+    "heading": "Перетащите ранее экспортированный файл geostory .json",
+    "note": "Данные в импортированном файле заменят данные в текущей геоистории."
+   },
+   "exportDialog": {
+    "heading": "Экспортировать geostory как файл .json"
+   },
+   "errors": {
+    "loading": {
+     "notFound": "Geostory не найден",
+     "title": "Ошибка",
+     "unknownError": "Неизвестная ошибка",
+     "pleaseLogin": "Пожалуйста, войдите в систему",
+     "notAccessible": "Эта история недоступна",
+     "geostoryNotAccessible": "У вас нет разрешения на доступ к этой истории. Пожалуйста, свяжитесь с владельцем ресурса",
+     "geostoryDoesNotExist": "Эта история не существует",
+     "video": "Извините! Произошла ошибка, попробуйте еще раз позже."
+    }
+   },
+   "mapEditor": {
+    "configureMapOptions": "Настроить карту",
+    "settings": "Настройки",
+    "settingsSubTitle": "Управление взаимодействием с пользователями",
+    "toc": "Слои",
+    "pan": "Взаимодействие с панелями",
+    "zoom": "Взаимодействие с увеличением/уменьшением масштаба",
+    "topLeft": "Вверху слева",
+    "topRight": "Вверху справа",
+    "bottomLeft": "Внизу слева",
+    "bottomRight": "Внизу справа",
+    "identify": "Идентифицировать"
+   },
+   "webPageCreator": {
+    "title": "веб-страница",
+    "saveButton": "Сохранять",
+    "error": "Пожалуйста, укажите действительный URL-адрес веб-страницы",
+    "url": {
+     "label": "URL"
+    }
+   },
+   "customizeTheme": {
+    "backgroundColorLabel": "Фон",
+    "textColorLabel": "Текст",
+    "shadowLabel": "Тень",
+    "useAlternativeTextColor": "Использовать альтернативный цвет текста",
+    "alternativeTextColorPopover": "<p>Внимание: выбранный цвет текста может быть нечитаемым на этом фоне.</p><p>Альтернативный цвет текста — {color} &nbsp;<span class=\"ms-custom-theme-picker-alternative-text\" style=\"background-color:{color}\"></span></p>"
+   }
+  },
+  "geostoryEmbedded": {
+   "loadingSpinner": "Загрузка истории",
+   "errors": {
+    "loading": {
+     "notFound": "Geostory не найден",
+     "title": "Ошибка",
+     "unknownError": "Неизвестная ошибка",
+     "notAccessible": "Эта история недоступна",
+     "pleaseLogin": "Ресурс не является публичным",
+     "geostoryNotAccessible": "У вас нет разрешения на доступ к этой истории",
+     "geostoryDoesNotExist": "Эта история не существует"
+    }
+   }
+  },
+  "saveDialog": {
+   "title": "Изменить свойства",
+   "name": "Имя",
+   "titleInput": "Заголовок",
+   "description": "Описание",
+   "createdAt": "Созданный",
+   "modifiedAt": "Измененный",
+   "namePlaceholder": "Введите имя...",
+   "descriptionPlaceholder": "Введите описание...",
+   "titlePlaceholder": "Введите заголовок...",
+   "confirmCloseText": "Есть ожидающие изменения. Вы уверены, что хотите закрыть их без сохранения?",
+   "close": "Закрывать",
+   "cancel": "Отмена",
+   "saveSuccessTitle": "Успех",
+   "saveSuccessMessage": "Сохранено успешно",
+   "saveTooltip": "Сохранять",
+   "saveAsTooltip": "Сохранить как",
+   "unadvertised": "Нерекламируемый",
+   "creator": "Создано",
+   "editor": "Последнее изменение:"
+  },
+  "mapEditor": {
+   "modalTitle": "Редактор карт",
+   "confirmExitTitle": "Закрыть редактор карт",
+   "confirmExitContent": "Отменить ожидающие изменения?"
+  },
+  "mediaEditor": {
+   "modalTitle": "СМИ",
+   "images": "Изображения",
+   "videos": "Видео",
+   "maps": "Карты",
+   "preview": "Предварительный просмотр",
+   "apply": "Применять",
+   "confirmExitTitle": "Закрыть редактор медиа",
+   "confirmExitContent": "Отменить ожидающие изменения?",
+   "mediaPicker": {
+    "services": "Услуги:",
+    "clean": "Чистые результаты",
+    "noResults": "Нет результатов",
+    "selectService": "Выберите услугу",
+    "add": "Добавлять",
+    "back": "Назад",
+    "save": "Сохранять",
+    "edit": "Редактировать",
+    "sourcePlaceholder": "Введите источник",
+    "source": "Источник",
+    "titlePlaceholder": "Введите название",
+    "title": "Заголовок",
+    "altTextPlaceholder": "Введите альтернативный текст",
+    "altText": "Альтернативный текст",
+    "descriptionPlaceholder": "Введите описание",
+    "description": "Описание",
+    "creditsPlaceholder": "Введите кредиты",
+    "credits": "Кредиты",
+    "mapFilter": "Фильтровать карты",
+    "videoFilter": "Фильтровать видео",
+    "imageFilter": "Фильтровать изображения",
+    "import": "Импортировать ресурс в локальное хранилище",
+    "trash": "Удалить ресурс",
+    "videoUrl": "URL-адрес видео",
+    "videoUrlPlaceholder": "Введите URL видео",
+    "thumbnail": "Добавить миниатюру (максимальный размер 500 Кб)",
+    "createVideoThumbnail": "Создать миниатюру из источника видео",
+    "thumbnailCreateError": "Невозможно создать миниатюру из текущего источника видео. Щелкните или перетащите изображение в поле миниатюры, чтобы загрузить его вручную"
+   },
+   "mediaform": {
+    "confirmExitTitle": "Закрыть форму СМИ",
+    "confirmExitContent": "Отменить ожидающие изменения?"
+   },
+   "mapForm": {
+    "thumbnailMessage": "Размер изображения должен быть квадратным 98px x 98px, макс. 100kb.",
+    "confirmMapSaveTitle": "Обновление карты",
+    "confirmMapSaveContent": "Обновление этой карты приведет к сбросу всех зависимых карт в истории, ранее настроенных с помощью встроенного редактора. Подтверждаете?"
+   },
+   "mediaList": {
+    "removeResourceTitle": "Вы уверены?",
+    "confirmRemoveResource": "Хотите ли вы удалить этот медиаресурс из истории?",
+    "confirmRemoveUsedResource": "Этот ресурс также будет удален из всех разделов/контента, где он используется, оставив их пустыми. Вы хотите удалить его из истории?",
+    "resultsCount": "{count} из {total} {total, plural, one {Result} other {Results}}"
+   },
+   "imageList": {
+    "emptyList": "Нажмите кнопку «плюс», чтобы добавить новое изображение. Смотрите руководство пользователя <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#images' target='_blank'/>здесь</a>"
+   },
+   "mapList": {
+    "emptyList": "Нажмите кнопку «плюс», чтобы создать карту или выбрать другой картографический сервис. Смотрите руководство пользователя <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#maps' target='_blank'/>здесь</a>"
+   },
+   "videoList": {
+    "emptyList": "Нажмите кнопку «плюс», чтобы добавить новое видео. Смотрите руководство пользователя <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#videos' target='_blank'/>здесь</a>"
+   }
+  },
+  "backgroundDialog": {
+   "addTitle": "Добавить новый фон",
+   "editTitle": "Изменить текущий фон",
+   "editAttribution": "Атрибуция",
+   "editAttributionPlaceholder": "Введите текст атрибуции",
+   "title": "Заголовок",
+   "titlePlaceholder": "Введите отображаемое имя",
+   "add": "Добавлять",
+   "thumbnailMessage": "Размер изображения должен быть квадратным 128 пикселей x 128 пикселей, максимальный размер 500 КБ.",
+   "imageUploadMessage": "Щелкните или перетащите, чтобы добавить изображение.",
+   "additionalParameters": "Дополнительные параметры",
+   "addAdditionalParameterTooltip": "Добавить параметр",
+   "removeAdditionalParameterTooltip": "Удалить параметр",
+   "parameter": "Параметр",
+   "value": "Ценить",
+   "string": "Нить",
+   "number": "Число",
+   "boolean": "Булев"
+  },
+  "defaultMapBackgroundsServiceTitle": "Фоны по умолчанию",
+  "backgroundSelector": {
+   "addTooltip": "Добавить новый фон",
+   "editTooltip": "Изменить фон",
+   "deleteTooltip": "Удалить фон",
+   "confirmDelete": "Вы уверены, что хотите удалить фон «{title}»?"
+  },
+  "stepper": {
+   "back": "Назад",
+   "next": "Следующий"
+  },
+  "newMapDialog": {
+   "title": "Выберите контекст",
+   "noContexts": "Контексты не найдены",
+   "filterPlaceholder": "Контексты поиска..."
+  },
+  "plugins": {
+   "About": {
+    "description": "Инструмент, показывающий окно «О программе»",
+    "title": "О"
+   },
+   "AddGroup": {
+    "description": "Позволяет пользователям создавать новые группы слоев в оглавлении",
+    "title": "Добавить группу слоев"
+   },
+   "Annotations": {
+    "description": "Инструмент для рисования аннотаций на карте",
+    "title": "Аннотации"
+   },
+   "AutoMapUpdate": {
+    "description": "Позволяет пользователю обновлять карту (старая версия Mapstore)",
+    "title": "Автоматическое обновление карты"
+   },
+   "BackgroundSelector": {
+    "description": "Позволяет выбрать фон карты",
+    "title": "Селектор фона"
+   },
+   "BurgerMenu": {
+    "description": "Меню в правом верхнем углу карты, содержащее другие плагины",
+    "title": "Меню бургеров"
+   },
+   "CRSSelector": {
+    "description": "Позволяет переключать проекцию карты",
+    "title": "Селектор CRS"
+   },
+   "DeleteMap": {
+    "description": "Позволяет удалить ресурс карты и все связанные с ним ресурсы.",
+    "title": "Удалить карту"
+   },
+   "Details": {
+    "description": "Разрешить показывать подробную карточку карты, если таковая имеется",
+    "title": "Подробности карты"
+   },
+   "Expander": {
+    "description": "Утилита для боковой панели (навигации), позволяющая скрыть некоторые кнопки",
+    "title": "Расширитель"
+   },
+   "FeatureEditor": {
+    "description": "Просмотр атрибутов в таблице",
+    "title": "Таблица атрибутов"
+   },
+   "FilterLayer": {
+    "description": "Позволяет добавить фильтр к слою",
+    "title": "Фильтрующий слой"
+   },
+   "GeoProcessing": {
+    "description": "Позволяет обрабатывать слои геоданных для создания нового слоя, используя буфер и пересечение процессов wps.",
+    "title": "Геообработка"
+   },
+   "HelpLink": {
+    "description": "Кнопка доступа к документации MapStore",
+    "title": "Ссылка на документацию"
+   },
+   "Home": {
+    "description": "Ссылка на домашнюю страницу",
+    "title": "Дом"
+   },
+   "Identify": {
+    "description": "Запрос объектов на карте",
+    "title": "Идентифицировать"
+   },
+   "Locate": {
+    "description": "Найдите и отследите местоположение пользователя на карте",
+    "title": "Инструмент определения местоположения"
+   },
+   "Login": {
+    "description": "Инструмент входа",
+    "title": "Авторизоваться"
+   },
+   "LongitudinalProfileTool": {
+    "description": "Позволяет пользователю создавать продольный профиль по заданной линии и слою с атрибутом высоты. Требуется настройка",
+    "title": "Инструмент продольного профиля"
+   },
+   "MapCatalog": {
+    "description": "Позволяет просматривать, редактировать, удалять и загружать карты, доступные на сервере.",
+    "title": "Каталог карт"
+   },
+   "MapExport": {
+    "description": "Позволяет экспортировать карту в файл",
+    "title": "Экспорт карты"
+   },
+   "MapImport": {
+    "description": "Позволяет импортировать данные (SHP, KML/KMZ, GeoJSON, GPX) или перезагружать экспортированные карты.",
+    "title": "Импорт"
+   },
+   "MapLoading": {
+    "description": "Счетчик на боковой панели, показывающий, загружается ли карта",
+    "title": "Индикатор загрузки карты"
+   },
+   "Measure": {
+    "description": "Позволяет измерять расстояния и площади на карте",
+    "title": "Мера"
+   },
+   "MetadataExplorer": {
+    "description": "Просмотрите сервисы (WMS/WMTS/CSW) для добавления слоев на карту",
+    "title": "Каталог"
+   },
+   "MousePosition": {
+    "description": "Показывает координаты точки, на которую указывает курсор мыши.",
+    "title": "Позиция мыши"
+   },
+   "Print": {
+    "description": "Позволяет распечатать текущую карту с легендой",
+    "title": "Инструмент печати"
+   },
+   "Save": {
+    "description": "Позволяет сохранять изменения карты на сервере.",
+    "title": "Сохранять"
+   },
+   "SaveAs": {
+    "description": "Позволяет создавать или клонировать карты на сервере.",
+    "title": "Сохранить как"
+   },
+   "ScaleBox": {
+    "description": "Индикатор и селектор текущего масштаба карты",
+    "title": "Выбор масштаба"
+   },
+   "Search": {
+    "description": "Инструмент текстового поиска (GeoCoder)",
+    "title": "Панель поиска"
+   },
+   "Settings": {
+    "description": "Позволяет редактировать некоторые настройки карты (язык, формат информации по умолчанию...)",
+    "title": "Настройки"
+   },
+   "Share": {
+    "description": "Позволяет делиться картой различными способами (ссылка, QR-код, встраивание, социальные сети...)",
+    "title": "Поделиться инструментом"
+   },
+   "Permalink": {
+    "description": "Позволяет создать постоянную ссылку на текущий просматриваемый ресурс.",
+    "title": "Постоянная ссылка"
+   },
+   "StreetView": {
+    "title": "Просмотр улиц",
+    "description": "Инструмент просмотра улиц для просмотра изображений Google Street View на карте"
+   },
+   "StyleEditor": {
+    "description": "Редактор стилей слоев",
+    "title": "Редактор стиля"
+   },
+   "TOC": {
+    "description": "Предоставляет список слоев с возможностью их сортировки.",
+    "title": "Список слоев"
+   },
+   "TOCItemsSettings": {
+    "description": "Разрешить редактировать настройки слоя",
+    "title": "Настройки слоя"
+   },
+   "Timeline": {
+    "description": "Позволяет перемещаться во времени для данных с временным измерением",
+    "title": "Хронология"
+   },
+   "Tutorial": {
+    "description": "Добавляет руководство для объяснения различных функций.",
+    "title": "Учебник"
+   },
+   "UserExtensions": {
+    "description": "Позволяет пользователю включать/отключать пользовательские расширения",
+    "title": "Расширения пользователя"
+   },
+   "UserSession": {
+    "title": "Пользовательский сеанс",
+    "description": "Позволяет автоматически сохранять сеанс пользователя для каждого контекста."
+   },
+   "Version": {
+    "description": "Показывает версию MapStore в инструменте настройки карты",
+    "descriptionGeorchestra": "Показывает версию GeOrchestra в инструменте настройки карты",
+    "title": "Версия"
+   },
+   "LayerDownload": {
+    "description": "Позволяет загружать данные из таблицы атрибутов",
+    "title": "Загрузить данные"
+   },
+   "Widgets": {
+    "description": "Позволяет добавлять и отображать виджеты на карте.",
+    "title": "Виджеты"
+   },
+   "WidgetsTray": {
+    "description": "Панель для сворачивания и разворачивания виджетов на карте.",
+    "title": "Панель виджетов"
+   },
+   "Globe": {
+    "description": "Кнопка на боковой панели для включения/выключения 3D-режима",
+    "title": "3D"
+   },
+   "ZoomAll": {
+    "description": "Кнопка на боковой панели для масштабирования до масштаба карты",
+    "title": "Увеличить до максимального размера"
+   },
+   "ZoomIn": {
+    "description": "Кнопка увеличения масштаба карты",
+    "title": "Увеличить масштаб"
+   },
+   "ZoomOut": {
+    "description": "Кнопка уменьшения масштаба карты",
+    "title": "Уменьшить масштаб"
+   },
+   "MapViews": {
+    "description": "Этот плагин позволяет добавлять последовательность различных видов внутри карты.",
+    "title": "MapViews"
+   }
+  },
+  "contextCreator": {
+   "generalSettings": {
+    "label": "Общие настройки",
+    "title": "Создать новый контекст приложения",
+    "edit": "Изменить контекст приложения",
+    "name": "Имя",
+    "namePlaceholder": "Введите имя контекста приложения...",
+    "windowTitle": "Заголовок окна",
+    "windowTitlePlaceholder": "Введите заголовок окна..."
+   },
+   "configureThemes": {
+    "title": "Настроить тему",
+    "label": "Тема",
+    "themes": "Выберите тему",
+    "noThemes": "Темы не найдены",
+    "customVariables": "Пользовательские переменные",
+    "main": "Цвет основного текста",
+    "background": "Основной цвет фона",
+    "primaryContrast": "Основной цвет текста",
+    "primary": "Основной цвет",
+    "successContrast": "Вторичный цвет текста",
+    "success": "Вторичный цвет",
+    "guidelines": "Убедитесь, что вы не используете вторичный цвет, слишком похожий на основной, и, очевидно, основной цвет текста с его аналогом (то же самое относится к другим парам цветов: основной, вторичный).",
+    "alternativeTextPrimarySecondary": "<p>Внимание: вторичный цвет может быть нечитаемым по сравнению с основным</p><p>Альтернативный цвет — {color} &nbsp;<span class=\"ms-custom-theme-picker-alternative-text\" style=\"background-color:{color}\"></span></p>",
+    "tooltips": {
+     "main": "Цвет текста, используемый в панелях или диалоговых окнах",
+     "background": "Цвет фона, используемый в панелях или диалоговых окнах",
+     "primaryContrast": "Цвет текста, противоположный основному и фоновому цвету: значки внутри панелей инструментов, заголовки, кнопки",
+     "primary": "Основной цвет фона: панели инструментов, заголовки, кнопки",
+     "successContrast": "Цвет текста применяется, когда вторичный цвет используется в качестве фона",
+     "success": "Цвет фона, используемый для отображения того, является ли кнопка «активной» или «выбранной»",
+     "customColorsDescription": "Вы можете изменить один из этих цветов в дополнение (или нет) к предварительно настроенной теме, выбранной выше."
+    }
+   },
+   "configurePlugins": {
+    "label": "Настроить плагины",
+    "pluginsFilterPlaceholder": "Фильтровать плагины по имени...",
+    "availablePlugins": "Доступные плагины",
+    "enabledPlugins": "Включенные плагины",
+    "availablePluginsEmpty": "Все доступные плагины включены",
+    "enabledPluginsEmpty": "Добавить плагины в конфигурацию из списка доступных плагинов",
+    "searchResultsEmpty": "Не найдено ни одного плагина, удовлетворяющего критериям поиска.",
+    "cfgParsingError": {
+     "title": "Ошибка конфигурации",
+     "body": "Ошибка анализа конфигурации JSON.\nПроизошла следующая ошибка:\n\"{error}\""
+    },
+    "uploadLabel": "Перетащите пакет расширений или щелкните, чтобы просмотреть и загрузить его.",
+    "uploadTitle": "Установить плагин MapStore",
+    "uploadParseError": "Файл index.json index.json имеет неправильный формат",
+    "uploadMissingIndexError": "Файл index.json отсутствует в zip-архиве",
+    "uploadMissingPluginError": "В index.json не определены плагины",
+    "uploadMissingBundleError": "В загруженном файле нет пакета javascript",
+    "uploadTooManyBundlesError": "Слишком много пакетов JavaScript в zip-архиве",
+    "uploadWrongFileFormatError": "Неправильный формат файла, ожидается zip-файл",
+    "uploadAlreadyInstalledError": "Расширение уже установлено. Удаление текущего расширения перед переустановкой",
+    "confirmRemovePlugin": "Вы уверены, что хотите удалить расширение?",
+    "cancelUpload": "Закрывать",
+    "install": "Установить",
+    "uploadError": "Ошибка при установке:",
+    "uploadOk": "Расширение установлено правильно",
+    "tooltips": {
+     "enableUserPlugin": "Включить выбор текущего плагина для пользователя",
+     "disableUserPlugin": "Отключить выбор текущего плагина для пользователя",
+     "activatePlugin": "Включить загрузку этого плагина при запуске",
+     "deactivatePlugin": "Отключить загрузку этого плагина при запуске",
+     "editConfiguration": "Изменить конфигурацию плагина",
+     "pluginDocumentation": "Открыть документацию по настройке плагина",
+     "uploadPlugin": "Добавить расширение в MapStore",
+     "removePlugin": "Удалить это расширение из MapStore",
+     "mapTemplatesConfig": "Настройте шаблоны карт"
+    },
+    "tutorialPlugins": {
+     "availableTitle": "Доступный плагин",
+     "availableDescription": "Этот плагин отключен",
+     "enabledTitle": "Включенный плагин",
+     "enabledDescription": "Этот плагин включен"
+    },
+    "saveCfgErrorNotification": {
+     "title": "Синтаксическая ошибка в конфигурации плагина",
+     "message": "Плагин \"{pluginName}\" содержит ошибку в конфигурации. Пожалуйста, исправьте перед продолжением"
+    }
+   },
+   "configureTemplates": {
+    "title": "Настроить шаблоны карт",
+    "availableTemplates": "Доступные шаблоны карт",
+    "enabledTemplates": "Включенные шаблоны карт",
+    "templatesFilterPlaceholder": "Фильтровать шаблоны карт по имени...",
+    "availableTemplatesEmpty": "Все доступные шаблоны карт включены.",
+    "enabledTemplatesEmpty": "Добавить шаблоны карт в конфигурацию из списка доступных шаблонов",
+    "searchResultsEmpty": "Не найдено шаблонов карт, соответствующих критериям поиска.",
+    "fileDrop": {
+     "label": "Шаблон карты",
+     "clear": "Перетащите или щелкните, чтобы выбрать файл карты (поддерживаются экспортированные карты JSON MapStore или файлы WMC)"
+    },
+    "uploadDialog": {
+     "title": "Загрузить шаблон карты",
+     "save": "Загрузить",
+     "jsonParsingError": "Ошибка анализа JSON: \"{error}\"",
+     "fileReadError": "Произошла непредвиденная ошибка чтения файла"
+    },
+    "tooltips": {
+     "uploadTool": "Загрузить новый шаблон карты",
+     "editTemplate": "Изменить свойства шаблона карты",
+     "deleteTemplate": "Удалить шаблон карты"
+    },
+    "deleteError": "Не удалось удалить шаблон карты, произошла ошибка",
+    "deleteConfirm": "Вы уверены, что хотите удалить этот шаблон карты «{templateName}»?"
+   },
+   "configureMap": {
+    "label": "Настроить карту",
+    "reload": "Перезагрузить карту",
+    "confirm": "Это приведет к отмене всех текущих изменений карты. Продолжить?"
+   },
+   "saveErrorNotification": {
+    "titleContext": "Сохранение контекста не удалось",
+    "titleTemplate": "Сохранение шаблона не удалось",
+    "conflict": "Ресурс с таким именем уже существует",
+    "defaultMessage": "Неизвестная ошибка",
+    "categoryError": "Не удалось создать отсутствующую категорию \"{categoryName}\""
+   },
+   "loadTemplateErrorNotification": {
+    "forbidden": "Не удалось получить доступ к данным шаблона, у пользователя отсутствуют необходимые разрешения!",
+    "defaultMessage": "Произошла непредвиденная ошибка"
+   },
+   "contextNameErrorNotification": {
+    "title": "Неправильное контекстное имя",
+    "unknownError": "Произошла непредвиденная ошибка"
+   },
+   "undo": "Вы уверены, что хотите прекратить сеанс редактирования контекста?",
+   "showTutorial": "Показать учебник",
+   "errors": {
+    "loading": {
+     "title": "Ошибка загрузки контекста",
+     "import": "Не удалось импортировать контекст",
+     "export": "Не удалось экспортировать контекст"
+    }
+   },
+   "import": "Импорт",
+   "importTooltip": "Чтобы импортировать контекст, перейдите к шагу 1.",
+   "export": "Экспорт",
+   "importDialog": {
+    "selectFiles": "Выберите файл",
+    "heading": "Перетащите ранее экспортированный файл context.json",
+    "note": "Данные в импортированном файле заменят данные в текущем контексте."
+   },
+   "exportDialog": {
+    "heading": "Экспортировать этот контекст как файл"
+   }
+  },
+  "contextManager": {
+   "title": "Управление контекстами",
+   "gridTitle": "Контексты",
+   "searchPlaceholder": "поиск...",
+   "newContext": "Новый контекст",
+   "editContextTooltip": "Изменить контекст"
+  },
+  "userExtensions": {
+   "title": "Расширения пользователя",
+   "emptyTitle": "Результата нет",
+   "emptyDescription": "Введенный фильтр не соответствует названию или описанию ни одного из расширений",
+   "filterPlaceholder": "Фильтр...",
+   "addExtension": "Добавить расширение",
+   "removeExtension": "Удалить расширение"
+  },
+  "mapTemplates": {
+   "title": "Шаблоны карт",
+   "tooltip": "Просмотреть шаблоны карт",
+   "favouritesTitle": "Избранное",
+   "allTitle": "Все",
+   "filterPlaceholder": "Шаблон карты фильтра...",
+   "transfer": "Заменить карту этим шаблоном карты",
+   "merge": "Добавьте этот шаблон карты на карту",
+   "favouriteAdd": "Добавить в избранное",
+   "favouriteRemove": "Удалить из избранного",
+   "emptyTitle": "Результата нет",
+   "emptyDescription": "Введенный фильтр не соответствует названию или описанию ни одного шаблона карты",
+   "noTemplatesTitle": "Шаблон карты не найден",
+   "noTemplatesDescription": "Текущий контекст не содержит шаблона карты",
+   "confirmReplaceTitle": "Заменить содержимое карты",
+   "confirmReplaceMessage": "Нажав кнопку «Заменить», вы замените все слои и конфигурацию карты выбранным шаблоном карты.",
+   "confirmReplaceConfirmButton": "Заменять"
+  },
+  "mapCatalog": {
+   "title": "Каталог карт",
+   "tooltip": "Просмотр и загрузка карт",
+   "filterPlaceholder": "Поиск карт...",
+   "deleteConfirmContent": "Вы уверены, что хотите удалить карту «{mapName}»?",
+   "tooltips": {
+    "edit": "Изменить свойства",
+    "delete": "Удалить ресурс",
+    "share": "Делиться"
+   },
+   "deletedMap": {
+    "title": "Удаленная карта",
+    "message": "Карта была успешно удалена."
+   },
+   "updatedMap": {
+    "title": "Сохраненная карта",
+    "message": "Карта успешно сохранена."
+   },
+   "deleteError": "Произошла непредвиденная ошибка при удалении карты",
+   "updateError": "Произошла непредвиденная ошибка при сохранении карты"
+  },
+  "layerInfo": {
+   "title": "Обновить названия и описания слоев",
+   "noLayers": "Слои не найдены",
+   "syncButton": "Синхронизировать заголовки и описания",
+   "selectAll": "Выбрать все",
+   "deselectAll": "Отменить выбор всех",
+   "updatingLayers": "Обновление слоев {updatedCount}/{totalCount}",
+   "tooltips": {
+    "syncSuccess": "Заголовок и описание были успешно обновлены для этого слоя",
+    "syncError": "Невозможно обновить заголовок и описание этого слоя. Вы можете проверить, все ли параметры слоя верны на панели настроек"
+   },
+   "syncingLayersSavingToServerError": {
+    "title": "Ошибка сохранения сервера",
+    "message": "Произошла непредвиденная ошибка при сохранении обновленных слоев на сервере"
+   },
+   "syncingLayersGeneralError": {
+    "title": "Общая ошибка",
+    "message": "Произошла непредвиденная ошибка при синхронизации слоев. Вероятно, ошибка в MapStore"
+   },
+   "layerType": "тип: {тип}"
+  },
+  "mapViews": {
+   "description": "Описание",
+   "position": "Позиция",
+   "animation": "Анимация",
+   "mask": "Маска",
+   "globeTranslucency": "Прозрачность глобуса",
+   "layersOptions": "Параметры слоев",
+   "cameraPosition": "Положение камеры",
+   "longitude": "Долгота",
+   "latitude": "Широта",
+   "height": "Высота (м)",
+   "centerPosition": "Центральное положение",
+   "captureThisViewPositions": "Захватите эту позицию просмотра",
+   "durationLabel": "Продолжительность (с)",
+   "flyToLabel": "Анимационный переход во время навигации",
+   "maskEnable": "Включить маску",
+   "maskLayer": "Слой",
+   "maskInverse": "Обратный",
+   "maskInverseOffset": "Обратное смещение (м)",
+   "globeTranslucencyEnable": "Включить полупрозрачность",
+   "globeTranslucencyOpacity": "Непрозрачность",
+   "globeTranslucencyFadeByDistance": "Уменьшение прозрачности с расстоянием",
+   "globeTranslucencyNearDistance": "Минимальное расстояние (м)",
+   "globeTranslucencyFarDistance": "Максимальное расстояние (м)",
+   "showClippingLayersGeometries": "Показать геометрию слоев обрезки",
+   "terrain": "Местность",
+   "clippingSourceLayer": "Источник слоя обрезки",
+   "clippingFeature": "Функция обрезки",
+   "clippingInverse": "Обратное отсечение",
+   "layerOpacity": "Непрозрачность",
+   "showViewsGeometries": "Показать просмотры позиций",
+   "addInitialView": "Нажмите кнопку «плюс», чтобы добавить новое представление.",
+   "removeView": "Удалить вид",
+   "resetLayerOverrides": "Сбросить изменения, чтобы выровнять слой по значению по умолчанию",
+   "hideLayer": "Скрыть слой",
+   "showLayer": "Показать слой",
+   "undoChanges": "Отменить изменения",
+   "redoChanges": "Повторить изменения",
+   "addNewView": "Добавить новый вид",
+   "addNewViewBelowSelected": "Добавить новый вид под выбранным",
+   "hideDescription": "Скрыть описание",
+   "showDescription": "Показать описание",
+   "copyCurrentView": "Копировать текущий вид",
+   "edit": "Редактировать",
+   "stopEdit": "Остановить редактирование",
+   "showViewsList": "Показать список просмотров",
+   "hideViewsList": "Скрыть список просмотров",
+   "gotToFirstView": "Перейти к первому виду",
+   "gotToPreviousView": "Перейти к предыдущему виду",
+   "play": "Начать навигацию",
+   "pause": "Приостановить навигацию",
+   "gotToNextView": "Перейти к следующему виду",
+   "gotToLastView": "Перейти к последнему просмотру",
+   "maskWithGlobeTranslucencyWarning": "Включение маски и полупрозрачности глобуса одновременно может вызвать артефакты в визуализации. Пожалуйста, используйте только один из этих двух вариантов для каждого представления",
+   "deactivateMapViews": "Отключить просмотр карты",
+   "activateMapViews": "Активировать просмотр карты",
+   "maskOtherVisibleLayerWarning": "Видны и другие векторные слои, все полигональные объекты, видимые на карте, будут применены ко всем видимым 3D-плиткам.",
+   "resourceLayerRequestError": "Не удалось выполнить запрос к выбранному слою. Проверьте, доступен ли слой",
+   "maskLayerPolygonError": "Выбранный слой не содержит полигональных объектов, поэтому маска не может иметь эффекта.",
+   "clipPolygonFeaturesNotAvailable": "Выбранный слой не содержит полигональных объектов, выберите другой слой.",
+   "addNewLayerToTheMap": "Карта пуста. Пожалуйста, добавьте новые слои внутри карты, чтобы сделать их доступными в списке просмотра"
+  },
+  "tutorial": {
+   "title": "Учебник",
+   "back": "Назад",
+   "next": "Следующий",
+   "close": "Закрывать",
+   "skip": "Пропускать",
+   "last": "Заканчивать",
+   "start": "Начинать",
+   "checkbox": "не показывать это сообщение снова",
+   "error": "Ошибка: цель не найдена",
+   "intro": {
+    "title": "Добро пожаловать в MapStore",
+    "text": "фреймворк для создания картографических веб-приложений с использованием стандартных картографических библиотек, таких как OpenLayers и Leaflet."
+   },
+   "drawerMenu": {
+    "title": "Главное меню",
+    "text": "Вы можете найти информацию и инструменты для управления слоями"
+   },
+   "searchBar": {
+    "title": "Панель поиска",
+    "text": "Напишите адрес места, которое нужно найти. Например, '1st Avenue, New York'. Вы даже можете вставить координаты в этом формате: 43.87,10.20"
+   },
+   "home": {
+    "title": "Дом",
+    "text": "Нажмите, чтобы перейти на домашнюю страницу"
+   },
+   "searchButton": {
+    "title": "Поиск",
+    "text": "Нажмите, чтобы открыть строку поиска, затем введите адрес места, которое нужно найти. Например, «1st Avenue, New York». Вы даже можете вставить координаты в этом формате: 43.87,10.20"
+   },
+   "burgerMenu": {
+    "title": "Меню опций",
+    "text": "Вы можете найти опции, настройки и помощь"
+   },
+   "zoomInButton": {
+    "title": "Увеличить масштаб",
+    "text": "Нажмите, чтобы увеличить карту"
+   },
+   "zoomOutButton": {
+    "title": "Уменьшить масштаб",
+    "text": "Нажмите, чтобы уменьшить карту"
+   },
+   "fullscreen": {
+    "title": "Полноэкранный",
+    "text": "Нажмите, чтобы перейти на полный экран"
+   },
+   "identifyButton": {
+    "title": "Информация",
+    "text": "Нажмите кнопку, чтобы активировать инструмент, затем щелкните по карте, чтобы получить информацию из слоев."
+   },
+   "mapType": {
+    "title": "Библиотека",
+    "text": "Для рендеринга карт вы можете выбрать Leaflet или OpenLayers."
+   },
+   "mapsGrid": {
+    "title": "Карты",
+    "text": "Вот несколько примеров MapStore. Нажмите на изображение, чтобы попробовать демо."
+   },
+   "examples": {
+    "title": "Пользовательское приложение",
+    "text": "Вы можете использовать компоненты и плагины MapStore для создания собственных приложений."
+   },
+   "introCesium": {
+    "title": "Инструкции по 3D-карте",
+    "text": "Нажмите кнопку «Далее», чтобы начать обучение."
+   },
+   "cesium": {
+    "title": "Взаимодействие с картой",
+    "pan": "Панорамный вид",
+    "zoom": "Увеличить вид",
+    "tilt": "Наклонный вид",
+    "rotate": "Повернуть вид",
+    "oneDrag": "Перетаскивание одним пальцем",
+    "twoPinch": "Сведение двух пальцев",
+    "twoDragSame": "Перетаскивание двумя пальцами в одном направлении",
+    "twoDragOpposite": "Перетаскивание двумя пальцами в противоположном направлении",
+    "leftClick": "Левый клик + перетаскивание",
+    "rightClick": "Щелчок правой кнопкой мыши + перетаскивание или прокрутка колесика мыши",
+    "middleClick": "Средняя кнопка мыши + перетаскивание или CTRL + левая/правая кнопка мыши + перетаскивание"
+   },
+   "cesiumCompass": {
+    "title": "Компас",
+    "text": "Вы можете использовать компас для вращения вокруг земного шара. Перетащите, чтобы повернуть карту"
+   },
+   "cesiumNavigation": {
+    "title": "Навигация",
+    "text": "Здесь вы найдете кнопки увеличения и уменьшения масштаба."
+   },
+   "dashboardIntro": {
+    "title": "Учебное пособие по панели инструментов",
+    "text": "Обзор функций панели управления"
+   },
+   "dashboardNav": {
+    "title": "Панель навигации",
+    "text": "Здесь вы найдете выбор языка, вход в систему, ссылку на домашнюю страницу и меню опций."
+   },
+   "dashboardContainer": {
+    "title": "Панель инструментов",
+    "text": "<p>Панель инструментов в MapStore предоставляет набор информации, собранной соответствующим образом для отображения агрегированных данных в одном снимке. Геопространственные данные, отображаемые на карте, могут быть размещены рядом с соответствующими таблицами атрибутов, диаграммами и другими данными с целью объединения различных видов информации, отображения статистических данных и текстовых описаний, относящихся к определенному контексту.</p><p> Все пользователи могут визуализировать и взаимодействовать с опубликованными панелями инструментов, но только пользователи, которым разрешено редактировать, могут добавлять, упорядочивать, изменять размер или удалять все виджеты внутри панели инструментов</p>"
+   },
+   "dashboardAddWidget": {
+    "title": "Добавить виджет",
+    "text": "Чтобы добавить виджет на панель управления, вы можете нажать на кнопку +"
+   },
+   "dashboardBuilder": {
+    "title": "Создать новый виджет",
+    "text": "Вы можете выбрать нужный вам тип виджета, а затем добавить его на панель управления, выбрав один из элементов в списке."
+   },
+   "dashboardAddChart": {
+    "title": "Виджет диаграммы",
+    "text": "<p>Это виджет, который отображает и объединяет данные в круговые, линейные или столбчатые диаграммы.</p><p>Шаги:</p><p><ul><li>Выберите векторный слой</li><li>Выберите тип диаграммы</li><li>Настройте данные диаграммы</li><li>Сохраните и добавьте на панель управления</li></ul></p>"
+   },
+   "dashboardAddText": {
+    "title": "Текстовый виджет",
+    "text": "<p>Добавьте свой собственный текст на панель управления.</p><p>Шаги:</p><p><ul><li>Отредактируйте текст в редакторе</li><li>Сохраните и добавьте на панель управления</li></ul></p>"
+   },
+   "dashboardAddTable": {
+    "title": "Виджет таблицы",
+    "text": "<p>Добавьте таблицу атрибутов на панель инструментов, содержащую данные из выбранного векторного слоя. Вы также можете фильтровать данные, чтобы настроить свою таблицу.</p><p>Шаги:</p><p><ul><li>Выберите векторный слой</li><li>Настройте данные таблицы</li><li>Сохраните и добавьте на панель инструментов</li></ul></p>"
+   },
+   "dashboardAddCounter": {
+    "title": "Виджет счетчика",
+    "text": "<p>Добавьте новый счетчик на панель управления. Счетчик будет показывать числовые значения агрегированных данных из выбранного векторного слоя.</p><p>Шаги:</p><p><ul><li>Выберите векторный слой</li><li>Настройте данные счетчика</li><li>Сохраните и добавьте на панель управления</li></ul></p>"
+   },
+   "dashboardAddMap": {
+    "title": "Виджет карты",
+    "text": "<p>Добавьте новую интерактивную карту на панель управления. Вы можете добавить более одной карты с возможностью подключения к ним других виджетов. После сохранения первой карты виджет легенды будет добавлен в список. Виджет легенды покажет легенду, связанную с подключенной картой.</p><p>Шаги:</p><p><ul><li>Выберите карту</li><li>Улучшите карту, добавив новые слои</li><li>Сохраните и добавьте на панель управления</li></ul></p>"
+   },
+   "contextCreator": {
+    "generalSettings": {
+     "intro": {
+      "title": "Учебник по созданию контекста",
+      "text": "Это пошаговый мастер создания и редактирования контекстов MapStore."
+     },
+     "stepsOverview": {
+      "title": "Шаги создания контекста",
+      "text": "<p>Каждый контекст создается в три этапа:</p><p><ul><li>Общие настройки</li><li>Настройка карты</li><li>Настройка плагинов</li></ul></p>"
+     },
+     "navigation": {
+      "next": {
+       "title": "Навигация: Далее",
+       "text": "<p>Нажмите эту кнопку, чтобы перейти к следующему шагу. Если кнопка неактивна, это означает, что либо настроенные вами данные проверяются, либо они недействительны.</p>"
+      },
+      "back": {
+       "title": "Навигация: Назад",
+       "text": "<p>Нажмите эту кнопку, чтобы перейти к предыдущему шагу.</p>"
+      },
+      "close": {
+       "title": "Навигация: Закрыть",
+       "text": "<p>Нажмите эту кнопку, чтобы выйти из процесса создания контекста без сохранения. Это можно сделать в любой момент процесса создания.</p>"
+      }
+     },
+     "fields": {
+      "title": "Общие настройки",
+      "text": "<p>На первом этапе создания необходимо указать имя контекста, которое также определяет его уникальный URL, и заголовок, который будет использоваться в качестве заголовка окна браузера, когда контекст открыт и активен. Примечание: имя контекста может содержать только латинские буквы, цифры 0-9 и символ подчеркивания. Заголовок окна не может быть пустым.</p>"
+     },
+     "showTutorial": {
+      "title": "Показать учебник",
+      "text": "<p>Если вы хотите еще раз пройти пошаговое руководство, вы можете сделать это в любое время, нажав эту кнопку.</p>"
+     }
+    },
+    "configureMap": {
+     "intro": {
+      "title": "Настроить карту",
+      "text": "<p>На этом этапе с помощью инструментов просмотра карт MapStore вы можете настроить карту по умолчанию, которая будет открываться при доступе к контексту.</p>"
+     },
+     "reloadMap": {
+      "title": "Кнопка перезагрузки карты",
+      "text": "<p>Если вы хотите отменить все изменения, внесенные вами на карту, и начать заново, вы можете сделать это, нажав эту кнопку.</p>"
+     }
+    },
+    "configurePlugins": {
+     "intro": {
+      "title": "Настроить плагины",
+      "text": "<p>Этот шаг позволяет вам настроить плагины, которые будут присутствовать в контексте.</p>"
+     },
+     "availablePlugins": {
+      "title": "Доступные плагины",
+      "text": "<p>Этот список содержит плагины MapStore, которые можно добавить в контекст. Чтобы выбрать плагин, просто щелкните по его карточке. Кроме того, если вы удерживаете клавишу CTRL, вы можете выбрать несколько плагинов.</p>"
+     },
+     "pluginManipulation": {
+      "title": "Перемещение плагинов",
+      "text": "<p>После выбора доступные плагины можно переместить в правый столбец, сделав их включенными в контексте. Для работы некоторых плагинов требуются другие плагины, в этом случае они будут включены автоматически вместе с плагинами, которые вы явно включили.</p><p>Плагины также можно переместить из столбца «включено» в столбец «доступно», чтобы удалить плагины из контекста. Если вы удалите плагин, все плагины, необходимые для его работы, также будут отключены, если только в настоящее время нет включенных плагинов, которым также требуется такой плагин.</p>"
+     },
+     "enabledPlugins": {
+      "title": "Включенные плагины",
+      "text": "<p>Этот список содержит плагины MapStore, которые находятся в контексте. Каждый плагин здесь может быть дополнительно настроен с помощью кнопок инструментов.</p>"
+     },
+     "userPlugin": {
+      "title": "Инструменты плагинов: пользовательские плагины",
+      "text": "<p>Нажав эту кнопку, вы можете разрешить пользователям включать/отключать плагин, сделав его пользовательским плагином. Такие плагины будут отображаться в плагине User Extensions. Этот плагин автоматически добавляется в контекст, если есть хотя бы один включенный пользовательский плагин.</p>"
+     },
+     "userPluginCheckbox": {
+      "title": "Инструменты плагинов: пользовательские плагины",
+      "text": "<p>Если плагин является пользовательским плагином, то этот флажок определяет, должен ли пользовательский плагин автоматически включаться при загрузке контекста.</p>"
+     },
+     "cfgTool": {
+      "title": "Инструменты плагина: Инструмент конфигурации",
+      "text": "<p>Нажатие этой кнопки вызывает появление редактора, в котором вы можете редактировать конфигурацию плагина по умолчанию.</p>"
+     },
+     "cfgEditor": {
+      "title": "Инструменты плагина: Редактор конфигурации",
+      "text": "<p>Редактор поддерживает подсветку синтаксиса. Все ваши изменения будут сохраняться непрерывно по мере редактирования. Если конфигурация содержит синтаксическую ошибку, вы будете соответствующим образом проинформированы. Ошибку необходимо исправить перед продолжением.</p>"
+     },
+     "documentationTool": {
+      "title": "Инструменты плагина: Документация",
+      "text": "<p>Нажатие этой кнопки перенаправит вас на страницу документации плагина, где вы сможете найти информацию о том, что делает плагин и какие параметры конфигурации он поддерживает.</p>"
+     },
+     "mapTemplatesTool": {
+      "title": "Инструменты плагина: Шаблоны карт",
+      "text": "<p>Плагин «Шаблоны карт» также имеет специальный инструмент, позволяющий настраивать шаблон карты, который будет доступен в контексте.</p>"
+     },
+     "extensions": {
+      "title": "Расширения",
+      "text": "<p>MapStore также поддерживает загрузку пользовательских пакетов расширений. Вы можете сделать это, нажав эту кнопку.</p>"
+     },
+     "extensionsDelete": {
+      "title": "Расширения",
+      "text": "<p>Уже загруженные расширения можно удалить в любое время, нажав эту кнопку.</p>"
+     }
+    }
+   },
+   "geostoryIntro": {
+    "title": "Учебник по истории",
+    "text": "<p>Обзор функциональных возможностей историй</p><p> Изучите соответствующее руководство пользователя <a target='_blank' href='https://mapstore.readthedocs.io/en/latest/user-guide/exploring-stories/'>здесь</a>"
+   },
+   "geostoryViewHeader": {
+    "title": "Заголовок",
+    "text": "Здесь вы найдете выбор языка, вход в систему, ссылку на домашнюю страницу и меню опций."
+   },
+   "geostoryViewNavItems": {
+    "title": "Навигационные элементы",
+    "text": "Здесь вы можете найти элементы, присутствующие в истории, которые вы можете использовать для навигации/перехода. Он также показывает текущее положение в истории"
+   },
+   "geostoryViewNavTitle": {
+    "title": "Название истории",
+    "text": "Здесь вы можете увидеть название истории"
+   },
+   "geostoryViewNavLogo": {
+    "title": "История Логотип",
+    "text": "Здесь вы можете увидеть логотип истории"
+   },
+   "geostoryViewContent": {
+    "title": "Содержание истории",
+    "text": "Это будет содержание истории."
+   },
+   "geostoryViewEditButton": {
+    "title": "Редактировать историю",
+    "text": "Нажав здесь, вы можете редактировать содержание и настройки истории."
+   },
+   "geostoryEditSidebar": {
+    "title": "Боковая панель",
+    "text": "<p>На боковой панели вы можете увидеть обзор истории, где каждый элемент идентифицируется отдельным значком или предварительным просмотром в случае изображений или карт</p><p>Здесь вы можете:</p><ul><li>Изменить заголовок каждого раздела или заголовка контента</li><li>Изменить порядок с помощью перетаскивания разделов и их контента</li><li>Увеличить масштаб до определенного контента с помощью кнопки с песочными часами</li></ul>"
+   },
+   "geostoryEditSidebarToolbar": {
+    "title": "Инструменты",
+    "text": "<p>Слева направо:</p><ul><li>Удалить выбранный раздел</li><li>Перейти в режим просмотра</li><li>Изменить настройки</li><li>Свернуть/развернуть все</li></ul>"
+   },
+   "geostoryEditSidebarSettings": {
+    "title": "Настройки истории",
+    "text": "<p>Здесь вы можете:</p><ul><li>Показать/скрыть/изменить заголовок истории</li><li>Изменить тему истории</li><li>Показать/скрыть/изменить логотип истории</li><li>Настроить панель навигации в режиме просмотра</li></ul><p> Для получения дополнительной информации см. соответствующее руководство пользователя <a target='_blank' href='https://mapstore.readthedocs.io/en/latest/user-guide/story-setting/'>здесь</a>"
+   },
+   "geostoryEditContainer": {
+    "title": "Содержание истории",
+    "text": "<p>Здесь вы можете увидеть содержимое истории, отредактировать его, добавив или удалив разделы, абзацы и т. д.</p><p>Каждая панель инструментов позволяет вам управлять содержимым истории, например:</p><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALsAAAAfCAIAAAAwfyvFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAWqSURBVHhe7ZhJbFtFGIB9Q0gIsUiUVWxFXBAcuCCQANEDSBxBQqxCSOXQAwIJcaHc4EApRG3SNKjQQps4zUqd0jRRQkOSJk1CkpKN7Iuz76ljx4mdOOGTZvT0Ys fPb7xEocynX5bnzf/s53nf/DPPDo9Go4LDr9Go4AhqNCo4NjQaFRwhjUYFx2YshpeW19Y3ZCMZ+AJBV5/b2TVE5HcPz/j8smM7ox4vaSTLtib1MNqlA2NVI1ProZA8FIFjy5 KywYn70/O/rG4NbITkoYSZ8K48+eNvj2QWPn6yiDcX+kZlx3aKe937s4pJlm3bdMwu 5f4zLKJ2dGZzUx4X0OSgkUCy7NhLeALBw9WtH12qCwsO0iWTks28f+0VZ/ktR84RB0v rg6Gd77iVMejy6vmK7M7B5EqDBC/nlMVUIW5jvq5r23csDx2JN4qrwoaY5gcXa0UvaSTLjr0Ev5rfLm6eOeIbEAvE/Lk+vWDWxfqLohqDLvel57+YXTbp9fOhSZSGS7E2ZtrnP1TecLqtn+su6Bn5qvp6WJ2wBglsemA/c5dhE/Cne9oohEZwkC6ZlAxaphf2Hc+759j5x04WGboQz58tXVoLyKTt7GyMN7D+1oVqcXLSpZny+Q84yy2MaZ9dxBUWrLvSch86 UfBmRJ2wJtXGLK4G5lZWI28cI9M2s0hpHF9eSeptTSFc86eVTbd+l224QjDyFot11BqDYpR08RGpqDTWXBufpcLx1bgVTfZofHutgxhb9oVN0LAgQWTK02zzXkkNNTJM4qtjMw9mFIjhIl7Lq1C9bEHMyxZBmjwhMVaC6x/+fvXhE4WGNNa6gNU+JqXSMAuZqVQaI6g95o/lu6gu8Y07MNfFlUcLEmSqIpHGjHp8T51yMURuj49V42zHwO3fOzNaumW3CtS8s OvcMeK+eDNCF+LGWtCoNJktPbI7ClbGwHIg+I6rRlxlcqVhxBl38ckiWE0bJ+dkd8LspjFFPW4WUDYZook0vuC6eK/KrtUYQxfeMHu/qW+/4wcn0vBAMHzDK5N2IoYxkCJpbiZjKAzGxWe19oonYd6I3j1IpC4v5ZQhyhdXmgnr2xrbGAiTJq2p64msYh5N87qHZYY6N5Mxv7QPMEFFjUEUnt7Z05AmelWhRPG0aF6vzUFXgo9Lhi6M9qm/+w5Xt6ILhUB2x8 KWMWCW5t7jeexM8cbiGSwmwVCocnjSXGkLe0bm/Wuye2traMnL3I27jO2mMQOLyzydvl9Sy82gyU199szFuI3hRjJ5wq7WiATnldCFEujqGxXPFmLdkN02sGsMCGlYsKvcUz TZqD79k+tMe7/oTS7o8szPJSyrB0vrVaU53dZPNE/Ni9UhWpAgMuVptkEFNrYoIv4G /KSikYOU2zvTcqm7HKeX9/HtfKFv0fPCuVLx4ZFBFwkyVZHEdQEFYwBpKLl3p+V+Vtn EBpsy89yvl+ZMhcEO5DMdmYiyHQG/gV/C6N92NIfvUt0w2f+XxX6mmfrxWXNppCmOs2RgyaHyBmfXkOqY7ALGYkRxjVsXUDMGWEMZI0RhGj2QUUAZUC0zjCxVnVfZjqB3wXPAWX60sXN/VjGv77pq9pQx/1HYYD2aWZTe3J2ILqBsjABvroxMsVrz3SwfFgUjkpjGALscpgLG8BiputFDgrdd1aIAlA9NhNlm3j+RtqeMKekfNf5Jsw7SSJan2YNfapwety4Q pzEC7uXlwXF2M5grD9kAVziFu8WC+vHl+tbpBdmxHWGMtVg7wlAam5UjDZ1hxtDkoJGgOu4ppW5sxmLPaw7SSJan2cAXXH89v1KcS/2OWxdIyBgB3vQseNY2NmQ7Fourgc// +EvcMAtj2JmSRrJsaxKD59CW6QVvIM6/Fg2SYIzmf4U2RqOGNkajhjZGo4Y2RqOGNkajhjZGo4Y2RqOGNkajwtbWv+UsZ02x4CaBAAAAAElFTkSuQmCC'/><ul><li>change источник медиа</li><li>сделать раздел адаптированным к высоте содержимого или подогнать вид по вертикали</li><li>сделать фон закрывающим или нет пространство контейнера</li><li>изменить размер</li><li>выровнять контейнер (доступно, если размер не полный)</li><li>изменить тему</li></ul><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAgCAYAAAB3j6rJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAASdEVYdFNvZnR3YXJlAEdyZWVuc2hvdF5VCAUAAAIwSURBVFhHY/wPBAyDADBB6QEHow5BB1R3yIWX7xiOP30N5REPqJJY/wKN2HL nCYMwBztD+YGzYLF+F1OGV19/MHgqSzMwMzKCxfABqjjk4ccvDJ6r9jLc+/AZKgIBSgK8DNvDnBnk+XmgIrgBVaKGg4WZgYuVmYGfnZWh39mUYbanJYMQJzsDEzAgWJiIs4KgKlCwf/z5G8rDBM++fGOwWbKD4crrDwzOCpIMGYbqDLE6ygzO8hIMd95/ZnBYthOshhAg6JCXX78zmCzYwiA/bS1D3OYjDPsfvmD49vsPw4Zbj xjqDl1gYGdmZljgbc0gxs3BcPr5W4bzr94xXHvzgeHci3dgMZCcODcn1DTcgOioATlo1Y0HDPMu3Wa4ArQofcdxhp5TVxmmnrvBoC7ExyABtOzxp68MVou2MRjN38JwF5heQGIgOWISK0Vp5B8w2q69+cjAycrC4KMsw9BsZ8ggw8sFxiC2jYwYAwszldIIIbD59mOGiWeuM1Rb6zGUmmsDsQ5Dg40BmN0HTLgC7GxQlfgBxQ4 BJeb5l+4w3H73CewgN0UpBmtgSIDYn37hTuTogGKHIANQAtacvQGMQWxSAFUdQgkYdQg6GDoOYQOWnLJ83DgLJS5gGWIkLgSsZ9iAtDDR2RUdEF37/vr7j+HG24/gElNfTJDhyONX4LpFioeLAd2NL4ClMKjuAWVjTmCFSAwYbTyjg1GHoINRh6CDUYegg1GHoINB4hAGBgDB977viofL1wAAAABJRU5ErkJggg=='/><p>этот значок позволит вам редактировать связанную карту</p><img src=''/><b>Совет: </b>каждый инструмент имеет подсказку, наведите на нее указатель мыши, чтобы увидеть больше"
+   },
+   "geostoryEditAddbar": {
+    "title": "Добавить новый контент"
+   },
+   "geostoryEditMediaEditor": {
+    "title": "Редактор СМИ",
+    "text": "<p>Используя редактор мультимедиа, вы можете включать в историю различные виды медиаконтента, такие как: <ul> <li>изображения</li><li>видео</li><li>карты</li></ul></p><p> Для получения дополнительной информации см. соответствующее руководство пользователя <a target='_blank' href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/'>здесь</a>"
+   }
+  },
+  "userSession": {
+   "saveErrorNotification": {
+    "titleContext": "Сохранение сеанса пользователя не удалось",
+    "categoryError": "Не удалось создать отсутствующую категорию \"{categoryName}\"",
+    "defaultMessage": "Неизвестная ошибка"
+   },
+   "removeErrorNotification": {
+    "titleContext": "Удаление сеанса пользователя не удалось",
+    "defaultMessage": "Неизвестная ошибка"
+   },
+   "tooltip": "Очистить текущий сеанс пользователя, сохраненный",
+   "successRemoved": "Пользовательский сеанс удален",
+   "remove": "Сбросить сеанс пользователя",
+   "confirmRemove": "Вы уверены, что хотите восстановить конфигурацию по умолчанию?"
+  },
+  "streetView": {
+   "title": "Просмотр улиц",
+   "description": "Инструмент просмотра улиц для просмотра изображений Google Street View на карте",
+   "tooltip": "Открыть инструмент просмотра улиц",
+   "emptyTitle": "Просмотр улиц",
+   "emptyDescription": "Нажмите на карту, чтобы начать просмотр изображений улиц.",
+   "messages": {
+    "noDataForPosition": "нет данных о просмотре улиц для этой позиции",
+    "unknownError": "неизвестная ошибка, см. консоль",
+    "errorServiceUrl": "Услуга недоступна. Пожалуйста, проверьте предоставленный URL",
+    "errorRetriveingLayerData": "Произошла ошибка при загрузке данных слоя."
+   },
+   "loadingAPI": "Загрузка API...",
+   "cyclomedia": {
+    "initializing": "Инициализация API Street Smart...",
+    "loadingAPI": "Загрузка API Street Smart...",
+    "changeCredentials": "Изменить учетные данные Street Smart",
+    "insertCredentials": "Введите свои учетные данные Street Smart",
+    "emptyDescription": "Нажмите на одну из синих точек на карте, чтобы начать просмотр изображений улиц.",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "submit": "Представлять на рассмотрение",
+    "zoomIn": "Увеличьте масштаб карты, чтобы увидеть покрытие уличного обзора.",
+    "errorOccurred": "Произошла ошибка:",
+    "errors": {
+     "invalidCredentials": "Недействительные учетные данные",
+     "projectionNotAvailable": "Настроенная проекция {srs} недоступна. Обратитесь к администратору."
+    },
+    "reloadAPI": "Перезагрузить API"
+   }
+  },
+  "sidebarMenu": {
+   "showMoreItems": "Показать больше товаров"
+  },
+  "longitudinalProfile": {
+   "open": "Открытый продольный профиль",
+   "close": "Закрыть продольный профиль",
+   "title": "Продольный профиль",
+   "draw": "Нарисуй линию",
+   "import": "Загрузить файл",
+   "select": "Выбор профиля",
+   "parameters": "Параметры",
+   "elevation": "Высота (м)",
+   "crsSelector": "Укажите проекцию для файла DXF",
+   "distance": "Расстояние (м)",
+   "chart": "Диаграмма",
+   "infos": "Информация",
+   "preferences": "Предпочтения",
+   "CRS": "КРС",
+   "uom": "Единицы",
+   "fileSelected": "Выбранный файл:",
+   "uomMeters": "метров",
+   "source": "Источник",
+   "export": "Экспорт",
+   "downloadGeoJSON": "GeoJSON",
+   "downloadDXF": "DXF",
+   "downloadCSV": "CSV",
+   "downloadPNG": "PNG",
+   "downloadPDF": "PDF",
+   "info": {
+    "points": "точки",
+    "totalPoints": "Количество обработанных точек:",
+    "layer": "Слой:",
+    "line": "Расстояние:",
+    "up": "Суммарный прирост высоты:",
+    "down": "Суммарная потеря высоты:",
+    "noInfos": "Информация отсутствует."
+   },
+   "help": {
+    "draw": "Нажмите на карту, чтобы нарисовать линию. Нажмите еще раз на конечную точку, чтобы закончить.",
+    "select": "Выберите слой в оглавлении и щелкните по линейному объекту, чтобы создать профиль.<br/>Выбранный слой: {layerName}",
+    "noLayer": "Слой не выбран",
+    "notSupportedLayer": "не поддерживается. Выберите WMS, WFS или векторный слой."
+   },
+   "warnings": {
+    "noLayerSelected": "Сначала выберите слой.",
+    "layerNotSupported": "Выбранный слой не поддерживается. Выберите WMS, WFS или векторный слой.",
+    "noFeatureInPoint": "В выбранной точке линейный объект не обнаружен.",
+    "noLineFeatureFound": "Линейный объект не найден в импортированном файле.",
+    "fallbackToProjection": "Проекция ссылочного значения по умолчанию \"{defaultReferential}\" не поддерживается. Возврат к ссылочному значению \"{referential}\" с проекцией \"{projection}\"."
+   },
+   "errors": {
+    "outsideCoverage": "Указанная линия находится за пределами покрытия профиля",
+    "loadingError": "Ошибка загрузки данных для продольного профиля",
+    "unableToSetupPlugin": "Невозможно настроить удлинение продольного профиля",
+    "defaultReferentialNotFound": "Ссылочный элемент по умолчанию настроен, но не может быть найден в списке ссылочных элементов. Пожалуйста, обновите конфигурацию расширения.",
+    "projectionNotSupported": "Невозможно найти ссылочную проекцию, поддерживаемую картой. Обновите конфигурацию расширения или добавьте нужную проекцию в конфигурацию приложения.",
+    "cannotDownloadPDF": "Невозможно распечатать текущую карту, так как она содержит ссылки на внешние домены. Удалите их, сохраните карту, обновите страницу и повторите попытку.",
+    "cannotDownloadPNG": "Невозможно загрузить диаграмму как изображение."
+   },
+   "settings": {
+    "chartTitle": "Название диаграммы",
+    "referential": "Профильный слой",
+    "distance": "Расстояние (м)"
+   },
+   "dropZone": {
+    "heading": "<p><h4>Перетащите файл сюда</h4><small>или</small></p>",
+    "selectFiles": "Выберите файл...",
+    "infoSupported": "<p><small>Поддерживаемые типы файлов: GeoJSON, DXF, Shapefiles</small></p>",
+    "dxfGeometryNotSupported": "Поддерживается только LWPOLYLINE"
+   }
+  },
+  "GeoProcessing": {
+   "title": "Геообработка",
+   "emptyTitle": "Для использования этого процесса необходимо установить следующие процессы WPS в Geoserver:",
+   "emptyDescription": "<ul><li>geo:buffer</li><li>gs:IntersectionFeatureCollection</li><li>gs:CollectGeometries</li></ul>",
+   "sourceLayer": "Исходный слой",
+   "sourceFeature": "Источник Особенность",
+   "tool": "Выберите процесс для использования",
+   "highlight": "Выделите особенности",
+   "bufferTool": "Буфер",
+   "distance": "Расстояние",
+   "distanceUom": "Единицы измерения",
+   "km": "км",
+   "m": "м",
+   "run": "Бегать",
+   "intersectionTool": "Пересечение",
+   "noMatchedLayer": "Ни один слой не соответствует текущему фильтру.",
+   "noMatchedFeature": "Ни одна функция не соответствует текущему фильтру",
+   "intersectionLayer": "Пересечение слоя",
+   "intersectionFeature": "Пересечение Особенность",
+   "advancedSettings": "Расширенные настройки",
+   "quadrantSegments": "Сегменты квадранта",
+   "quadrantSegmentsTooltip": "Количество сегментов",
+   "capStyle": "Стиль крышки",
+   "capStyleTooltip": "Стиль для концевых заглушек буфера",
+   "round": "Круглый",
+   "flat": "Плоский",
+   "square": "Квадрат",
+   "firstAttributeToRetain": "Первый атрибут для сохранения",
+   "secondAttributeToRetain": "Второй атрибут для сохранения",
+   "intersectionMode": "Режим пересечения",
+   "percentagesEnabled": "Проценты включены",
+   "areasEnabled": "Включенные области",
+   "firstAttributeToRetainTooltip": "Первый атрибут коллекции признаков, который нужно включить",
+   "secondAttributeToRetainTooltip": "Второй атрибут коллекции признаков, который необходимо включить",
+   "intersectionModeTooltip": "Определяет геометрию, вычисленную для пересекающихся объектов.",
+   "percentagesEnabledTooltip": "Указывает, следует ли выводить проценты площади объекта",
+   "areasEnabledTooltip": "Указывает, следует ли выводить области объектов",
+   "noMatchedMode": "Ни один режим не соответствует текущему фильтру.",
+   "INTERSECTION": "ПЕРЕСЕЧЕНИЕ",
+   "FIRST": "ПЕРВЫЙ",
+   "SECOND": "ВТОРОЙ",
+   "true": "истинный",
+   "false": "ЛОЖЬ",
+   "notifications": {
+    "errorMissingUrl": "Для сбора геометрий для этих слоев {layerName} необходимо указать URL-адрес геосервера wps. Свойство wpsUrl можно настроить в плагине GeoProcessing",
+    "errorIntersectGFI": "Произошла ошибка пересечения объектов. Не удалось создать слой пересечения.",
+    "errorGFI": "Произошла ошибка при загрузке функции",
+    "errorGetFeature": "Произошла ошибка при загрузке объекта с целью получения его геометрии.",
+    "layerNotSupported": "Выбранный слой не поддерживается. Выберите WMS, WFS или векторный слой.",
+    "noFeatureInPoint": "В выбранной точке не обнаружено никаких объектов.",
+    "featureFound": "В выбранной точке обнаружен объект.",
+    "noLayerSelected": "Сначала выберите слой.",
+    "successfulIntersection": "Операция пересечения прошла успешно, и новый слой был создан и добавлен в оглавление.",
+    "successfulBuffer": "Операция буферизации прошла успешно, и новый слой был создан и добавлен в оглавление.",
+    "errorBuffer": "Операция буферизации не удалась",
+    "emptyIntersection": "Между данными наборами данных нет пересечения.",
+    "errorGettingFC": "Не удалось собрать геометрию из слоя {layerName}",
+    "errorGettingFeaturesList": "Не удалось получить список объектов из слоя {layerName}"
+   },
+   "warningTitle": "Предупреждение",
+   "warningBody": "Вы не выбрали функцию, и это может замедлить работу geoserver. Хотите продолжить?",
+   "warningConfirmText": "Да",
+   "warningCancel": "Отмена",
+   "tooltip": {
+    "clickToSelectFeature": "Нажмите, чтобы выбрать функцию",
+    "invalidLayers": "Один из выбранных вами слоев не может быть использован в этом процессе.",
+    "fillRequiredDataIntersection": "Пожалуйста, выберите как минимум исходный слой и слой пересечения.",
+    "fillRequiredDataBuffer": "Пожалуйста, выберите хотя бы исходный слой",
+    "pointAndPolygon": "Вы можете выбрать точечный слой только для слоя пересечения.",
+    "siderBarBtn": "Геообработка",
+    "selectFeature": "Пожалуйста, выберите функцию",
+    "validFeature": "Эта функция действительна",
+    "invalidFeature": "Эта функция недействительна",
+    "selectLayer": "Пожалуйста, выберите слой",
+    "validLayer": "Этот слой действителен и может быть использован в этом процессе.",
+    "invalidLayer": "Этот слой не поддерживает необходимые процессы wps \ngeo:buffer\ngs:IntersectionFeatureCollection\ngs:CollectGeometries\n\nили это растровый слой"
+   }
+  }
+ }
+}
