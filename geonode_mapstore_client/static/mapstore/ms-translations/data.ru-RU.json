@@ -451,33 +451,33 @@
     "title": "Содержание"
    },
    "dashboards": {
-    "newDashboard": "Новая панель инструментов",
-    "title": "Панели мониторинга ({count})",
-    "titleNoCount": "Панели управления",
-    "create": "Создать панель инструментов",
-    "noDashboardAvailable": "Панель управления недоступна",
+    "newDashboard": "Новый дашбоард",
+    "title": "Дашбоарды ({count})",
+    "titleNoCount": "Дашбоарды",
+    "create": "Создать дашбоард",
+    "noDashboardAvailable": "Дашбоард недоступен",
     "createANewOne": "Создать новый",
-    "deleteError": "Произошла ошибка при удалении панели управления.",
-    "errorLoadingDashboards": "Произошла ошибка при загрузке панелей мониторинга."
+    "deleteError": "Произошла ошибка при удалении дашбоарда.",
+    "errorLoadingDashboards": "Произошла ошибка при загрузке дашбоарда."
    },
    "maps": {
     "title": "Карты ({count})",
     "noMapAvailable": "Карта недоступна",
-    "createNewOne": "Создать новый",
+    "createNewOne": "Создать новую",
     "unsavedMapConfirmTitle": "Несохраненные изменения",
     "unsavedMapConfirmMessage": "Вы уверены, что хотите оставить несохраненные изменения?",
-    "unsavedMapConfirmButtonText": "Оставлять",
-    "unsavedMapCancelButtonText": "Закрывать"
+    "unsavedMapConfirmButtonText": "Оставить",
+    "unsavedMapCancelButtonText": "Отмена"
    },
    "geostories": {
-    "newGeostory": "Новая ГеоСтори",
-    "title": "GeoStories ({count})",
+    "newGeostory": "Новая геоистория",
+    "title": "Геоистории ({count})",
     "titleNoCount": "Геоистории",
-    "create": "Создать GeoStory",
-    "noGeostoryAvailable": "GeoStory недоступен",
-    "createANewOne": "Создать новый",
-    "deleteError": "Произошла ошибка при удалении GeoStory",
-    "errorLoadingGeostories": "Произошла ошибка при загрузке GeoStories"
+    "create": "Создать геоисторию",
+    "noGeostoryAvailable": "Геоистория недоступна",
+    "createANewOne": "Создать новую",
+    "deleteError": "Произошла ошибка при удалении геоистории",
+    "errorLoadingGeostories": "Произошла ошибка при загрузке геоистории"
    },
    "contexts": {
     "title": "Контексты ({count})",
@@ -531,11 +531,11 @@
     "errorDefault": "Ошибка сети"
    },
    "permissions": {
-    "noRules": "Никаких правил.",
+    "noRules": "Правила отсутствуют",
     "addRule": "Добавить правило...",
     "selectGroup": "Выберите группу...",
-    "canView": "можно просмотреть",
-    "canWrite": "можно редактировать",
+    "canView": "может просматривать",
+    "canWrite": "может редактировать",
     "noResult": "Результаты не найдены",
     "title": "Разрешения для групп"
    },
@@ -590,11 +590,11 @@
    "toolTrashLayersTooltip": "Удалить выбранные слои",
    "toolTrashGroupTooltip": "Удалить выбранную группу",
    "toolFeaturesGridTooltip": "Открыть таблицу атрибутов",
-   "layerFilterTooltip": "Фильтрующий слой",
+   "layerFilterTooltip": "Фильтровать слой",
    "toolDownloadTooltip": "Экспорт данных слоя",
    "noFilteredResults": "Нет результатов",
    "emptyLayerTree": "Дерево слоев пусто. Пожалуйста, добавьте новый слой из каталога",
-   "filterPlaceholder": "Фильтрующие слои",
+   "filterPlaceholder": "Фильтровать слои",
    "clearFilter": "Очистить фильтр",
    "toolReloadLayerTooltip": "Принудительная перезагрузка выбранного слоя",
    "toolReloadLayersTooltip": "Принудительная перезагрузка выбранных слоев",
@@ -623,7 +623,7 @@
    "swipeconfiguration": "Конфигурация свайпа",
    "swipe": "Проведите пальцем",
    "spyGlass": "Подзорная труба",
-   "direction": "Направление смахивания",
+   "direction": "Направление свайпа",
    "radius": "Радиус",
    "filterIconEnabled": "Отключить фильтр слоев",
    "filterIconDisabled": "Включить фильтр слоев",
